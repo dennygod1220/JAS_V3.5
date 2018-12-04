@@ -294,6 +294,21 @@ socket.on('CtoS BD pb_ads', function (data) {
   var s3 = require('../cusmodules/BD/up_s3_ads');
   s3.ads(data.zone_code, data.id, io, socket);
 })
+
+//ADX
+socket.on('CtoS BD adx zone code',function(data){
+  const temp = FC.ReadFileSync('public/BD_temp/pb_adx.txt');
+  const newHtml = temp+data.zonecode;
+  var url = '../BD_temp/adx/'+data.zoneid+'.html';
+  FC.writeFileSync('public/BD_temp/adx/'+data.zoneid+'.html',newHtml);
+  io.sockets.connected[socket.id].emit('StoC BD adx preview',{
+    url:url
+  })
+})
+socket.on('CtoS BD pb_adx', function (data) {
+  var s3 = require('../cusmodules/BD/up_s3_adx');
+  s3.adx(data.zone_code, data.id, io, socket);
+})
   //======================================================
   //======================管理DemoPage 設定檔==============
   //======================================================

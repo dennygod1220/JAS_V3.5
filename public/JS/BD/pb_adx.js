@@ -9,16 +9,17 @@ var app = new Vue({
   },
   methods: {
     ch_code: function (e) {
-      const input_code = e.target.value.trim();
-      const start_check = input_code.indexOf('data-ad_unit_id="');
-      const start = input_code.indexOf('data-ad-slot="') + 14;
+      const input_code = e.target.value.replace(/\s+/g,"");
+      console.log(input_code);
+      
+      const start = input_code.indexOf('google_ad_slot="') + 16;
       const end = input_code.indexOf('"></ins>');
       var z_id = input_code.substring(start, end);
 
-      if (input_code != "" && start_check !== -1 && end !== -1) {
+      if (input_code != "" && start != -1 && end != -1) {
         $("#zone_code").removeClass('border-danger');
 
-        socket.emit('CtoS BD ads zone code', {
+        socket.emit('CtoS BD adx zone code', {
           zonecode: this.zone_code.trim(),
           zoneid : z_id
         });
@@ -32,7 +33,7 @@ var app = new Vue({
     },
     submit_form: function () {
       $("#loading").css('display', 'block');
-      socket.emit('CtoS BD pb_ads', {
+      socket.emit('CtoS BD pb_adx', {
         id: this.zonde_id,
         zone_code: this.zone_code.trim()
       })
@@ -40,17 +41,17 @@ var app = new Vue({
   },
   computed: {
     get_url: function () {
-      socket.on('StoC BD ads upload ok', function (data) {
+      socket.on('StoC BD adx upload ok', function (data) {
         $("#loading").css('display', 'none');
         $("#myform").css('display', 'none');
-        $("#url_block").text(data.ads);
-        $("#url_block").attr('href', data.ads);
+        $("#url_block").text(data.adx);
+        $("#url_block").attr('href', data.adx);
       })
     }
   }
 })
 
-socket.on('StoC BD ads preview',function(data){
+socket.on('StoC BD adx preview',function(data){
     $("#show").attr('src',data.url);  
     
     $("#Modal").modal('show');      

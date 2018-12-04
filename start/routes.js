@@ -24,6 +24,7 @@ Route.group(() => {
   Route.get('/BD/pb_cap',({view})=> view.render('BD/pb_cap'));
   Route.get('/BD/pb_adg',({view})=> view.render('BD/pb_adg'));
   Route.get('/BD/pb_ads',({view})=> view.render('BD/pb_ads'));
+  Route.get('/BD/pb_adx',({view})=> view.render('BD/pb_adx'));
   // Route.post('/BD/pb_cap','BdController.pb_cap');
   //下載檔案
   Route.get('/Project/download/public/UserProfile/:user/Project/:filename','ProjectController.downloadContentCover_nobanner');

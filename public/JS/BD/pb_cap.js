@@ -10,11 +10,12 @@ var app = new Vue({
   methods: {
     ch_code: function (e) {
       const input_code = e.target.value.trim();
+      const start_check = input_code.indexOf('data-ad_unit_id="');
       const start = input_code.indexOf('data-ad-zone="') + 14;
       const end = input_code.indexOf('"></ins>');
       var z_id = input_code.substring(start, end);
 
-      if (input_code != "" && start != -1 && end != -1) {
+      if (input_code != "" && start_check !== -1 && end !== -1) {
         $("#zone_code").removeClass('border-danger');
 
         socket.emit('CtoS BD cap zone code', {
