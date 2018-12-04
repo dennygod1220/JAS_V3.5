@@ -246,9 +246,9 @@ io.on('connection', function (socket) {
   //======================BD 轉小網=======================
   //======================================================
 
+  //CLICKFORCE
   socket.on('CtoS BD cap zone code',function(data){
     const temp = FC.ReadFileSync('public/BD_temp/pb_cap.txt');
-    console.log(data);
     
     const newHtml = temp+data.zonecode;
     var url = '../BD_temp/cap/'+data.zoneid+'.html';
@@ -265,6 +265,24 @@ io.on('connection', function (socket) {
 
   })
 
+//ADG
+socket.on('CtoS BD adg zone code',function(data){
+  const temp = FC.ReadFileSync('public/BD_temp/pb_adg.txt');
+  
+  const newHtml = temp+data.zonecode;
+  var url = '../BD_temp/adg/'+data.zoneid+'.html';
+  FC.writeFileSync('public/BD_temp/adg/'+data.zoneid+'.html',newHtml);
+  io.sockets.connected[socket.id].emit('StoC BD adg preview',{
+    url:url
+  })
+})
+
+socket.on('CtoS BD pb_adg', function (data) {
+  var s3 = require('../cusmodules/BD/up_s3_adg');
+
+  s3.adg(data.zone_code, data.id, io, socket);
+
+})
   //======================================================
   //======================管理DemoPage 設定檔==============
   //======================================================
