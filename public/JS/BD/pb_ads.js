@@ -10,7 +10,7 @@ var app = new Vue({
   methods: {
     ch_code: function (e) {
       const input_code = e.target.value.trim();
-      const start_check = input_code.indexOf('data-ad_unit_id="');
+      const start_check = input_code.indexOf('data-ad-slot="');
       const start = input_code.indexOf('data-ad-slot="') + 14;
       const end = input_code.indexOf('"></ins>');
       var z_id = input_code.substring(start, end);
