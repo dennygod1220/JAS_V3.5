@@ -1,0 +1,72 @@
+@layout('layout/main')
+
+@section('content')
+<link rel="stylesheet" href="{{ assetsUrl('CSS/BD_loading.css') }}">
+
+<div class="container" id="app">
+
+  <div class="row my-4" id="myform">
+    <div class="col">
+      <div class="form-group" style="text-align: center" id="code_block">
+        <h3>請放入 ADS 版位Code:</h3>
+        <textarea class="form-control" name="zone_code" id="zone_code" cols="30" rows="10" v-on:change="ch_code"
+          v-model='zone_code'>
+
+          </textarea>
+      </div>
+
+      <div class="form-group">
+        <label>版位ID : (會自行帶入)</label>
+        <input type="text" class="form-control" name="zone_id" id="zone_id" v-model="zonde_id" disabled>
+      </div>
+
+
+
+      <div class="form-group" style="display:none" id="btn">
+        <button class="btn btn-success btn-block" v-on:click="submit_form">
+          送出
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row my-4">
+    $$get_url$$
+    <a href="" id="url_block" target="_blank"></a>
+  </div>
+
+</div>
+
+<div id="loading" style="display:none">
+  <div id="loading_img" style="text-align:center">
+    <div class="lds-dual-ring"></div>
+  </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal" id="Modal" tabindex="-1" role="document" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">預覽</h5>
+      </div>
+      <div class="modal-body" role="document">
+          <div class="embed-responsive embed-responsive-16by9 embed-responsive-16bx9">
+              <iframe id="show" src="" frameborder="0" class="embed-responsive-item" style="width:100%;height:100%"></iframe>          
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="restart" data-dismiss="modal">重來</button>
+        <button type="button" class="btn btn-success" id="pre_ok">正確</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script async type="text/javascript" src="//cdn.doublemax.net/js/init.js"></script>
+<script src="{{ assetsUrl('JS/BD/pb_ads.js') }}"></script>
+
+@endsection

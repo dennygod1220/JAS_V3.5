@@ -268,7 +268,6 @@ io.on('connection', function (socket) {
 //ADG
 socket.on('CtoS BD adg zone code',function(data){
   const temp = FC.ReadFileSync('public/BD_temp/pb_adg.txt');
-  
   const newHtml = temp+data.zonecode;
   var url = '../BD_temp/adg/'+data.zoneid+'.html';
   FC.writeFileSync('public/BD_temp/adg/'+data.zoneid+'.html',newHtml);
@@ -276,12 +275,24 @@ socket.on('CtoS BD adg zone code',function(data){
     url:url
   })
 })
-
 socket.on('CtoS BD pb_adg', function (data) {
   var s3 = require('../cusmodules/BD/up_s3_adg');
-
   s3.adg(data.zone_code, data.id, io, socket);
+})
 
+//ADS
+socket.on('CtoS BD ads zone code',function(data){
+  const temp = FC.ReadFileSync('public/BD_temp/pb_ads.txt');
+  const newHtml = temp+data.zonecode;
+  var url = '../BD_temp/ads/'+data.zoneid+'.html';
+  FC.writeFileSync('public/BD_temp/ads/'+data.zoneid+'.html',newHtml);
+  io.sockets.connected[socket.id].emit('StoC BD ads preview',{
+    url:url
+  })
+})
+socket.on('CtoS BD pb_ads', function (data) {
+  var s3 = require('../cusmodules/BD/up_s3_ads');
+  s3.ads(data.zone_code, data.id, io, socket);
 })
   //======================================================
   //======================管理DemoPage 設定檔==============
