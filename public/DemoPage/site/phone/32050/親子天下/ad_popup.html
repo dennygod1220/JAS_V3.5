@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,user-scalable=0">
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript">
+    (function() {
+        var useSSL = 'https:' == document.location.protocol;
+        var src = (useSSL ? 'https:' : 'http:') +
+            '//www.googletagservices.com/tag/js/gpt.js';
+        document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+    })();
+    </script>
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+        googletag.defineSlot('/6171979/popup', [1, 1], 'div-gpt-ad-1451976019877-0').addService(googletag.pubads());
+        googletag.pubads().enableSyncRendering();
+        googletag.enableServices();
+    });
+    </script>
+</head>
+
+<body>
+    <!-- /6171979/Test_popup -->
+    <div id="div-gpt-ad-1451976019877-0" style="height:1px; width:1px;">
+        <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('div-gpt-ad-1451976019877-0');
+        });
+        </script>
+    </div>
+    <script type="text/javascript">
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1);
+            if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+        }
+        return "";
+    }
+
+    function delCookie() {
+        var expires = new Date();
+        expires.setTime(expires.getTime() - 1);
+        document.cookie = "popup=; expires=" + expires.toGMTString();
+    }
+
+    var key = "popup";
+    var value = getCookie(key);
+
+
+    if (value.length != 0) {
+        //alert( "on going" );
+    } else {
+        // alert("close");
+        $(document).ready(function() {
+            $('#iframe', parent.document).remove();
+        });
+    }
+    delCookie();
+    </script>
+</body>
+
+</html>
