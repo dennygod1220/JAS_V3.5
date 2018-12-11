@@ -33,7 +33,7 @@ Route.group(() => {
   Route.get('Cron', 'CronJobController.index')
   // Route.get('CronStart', 'CronJobController.start')
   Route.get('CronStart','CronJobController.start2')
-
+  Route.get('nowStart','CronJobController.now_start')
 }).middleware(['auth']);
 
 Route.group(()=>{
