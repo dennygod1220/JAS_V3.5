@@ -38,9 +38,11 @@
     "node-dir": "^0.1.17",
     "path": "^0.12.7",
     "rd": "^2.0.1",
+    "request": "^2.88.0",
     "rimraf": "^2.6.2",
     "socket.io": "^2.1.1",
     "socket.io-file": "^2.0.3",
+    "utf8": "^3.0.0",
     "website-scraper": "^3.3.7"
   },
   "devDependencies": {},

@@ -34,6 +34,8 @@ Route.group(() => {
   // Route.get('CronStart', 'CronJobController.start')
   Route.get('CronStart','CronJobController.start2')
   Route.get('nowStart','CronJobController.now_start')
+
+  Route.get('cf_weather','CronJobController.cf_weather');
 }).middleware(['auth']);
 
 Route.group(()=>{

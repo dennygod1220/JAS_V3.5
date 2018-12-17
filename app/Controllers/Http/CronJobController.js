@@ -4,12 +4,17 @@ var scrape = use('website-scraper');
 var fs = use('fs');
 var path = use("path");
 var cron = use('node-cron');
-var rimraf = use('rimraf');
-var cheerio = use('cheerio');
-var basic_zone = require('../../../cusmodules/ZoneChange/basic_zone');
+
+var request = use('request');
+
 
 var sc = require('../../../cusmodules/Scrape/scrape');
 var FC = require('../../../cusmodules/FileControl');
+
+var AWS = use('aws-sdk');
+var key = FC.readjsonSync('S3config.json');
+
+const utf8 = use('utf8');
 
 class CronJobController {
 
@@ -38,6 +43,44 @@ class CronJobController {
           await sc.set_option(obj.set[x][0], obj.set[x][1], obj.set[x][2], obj.set[x][3], obj.set[x][4]);
         }
       })
+    }
+
+    async cf_weather(){
+
+
+
+      request("http://opendata.epa.gov.tw/webapi/Data/ATM00698/?$skip=0&$top=1000&format=json" , function(error,response,body){
+        // var bodd = utf8.encode(body);
+        // bodd = utf8.decode(bodd);
+        // console.log(bodd);
+        var bodd = JSON.parse(JSON.stringify(body));
+        console.log(typeof bodd);
+
+
+        var s3 = new AWS.S3({
+          accessKeyId: key.accessKeyId,
+          secretAccessKey: key.secretAccessKey,
+        });
+
+        var params = {
+          Bucket: key.Bucket,
+          // Key: 'tos_zone/pb_adx/' + filename+'.html',
+          Key: 'dev/Jason/test/JAS_test/JS_cfWeather.json',
+          ACL: 'public-read',
+          Body: bodd,
+          ContentType:'application/json'
+        };
+
+        s3.upload(params).on('httpUploadProgress', function (evt) {
+          //上傳進度
+          console.log(evt);
+        }).send( function (err, data) {
+          console.log('send');
+          
+        });
+
+      })
+
     }
   }
 
