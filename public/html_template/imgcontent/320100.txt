@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.doublemax.net/btad/btad320100.css">
 </head>
 
-<body marginwidth="0" marginheight="0">
+<body marginwidth="0" marginheight="0" style="background-color:white">
     <a href="%%CLICK_URL%%" target="_blank">
         <div class="cf-content">
             <div class="cf-img-box" style="background-image: url('@@IMG@@');"></div>
