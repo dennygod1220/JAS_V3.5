@@ -1,0 +1,19 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="//cdn.doublemax.net/btad/btad970250.css">
+</head>
+
+<body marginwidth="0" marginheight="0">
+    <a href="%%CLICK_URL%%" target="_blank">
+        <div class="cf-content">
+            <div class="cf-img-box" style="background-image: url('@@IMG@@');"></div>
+            <div class="cf-title">@@TITLE@@</div>
+            <div class="cf-text">@@CONTENT@@</div>
+            <div class="cf-sponsor"><span>贊助</span><span>@@CUSTOMER@@</span></div>
+            <div class="cf-btn">@@BTN@@</div>
+        </div>
+    </a>
+</body>
+
+</html>

@@ -46,6 +46,14 @@ class ProjectController {
     response.attachment('./public/UserProfile/'+user+'/Project/'+file);
     return
   }
+
+
+  async downloadimgcontent({request,response}){
+    var user = request.params.user;
+    var file = decodeURIComponent(request.params.filename);
+    response.attachment('./public/UserProfile/'+user+'/Project/'+file);
+    return
+  }
 }
 
 module.exports = ProjectController

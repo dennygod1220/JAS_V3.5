@@ -60,5 +60,5 @@ uploader.on('abort', (fileInfo) => {
 
 
 module.exports = {
-  uploadImg: uploadImg
+  uploadImg: uploadImg 
 }

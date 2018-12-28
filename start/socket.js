@@ -401,8 +401,12 @@ socket.on('CtoS BD pb_adx', function (data) {
   });
 
   //======================================================
-  //==================內文全屏 素材製作====================
+  //==================專案 素材製作====================
   //======================================================
+
+
+  //==================內文全屏 素材製作====================
+
   socket.on('CtoS content cover no banner img', function (data) {
     var temp = FC.ReadFileSync('public/html_template/contentcover/nobanner.txt');
     var code = temp.replace('FUCK', data.url);
@@ -422,6 +426,93 @@ socket.on('CtoS BD pb_adx', function (data) {
     io.sockets.connected[socket.id].emit('StoC content cover no banner code', {
       temp: code,
       FileName: FileName
+    })
+
+  })
+  //================圖文 300250==========================
+  socket.on('CtoS img content 300250', function (data) {    
+    var temp_300250 = FC.ReadFileSync('public/html_template/imgcontent/300250.txt');
+    var code_300250 = temp_300250.replace('@@TITLE@@',data.title);
+    code_300250 = code_300250.replace('@@CONTENT@@',data.content);
+    code_300250 = code_300250.replace('@@CUSTOMER@@',data.customer);
+    code_300250 = code_300250.replace('@@BTN@@',data.btntext);
+    code_300250 = code_300250.replace('@@IMG@@', data.url);
+
+    var temp_300100 = FC.ReadFileSync('public/html_template/imgcontent/300100.txt');
+    var code_300100 = temp_300100.replace('@@TITLE@@',data.title);
+    code_300100 = code_300100.replace('@@CONTENT@@',data.content);
+    code_300100 = code_300100.replace('@@CUSTOMER@@',data.customer);
+    code_300100 = code_300100.replace('@@BTN@@',data.btntext);
+    code_300100 = code_300100.replace('@@IMG@@', data.url);
+
+    var temp_320100 = FC.ReadFileSync('public/html_template/imgcontent/320100.txt');
+    var code_320100 = temp_320100.replace('@@TITLE@@',data.title);
+    code_320100 = code_320100.replace('@@CONTENT@@',data.content);
+    code_320100 = code_320100.replace('@@CUSTOMER@@',data.customer);
+    code_320100 = code_320100.replace('@@BTN@@',data.btntext);
+    code_320100 = code_320100.replace('@@IMG@@', data.url);
+
+    var temp_320480 = FC.ReadFileSync('public/html_template/imgcontent/320480.txt');
+    var code_320480 = temp_320480.replace('@@TITLE@@',data.title);
+    code_320480 = code_320480.replace('@@CONTENT@@',data.content);
+    code_320480 = code_320480.replace('@@CUSTOMER@@',data.customer);
+    code_320480 = code_320480.replace('@@BTN@@',data.btntext);
+    code_320480 = code_320480.replace('@@IMG@@', data.url);
+
+    var temp_970250 = FC.ReadFileSync('public/html_template/imgcontent/970250.txt');
+    var code_970250 = temp_970250.replace('@@TITLE@@',data.title);
+    code_970250 = code_970250.replace('@@CONTENT@@',data.content);
+    code_970250 = code_970250.replace('@@CUSTOMER@@',data.customer);
+    code_970250 = code_970250.replace('@@BTN@@',data.btntext);
+    code_970250 = code_970250.replace('@@IMG@@', data.url);
+
+    if (FC.Exists('public/UserProfile/' + data.user + '/Project') == false) {
+      FC.MkdirSync('public/UserProfile/' + data.user + '/Project');
+    }
+    var date = new Date();
+    var YY = date.getFullYear();
+    var MM = date.getMonth() + 1;
+    var DD = date.getDate();
+    var mm = date.getMinutes();
+    var SS = date.getSeconds();
+
+    var File_300100 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文300100.txt';
+    var File_320100 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文320100.txt';
+    var File_300250 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文300250.txt';
+    var File_320480 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文320480.txt';
+    var File_970250 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文970250.txt';
+
+    FC.writeFileSync(File_300250, code_300250);
+    FC.writeFileSync(File_300100, code_300100);
+    FC.writeFileSync(File_320100, code_320100);
+    FC.writeFileSync(File_320480, code_320480);
+    FC.writeFileSync(File_970250, code_970250);
+
+    var H_File_300100 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文300100.html';
+    var H_File_320100 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文320100.html';
+    var H_File_300250 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文300250.html';
+    var H_File_320480 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文320480.html';
+    var H_File_970250 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文970250.html';
+
+    FC.writeFileSync(H_File_300250, code_300250);
+    FC.writeFileSync(H_File_300100, code_300100);
+    FC.writeFileSync(H_File_320100, code_320100);
+    FC.writeFileSync(H_File_320480, code_320480);
+    FC.writeFileSync(H_File_970250, code_970250);
+    
+    var NH_File_300100 = H_File_300100.replace('public/','');
+    var NH_File_320100 = H_File_320100.replace('public/','');
+    var NH_File_300250 = H_File_300250.replace('public/','');
+    var NH_File_320480 = H_File_320480.replace('public/','');
+    var NH_File_970250 = H_File_970250.replace('public/','');
+
+    io.sockets.connected[socket.id].emit('StoC im content preview', {
+      pre_url : [
+        NH_File_300100,NH_File_320100,NH_File_300250,NH_File_320480,NH_File_970250
+      ],
+      download_url:[
+        File_300100,File_320100,File_300250,File_320480,File_970250
+      ]
     })
 
   })
