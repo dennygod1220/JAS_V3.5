@@ -23,7 +23,7 @@ class CronJobController {
 
 
   async start2() {
-    // cron.schedule('1 23 * * * *', async()=>{
+    cron.schedule('1 23 * * * *', async()=>{
 
         FC.readjson('public/JS/Scrape/config.json').then(async function (obj) {
           var len = obj.set.length;
@@ -32,7 +32,7 @@ class CronJobController {
           }
         })
 
-      // })
+      })
     }
 
     async now_start(){
