@@ -270,3 +270,17 @@
     // ...
     console.log(error)
   });
+
+  var img_ad = new Vue({
+    el:'#img_ad',
+    data:{
+      matiral_id:''
+    },
+    delimiters: ['$$', '$$'],
+    methods:{
+      img_ad:function(site,zone){
+        window.open('../DemoPage/img_site/'+site+'.html?cfadc='+zone+':'+this.matiral_id,'_blank');
+        
+      }
+    }
+  })

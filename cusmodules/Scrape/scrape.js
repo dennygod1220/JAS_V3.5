@@ -30,6 +30,7 @@ async function set_option(url, dir, zonesize, phone, modify_name = false) {
       }
     }
 
+    //設定 Scrape 的 option 參數 手機 和 電腦 差別
     if (phone == true) {
       var a = {
         urls: [url],

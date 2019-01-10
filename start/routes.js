@@ -31,7 +31,6 @@ Route.group(() => {
   Route.get('/Project/download/public/UserProfile/:user/Project/:filename','ProjectController.downloadimgcontent');
   //=======啟動 Crontab==========
   Route.get('Cron', 'CronJobController.index')
-  // Route.get('CronStart', 'CronJobController.start')
   Route.get('CronStart','CronJobController.start2')
   Route.get('nowStart','CronJobController.now_start')
 
