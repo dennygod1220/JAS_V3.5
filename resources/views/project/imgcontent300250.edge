@@ -1,0 +1,117 @@
+@layout('layout/main')
+@section('content')
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col" style="text-align: center">
+      <form id="form">
+        <div class="form-group row">
+          <label>
+            <h2>請上傳圖片素材</h2>
+          </label>
+          <input type="file" class="form-control-file" id="file">
+        </div>
+        <div class="form-group">
+          <div id="err"></div>
+          <div class="progress">
+            <div id="percent" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <div class="cssload-wraper" id="loading" style="display:none">
+            <div class="cssload-dots"></div>
+          </div>
+          <button class="form-control" id="btn_send">
+            送出
+          </button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+
+  <div id="second_form" style="display:none" class="row">
+    <div class="form-group row">
+      <label>
+        <h2>圖片CDN:</h2>
+      </label>
+      <label class="form-control" id="img_url"></label>
+    </div>
+    <div class="form-group row">
+      <label>
+        <h2>標題:</h2>
+      </label>
+      <input type="text" id="title" class="form-control">
+    </div>
+    <div class="form-group row">
+      <label>
+        <h2>內文:</h2>
+      </label>
+      <input type="text" id="content" class="form-control">
+    </div>
+    <div class="form-group row">
+      <label>
+        <h2>贊助商:</h2>
+      </label>
+      <input type="text" id="customer" class="form-control">
+    </div>
+    <div class="form-group row">
+      <label>
+        <h2>按鈕文字:</h2>
+      </label>
+      <input type="text" id="btntext" class="form-control">
+    </div>
+    <button class="form-control btn btn-success" id="btn_sure">
+      確定
+    </button>
+  </div>
+
+
+  {{-- 預覽區 --}}
+  <div id="preview" style="display:none" class="row">
+    <div class="col">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <iframe id="pre_300100" src="" frameborder="0" style="width:300px;height:100px"></iframe>
+          </div>
+          <div class="col">
+            <iframe id="pre_320100" src="" frameborder="0" style="width:320px;height:100px"></iframe>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <iframe id="pre_300250" src="" frameborder="0" style="width:300px;height:250px"></iframe>
+          </div>
+          <div class="col">
+            <iframe id="pre_320480" src="" frameborder="0" style="width:320px;height:480px"></iframe>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <iframe id="pre_970250" src="" frameborder="0" style="width:970px;height:250px"></iframe>
+          </div>
+        </div>
+        {{-- 下載區 --}}
+        <div id="download_block" style="display:none;" class="row">
+          <a id="d1" target="_blank" class="btn btn-primary">下載 300100</a>
+
+          <a id="d2" target="_blank" class="btn btn-success">下載 320100</a>
+
+          <a id="d3" target="_blank" class="btn btn-warning">下載 300250</a>
+
+          <a id="d4" target="_blank" class="btn btn-info">下載 320480</a>
+
+          <a id="d5" target="_blank" class="btn btn-danger">下載 970250</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="{{ assetsUrl('JS/socket/socket.io-file-client.js') }}"></script>
+  <script src="{{assetsUrl('JS/project/imgcontent_300250.js')}}"></script>
+  @endsection
