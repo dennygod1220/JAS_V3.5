@@ -45,4 +45,5 @@ Route.group(()=>{
   Route.get('/business/demopage/manage_config','AdminController.manage_config')
   Route.get('/download_site','AdminController.download_site')
   Route.get('/adwordptt1',({view})=> view.render('admin/forpeter/adword'))
+  Route.get('/GA',({view})=> view.render('admin/forpeter/GA'))
 }).prefix('/admin');
