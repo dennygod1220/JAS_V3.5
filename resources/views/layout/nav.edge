@@ -20,6 +20,21 @@
       <li class="nav-item">
         <a class="nav-link text-white" href="/project">專案</a>
       </li>
+
+      <li class="nav-item">
+          <div class="dropdown">
+              <button class="btn bg-dark dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                智慧結晶
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div style="text-align: center">產追蹤碼</div>
+                  <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="{{ route('/adwordptt1') }}">Adword</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+      </li>
     </ul>
     <ul class="navbar-nav ml-auto">
         @loggedIn
