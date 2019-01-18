@@ -250,18 +250,18 @@ io.on('connection', function (socket) {
   //======================================================
 
   socket.on('CtoS tell me fly_vdo site', function () {
-    var FlyVdo_zone = './public/DemoPage/site/phone/漂浮影音/';
+    var FlyVdo_zone = './public/DemoPage/site/phone/fly_vdo/';
     display_subdir(FlyVdo_zone, 'StoC can use fly_vdo Site');
   })
     //Client 選擇自訂版位
     socket.on('CtoS fly_vdo Site', function (Site) {
 
-      var src = './public/DemoPage/site/phone/漂浮影音/' + Site.site + '/index.html';
-      var dist = './public/DemoPage/site/phone/漂浮影音/' + Site.site + '/CusZone_' + socket.id + '.html';
+      var src = './public/DemoPage/site/phone/fly_vdo/' + Site.site + '/index.html';
+      var dist = './public/DemoPage/site/phone/fly_vdo/' + Site.site + '/CusZone_' + socket.id + '.html';
       //複製檔案
       copyFile(src, dist);
   
-      var getFunName = './public/DemoPage/site/phone/漂浮影音/' + Site.site + '/JAS_FuncName.txt';
+      var getFunName = './public/DemoPage/site/phone/fly_vdo/' + Site.site + '/JAS_FuncName.txt';
       //讀取 此網站所使用的function Name 將他require進來
       fs.readFile(getFunName, 'utf8', function (err, funcName) {
         if (err) throw err;
@@ -272,7 +272,7 @@ io.on('connection', function (socket) {
   
         //告訴 Client 自訂版位OK
         io.sockets.connected[socket.id].emit('StoC cus fly_vdo zone ok', {
-          CusZoneUrl: '/DemoPage/site/phone/漂浮影音/' + Site.site + '/CusZone_' + socket.id + '.html',
+          CusZoneUrl: '/DemoPage/site/phone/fly_vdo/' + Site.site + '/CusZone_' + socket.id + '.html',
         });
       })
   

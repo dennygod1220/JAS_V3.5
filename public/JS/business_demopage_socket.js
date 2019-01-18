@@ -168,9 +168,6 @@
           $("#cus_zone_block").css('display','none');
         }
          else {
-           console.log(this.device);
-           console.log(this.zonesize);
-           console.log(this.site);
            $("#cus_zone_block").css('display','block');
           $("#zone_ch_block").css('display', 'block');
         }
@@ -268,7 +265,7 @@
           this.site = item;
         },
         default_zone: function () {
-          window.open('/DemoPage/site/phone/漂浮影音/' + this.site + '/DefaultZone.html?cfadc=8810:' + this.material_id, '_blank');
+          window.open('/DemoPage/site/phone/fly_vdo/' + this.site + '/DefaultZone.html?cfadc=8810:' + this.material_id, '_blank');
         },
         // Cus_zone: function () {
         //   socket.emit('CtoS fly_vdo Site', {
