@@ -132,7 +132,7 @@
           dir.dir.forEach(ele => {
             if (ele == "內文全屏") {
 
-            }else if(ele == "漂浮影音"){}
+            }else if(ele == "fly_vdo"){}
              else {
               zone_size_arr.push(ele);
             }
