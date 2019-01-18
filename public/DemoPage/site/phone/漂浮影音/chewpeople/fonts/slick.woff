@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="zh-TW" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		
+	<link rel="pingback" href="https://chewpeople.com.tw/xmlrpc.php">
+
+	<title>找不到與「 Wp Content Themes Gloria Css Fonts Slick Woff」相關的文章或頁面</title>
+
+<!-- All in One SEO Pack 2.10.1 by Michael Torbert of Semper Fi Web Design[255,286] -->
+<!-- /all in one seo pack -->
+<link rel="dns-prefetch" href="//s0.wp.com">
+<link rel="dns-prefetch" href="//secure.gravatar.com">
+<link rel="dns-prefetch" href="//code.jquery.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="訂閱 潮人物雜誌 &raquo;" href="https://chewpeople.com.tw/feed/">
+<link rel="alternate" type="application/rss+xml" title="訂閱 潮人物雜誌 &raquo; 迴響" href="https://chewpeople.com.tw/comments/feed/">
+<link rel="stylesheet" id="login-with-ajax-css" href="../css/widget.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="../css/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="bkswcss-css" href="../css/shortcode.css" type="text/css" media="all">
+<link rel="stylesheet" id="jquery-core-css-css" href="../css/jquery-ui.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrap-css-css" href="../css/bootstrap.css" type="text/css" media="all">
+<link rel="stylesheet" id="fa-css" href="../css/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="gloria-theme-plugins-css" href="../css/theme_plugins.css" type="text/css" media="all">
+<link rel="stylesheet" id="gloria-style-css" href="../css/bkstyle.css" type="text/css" media="all">
+<link rel="stylesheet" id="gloria-responsive-css" href="../css/responsive.css" type="text/css" media="all">
+<link rel="stylesheet" id="gloria-wpstyle-css" href="../css/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="redux-google-fonts-gloria_option-css" href="../css.html" type="text/css" media="all">
+<link rel="stylesheet" id="jetpack_css-css" href="../css/jetpack.css" type="text/css" media="all">
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/jquery-migrate.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var LWA = {"ajaxurl":"https:\/\/chewpeople.com.tw\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/login-with-ajax.js"></script>
+<script type="text/javascript" src="../js/jquery-ui.js"></script>
+<link rel="https://api.w.org/" href="https://chewpeople.com.tw/wp-json/">
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//chewpeople.com.tw/?wordfence_lh=1&hid=364A6B6E277C8780C610DDFFE1B7DF48');
+</script>					<meta property="fb:app_id" content="108224813029000">
+							<meta property="fb:pages" content="157513090929019">
+					<script>
+	  window.fbAsyncInit = function() {
+	    FB.init({
+	      appId      : '108224813029000',
+	      xfbml      : true,
+	      autoLogAppEvents: true,
+	      version    : 'v3.1'
+	    });
+	  };
+
+	  (function(d, s, id){
+	     var js, fjs = d.getElementsByTagName(s)[0];
+	     if (d.getElementById(id)) {return;}
+	     js = d.createElement(s); js.id = id;
+	     js.src = "//connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js";
+	     fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
+	</script>
+	<meta name="generator" content="FB2WP - 1.7.8 Powered by Mxp.TW">
+
+<link rel="dns-prefetch" href="//v0.wordpress.com">
+<link rel="dns-prefetch" href="//c0.wp.com">
+<style type="text/css">img#wpstats{display:none}</style><!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-97037530-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+<!-- 廣告碼 -->
+<script>
+(function(d,a,b,l,e,_) {
+d[b]=d[b]||function(){(d[b].q=d[b].q||[]).push(arguments)};e=a.createElement(l);
+e.async=1;e.charset='utf-8';e.src='//static.dable.io/dist/plugin.min.js';
+_=a.getElementsByTagName(l)[0];_.parentNode.insertBefore(e,_);
+})(window,document,'dable','script');
+dable('setService', 'chewpeople.com.tw/adgeek');
+dable('sendLog');
+</script>
+<!-- 廣告碼End -->
+<script>
+jQuery(document).ready(function(){
+location.href = '/';
+});
+</script>
+<style>.meta>div.views{display:none;}</style><script async src="../js/adsbygoogle.js"></script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({
+google_ad_client: "ca-pub-1056589169129594",
+enable_page_level_ads: true
+});
+</script>
+<script>
+jQuery(document).ready(function(){
+if (jQuery(window).width()<768){
+	/*jQuery('<ins class="clickforceads" style="display:inline-block;width:320px;height:480px" data-ad-zone="4207"></ins><script async type="text/javascript" src="//cdn.doublemax.net/js/init.js" />').insertAfter('body');*/
+	jQuery('<ins class="clickforceads" style="display:inline-block;width:321px;height:481px;" data-ad-zone="8810"></ins><script async type="text/javascript" src="//cdn.doublemax.net/js/init.js"><\/script>').insertAfter('body');
+}
+});
+</script>
+<meta property="product:availability" content="oos">        <script type="text/javascript">
+            var ajaxurl = 'https://chewpeople.com.tw/wp-admin/admin-ajax.php';
+        </script>
+        
+    <style type="text/css" media="all">
+                ::selection {color: #FFF; background: #c92e2e}
+        ::-webkit-selection {color: #FFF; background: #c92e2e}
+         
+             p > a, .article-content p a, .article-content p a:visited, .article-content p a:focus, .article-content li a, .article-content li a:visited, 
+             .article-content li a:focus, .content_out.small-post .meta .post-category a, .ticker-title, #top-menu>ul>li:hover, 
+             #top-menu>ul>li .sub-menu li:hover, .content_in .meta > div.post-category a,
+            .meta .post-category a, .top-nav .bk-links-modal:hover, .bk-lwa-profile .bk-user-data > div:hover,
+            .s-post-header .meta > .post-category a, .breadcrumbs .location,
+            .error-number h4, .redirect-home,
+            .bk-author-box .author-info .bk-author-page-contact a:hover, .bk-blog-content .meta .post-category a, .widget-social-counter ul li .social-icon,
+            #pagination .page-numbers, .post-page-links a, .single-page .icon-play:hover, .bk-author-box .author-info h3,
+            #wp-calendar tbody td a, #wp-calendar tfoot #prev, .widget-feedburner > h3, 
+            a.bk_u_login:hover, a.bk_u_logout:hover, .widget-feedburner .feedburner-inner > h3,
+            .meta .post-author a, .content_out.small-post .post-category a, .widget-tabs .cm-header .author-name, blockquote, blockquote:before, 
+            /* Title hover */
+            .bk-main-feature-inner .bk-small-group .title:hover, .row-type h4:hover, .content_out.small-post h4:hover, 
+            .widget-tabs .author-comment-wrap h4:hover, .widget_comment .post-title:hover, .classic-blog-type .post-c-wrap .title:hover, 
+            .module-large-blog .post-c-wrap h4:hover, .widget_reviews_tabs .post-list h4:hover, .module-tiny-row .post-c-wrap h4:hover, .pros-cons-title, 
+            .article-content p a:hover, .article-content p a:visited, .article-content p a:focus, .s-post-nav .nav-btn h3:hover,
+            .widget_recent_entries a:hover, .widget_archive a:hover, .widget_categories a:hover, .widget_meta a:hover, .widget_pages a:hover, .widget_recent_comments a:hover, .widget_nav_menu > div a:hover,
+            .widget_rss li a:hover, .widget.timeline-posts li a:hover, .widget.timeline-posts li a:hover .post-date, 
+            .bk-header-2 .header-social .social-icon a:hover, .bk-header-90 .header-social .social-icon a:hover,
+            /*** Woocommerce ***/
+            .woocommerce-page .star-rating span, .woocommerce-page p.stars a, .woocommerce-page div.product form.cart table td .reset_variations:hover,
+            .bk_small_cart .widget_shopping_cart .cart_list a:hover,
+            /*** BBPRESS ***/
+            #subscription-toggle, #subscription-toggle:hover, #bbpress-forums li > a:hover,
+            .widget_recent_topics .details .comment-author a, .bbp-author-name, .bbp-author-name:hover, .bbp-author-name:visited, 
+            .widget_latest_replies .details .comment-author, .widget_recent_topics .details .post-title:hover, .widget_display_views ul li a:hover, .widget_display_topics ul li a:hover, 
+            .widget_display_replies ul li a:hover, .widget_display_forums ul li a:hover, 
+            .widget_latest_replies .details h4:hover, .comment-navigation a:hover
+            {color: #c92e2e}
+            
+            .widget_tag_cloud .tagcloud a:hover,
+            #comment-submit:hover, .main-nav, 
+            #pagination .page-numbers, .post-page-links a, .post-page-links > span, .widget_latest_comments .flex-direction-nav li a:hover,
+            #mobile-inner-header, input[type="submit"]:hover, #pagination .page-numbers, .post-page-links a, .post-page-links > span, .bk-login-modal, .lwa-register.lwa-register-default,
+            .button:hover, .bk-back-login:hover, .footer .widget-title h3, .footer .widget-tab-titles li.active h3,
+            #mobile-inner-header, .readmore a:hover, .loadmore span.ajaxtext:hover, .result-msg a:hover, .top-bar, .widget.timeline-posts li a:hover .meta:before,
+            .button:hover, .woocommerce-page input.button.alt:hover, .woocommerce-page input.button:hover, .woocommerce-page div.product form.cart .button:hover,
+            .woocommerce-page .woocommerce-message .button:hover, .woocommerce-page a.button:hover, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
+            .bk_small_cart .woocommerce.widget_shopping_cart .buttons a:hover, .recommend-box h3:after
+            {border-color: #c92e2e;}
+
+            .flex-direction-nav li a:hover, #back-top, .module-fw-slider .flex-control-nav li a.flex-active, .related-box h3 a.active,
+            .footer .cm-flex .flex-control-paging li a.flex-active, .main-nav #main-menu .menu > li:hover, #main-menu > ul > li.current-menu-item,
+            .module-title h2, .page-title h2, .row-type .post-category a, .bk-small-group .post-category a, .module-grid-carousel .bk-carousel-wrap .item-child .post-category a,
+            .bk-review-box .bk-overlay span, .bk-score-box, .share-total, #pagination .page-numbers.current, .post-page-links > span, .widget_latest_comments .flex-direction-nav li a:hover,
+            .searchform-wrap .search-icon, .module-square-grid .content_in_wrapper, .module-large-blog .post-category a, .result-msg a:hover,
+            .readmore a:hover, .module-fw-slider .post-c-wrap .post-category a, .rating-wrap, .inner-cell .innerwrap .post-category a, .module-carousel .post-c-wrap .post-category a, 
+            .widget_slider .post-category a, .module-square-grid .post-c-wrap .post-category a, .module-grid .post-c-wrap .post-category a,.module-title .bk-tabs.active a, .classic-blog-type .post-category a, .sidebar-wrap .widget-title h3, .widget-tab-titles li.active h3, 
+            .module-fw-slider .post-c-wrap .readmore a:hover, .loadmore span.ajaxtext:hover, .widget_tag_cloud .tagcloud a:hover, .widget.timeline-posts li a:hover .meta:before,
+            .s-tags a:hover, .singletop .post-category a, .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, 
+            .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .widget-postlist .large-post .post-category a,
+            input[type="submit"]:hover, .widget-feedburner .feedburner-subscribe:hover button, .bk-back-login:hover, #comment-submit:hover,
+            .bk-header-slider .post-c-wrap .readmore a,
+            /** Woocommerce **/
+            .woocommerce span.onsale, .woocommerce-page span.onsale, .button:hover, .woocommerce-page input.button.alt:hover, .woocommerce-page input.button:hover, .woocommerce-page div.product form.cart .button:hover,
+            .woocommerce-page .woocommerce-message .button:hover, .woocommerce-page a.button:hover, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, 
+            .woocommerce-page div.product .summary .product_title span, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active, 
+            .related.products > h2 span, .woocommerce-page #reviews h3 span, .upsells.products > h2 span, .cross-sells > h2 span, .woocommerce-page .cart-collaterals .cart_totals h2 span, 
+            .woocommerce-page div.product .summary .product_title span, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range, 
+            .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle, .product_meta .post-tags a:hover, .widget_display_stats dd strong, 
+            .bk_small_cart .woocommerce.widget_shopping_cart .buttons a:hover, .bk_small_cart .cart-contents span,
+            /*** BBPRESS ***/
+            #bbpress-forums #bbp-search-form .search-icon, .widget_display_search .search-icon, #bbpress-forums div.bbp-topic-tags a:hover
+            {background-color: #c92e2e;}
+            @-webkit-keyframes rotateplane {
+                0% {
+                    -webkit-transform: perspective(120px) scaleX(1) scaleY(1);
+                    background-color: #c92e2e;
+                }
+                25% {
+                    -webkit-transform: perspective(120px) rotateY(90deg) scaleX(1) scaleY(1);
+                    background-color: #c92e2e;
+                }
+                25.1% {
+                    -webkit-transform: perspective(120px) rotateY(90deg) scaleX(-1) scaleY(1);
+                    background-color: #333333;
+                }
+                50% {
+                    -webkit-transform: perspective(120px) rotateY(180deg) scaleX(-1) scaleY(1);
+                    background-color: #333333;
+                }
+                75% {
+                    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(90deg) scaleX(-1) scaleY(1);
+                    background-color: #333333;
+                }
+                75.1% {
+                    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(90deg) scaleX(-1) scaleY(-1);
+                    background-color: #c92e2e;
+                }
+                100% {
+                    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg) scaleX(-1) scaleY(-1);
+                    background-color: #c92e2e;
+                }
+            }
+            @keyframes rotateplane {
+                0% {
+                    transform: perspective(120px) rotateX(0deg) rotateY(0deg) scaleX(1) scaleY(1);
+                    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) scaleX(1) scaleY(1);
+                    background-color: #c92e2e;
+                }
+                25% {
+                    transform: perspective(120px) rotateX(-90deg) rotateY(0deg) scaleX(1) scaleY(1);
+                    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) scaleX(1) scaleY(1);
+                    background-color: #c92e2e;
+                }
+                25.1% {
+                    transform: perspective(120px) rotateX(-90deg) rotateY(0deg) scaleX(1) scaleY(-1);
+                    -webkit-transform: perspective(120px) rotateX(-90deg) rotateY(0deg) scaleX(1) scaleY(-1);
+                    background-color: #333333;
+                }
+                50% {
+                    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) scaleX(1) scaleY(-1);
+                    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) scaleX(1) scaleY(-1);
+                    background-color: #333333;
+                }
+                75% {
+                    transform: perspective(120px) rotateX(-180.1deg) rotateY(-90deg) scaleX(1) scaleY(-1);
+                    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(-90deg) scaleX(1) scaleY(-1);
+                    background-color: #333333;
+                }
+                75.1% {
+                    transform: perspective(120px) rotateX(-180.1deg) rotateY(-90deg) scaleX(-1) scaleY(-1);
+                    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(-90deg) scaleX(-1) scaleY(-1);
+                    background-color: #c92e2e;
+                }
+                100% {
+                    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg) scaleX(-1) scaleY(-1);
+                    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg) scaleX(-1) scaleY(-1);
+                    background-color: #c92e2e;
+                }
+            }
+            .content_out .review-score, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive 
+            {background-color: rgba(201,46,46,0.9);}
+            
+            .footer .cm-flex .flex-control-paging li a
+            {background-color: rgba(201,46,46,0.3);}
+            
+
+                 
+                .widget_most_commented .comments:after 
+                {border-right-color: #777777;}
+                #main-mobile-menu, .bk-dropdown-menu, .bk-sub-sub-menu, .sub-menu, .bk-mega-menu, .bk-mega-column-menu ,
+                .ajax-form input, .module-title .main-title, .sidebar-wrap .widget-title, .widget_most_commented .comments,
+                .related-box h3 a, .widget-tab-titles, .bk-tabs-wrapper, .widget-feedburner .feedburner-email, .widget-feedburner .feedburner-subscribe button
+                {background-color: #777777;}
+            
+                            #page-wrap { width: auto; }
+                            </style>
+        <link rel="icon" href="../images/cropped-CHEW-1.png" sizes="32x32">
+<link rel="icon" href="../images/cropped-CHEW-1.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="../images/cropped-CHEW-1.png">
+<meta name="msapplication-TileImage" content="https://chewpeople.com.tw/wp-content/uploads/2017/03/cropped-CHEW-1.png">
+<style type="text/css" title="dynamic-css" class="options-output">#top-menu>ul>li, #top-menu>ul>li .sub-menu li, .bk_u_login, .bk_u_logout, .bk-links-modal{font-family:"Open Sans";font-weight:700;font-style:normal;}.header .logo.logo-text h1 a, .module-title h2, .page-title h2, .sidebar-wrap .widget-title h3, .widget-tab-titles h3, .main-nav #main-menu .menu > li, .main-nav #main-menu .menu > li > a, .mega-title h3, .header .logo.logo-text h1, .bk-sub-posts .post-title,
+                            .comment-box .comment-author-name, .today-date, .related-box h3, .comment-box .comments-area-title h3, .comment-respond h3, .comments-area .comments-area-title h3, 
+                            .bk-author-box .author-info h3, .footer .widget-title h3, .recommend-box h3, .bk-login-title, #footer-menu a, .bk-copyright, 
+                            .woocommerce-page div.product .product_title, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .module-title .bk-tabs,
+                            .related.products > h2 span, .woocommerce-page #reviews h3 span, .upsells.products > h2 span, .cross-sells > h2 span, 
+                            .woocommerce-page .cart-collaterals .cart_totals h2 span, .woocommerce-page div.product .summary .product_title span{font-family:"Open Sans";font-weight:400;font-style:normal;}.review-score, .bk-criteria-wrap > span, .rating-wrap span, .pros-cons-title{font-family:"Open Sans";font-weight:300;font-style:normal;}.widget-tabs .cm-header, .widget-review-tabs ul li .bk-final-score, .widget-social-counter .counter, .widget-social-counter ul li .data .subscribe, .meta, .post-category, .widget_comment .cm-header div, .comment-box .comment-time, .share-box ul li .share-item__value,.share-box .bk-share .share-item__valuem, .share-total, .loadmore span.ajaxtext, .bk-search-content .nothing-respond, .share-sticky .total-share-wrap{font-family:"Open Sans";font-weight:700;font-style:normal;}h1, h2, h3, h4, h5, #mobile-top-menu > ul > li, #mobile-menu > ul > li, .widget_display_stats dt,
+                            .widget_display_views ul li a, .widget_display_topics ul li a, .widget_display_replies ul li a, 
+                            .widget_display_forums ul li a, .widget_loginwithajaxwidget .bk-user-data ,.bk-share-box-top > span{font-family:"Open Sans";font-weight:700;font-style:normal;}body, textarea, input, p, .ticker-wrapper h4,
+                            .entry-excerpt, .comment-text, .comment-author, .article-content,
+                            .comments-area, .tag-list, .bk-mega-menu .bk-sub-posts .feature-post .menu-post-item .post-date, .comments-area small{font-family:"Open Sans";font-weight:400;font-style:normal;}</style></head>
+<body class="error404 handheld mobile android chrome">
+        <div id="page-wrap" class="wide">
+        <div id="main-mobile-menu">
+            <div class="block">
+                <div id="mobile-inner-header">
+                    <h3 class="menu-title">
+                        潮人物雜誌                    </h3>
+                    <div class="mobile-menu-close"><i class="fa fa-long-arrow-left"></i></div>
+                </div>
+                                                <div class="main-menu">
+                    <h3 class="menu-location-title">
+                        Main Menu                    </h3>
+                    <div id="mobile-menu" class="menu-%e4%b8%8a%e9%9d%a2%e7%9a%84%e8%8f%9c%e5%96%ae1-container"><ul id="menu-%e4%b8%8a%e9%9d%a2%e7%9a%84%e8%8f%9c%e5%96%ae1" class="menu"><li id="menu-item-9307" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-9307 menu-category-352"><a href="https://chewpeople.com.tw/category/people/">People</a>
+<ul class="sub-menu">
+	<li id="menu-item-16030" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16030 menu-category-694"><a href="https://chewpeople.com.tw/category/people/macho/">男人味</a></li>
+	<li id="menu-item-12094" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12094 menu-category-579"><a href="https://chewpeople.com.tw/category/people/photographer/">攝影人</a></li>
+	<li id="menu-item-12097" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12097 menu-category-578"><a href="https://chewpeople.com.tw/category/people/designer/">設計人</a></li>
+	<li id="menu-item-12099" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12099 menu-category-583"><a href="https://chewpeople.com.tw/category/people/technician/">科技人</a></li>
+	<li id="menu-item-12098" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12098 menu-category-581"><a href="https://chewpeople.com.tw/category/people/musicer/">音樂人</a></li>
+	<li id="menu-item-12096" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12096 menu-category-580"><a href="https://chewpeople.com.tw/category/people/artist/">藝術人</a></li>
+	<li id="menu-item-14298" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14298 menu-category-1034"><a href="https://chewpeople.com.tw/category/people/chef/">料理人</a></li>
+	<li id="menu-item-12095" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12095 menu-category-582"><a href="https://chewpeople.com.tw/category/people/star/">明亮星</a></li>
+</ul>
+</li>
+<li id="menu-item-9308" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-9308 menu-category-351"><a href="https://chewpeople.com.tw/category/feature/">Feature</a>
+<ul class="sub-menu">
+	<li id="menu-item-10273" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10273 menu-category-372"><a href="https://chewpeople.com.tw/category/feature/bigissue/">主題報告</a></li>
+	<li id="menu-item-17957" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17957 menu-category-1867"><a href="https://chewpeople.com.tw/category/feature/friends/">老友記</a></li>
+	<li id="menu-item-15088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15088 menu-category-353"><a href="https://chewpeople.com.tw/category/feature/super-channel-5/">Super Channel 5</a></li>
+	<li id="menu-item-10515" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-10515 menu-category-377"><a href="https://chewpeople.com.tw/category/feature/coverstory/">封面故事</a>
+	<ul class="sub-menu">
+		<li id="menu-item-16569" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16569 menu-category-1515"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-9/">Vol.9</a></li>
+		<li id="menu-item-14930" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14930 menu-category-588"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-54/">Vol.54</a></li>
+		<li id="menu-item-15323" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15323 menu-category-1138"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-71/">Vol.71</a></li>
+		<li id="menu-item-15085" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15085 menu-category-1088"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-72/">Vol.72</a></li>
+		<li id="menu-item-17236" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17236 menu-category-1289"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-73/">Vol.73</a></li>
+		<li id="menu-item-17235" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17235 menu-category-1337"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-74/">Vol.74</a></li>
+		<li id="menu-item-15082" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15082 menu-category-381"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-77/">Vol.77</a></li>
+		<li id="menu-item-15084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15084 menu-category-459"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol78marriage/">Vol.78</a></li>
+		<li id="menu-item-15083" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15083 menu-category-715"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-79/">Vol.79</a></li>
+		<li id="menu-item-15087" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15087 menu-category-863"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-80/">Vol.80</a></li>
+		<li id="menu-item-15086" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15086 menu-category-1033"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-81/">Vol.81</a></li>
+		<li id="menu-item-17721" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17721 menu-category-1767"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-82/">Vol.82</a></li>
+		<li id="menu-item-18615" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18615 menu-category-1922"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-83/">Vol.83</a></li>
+		<li id="menu-item-21481" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21481 menu-category-2586"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol8485/">Vol.84+85</a></li>
+		<li id="menu-item-21482" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21482 menu-category-2585"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-86/">Vol.86</a></li>
+		<li id="menu-item-22227" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22227 menu-category-2765"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-87/">Vol.87</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-15089" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-15089 menu-category-8"><a href="https://chewpeople.com.tw/category/style/">Style</a>
+<ul class="sub-menu">
+	<li id="menu-item-15091" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15091 menu-category-22"><a href="https://chewpeople.com.tw/category/style/whats-new/">What&#8217;s NEW</a></li>
+	<li id="menu-item-27867" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27867 menu-category-3634"><a href="https://chewpeople.com.tw/category/style/%e7%a4%be%e9%95%b7%e7%9a%84%e9%a3%9b%e8%a1%8c%e9%85%92%e5%ba%97%e4%bf%b1%e6%a8%82%e9%83%a8/">社長的飛行酒店俱樂部</a></li>
+	<li id="menu-item-15092" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15092 menu-category-9"><a href="https://chewpeople.com.tw/category/style/hotel/">住宿</a></li>
+	<li id="menu-item-15093" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15093 menu-category-10"><a href="https://chewpeople.com.tw/category/style/cafe/">咖啡專門店</a></li>
+	<li id="menu-item-15094" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15094 menu-category-12"><a href="https://chewpeople.com.tw/category/style/delicious/">好吃的學問</a></li>
+	<li id="menu-item-15095" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15095 menu-category-15"><a href="https://chewpeople.com.tw/category/style/drunk/">微醺的品味</a></li>
+	<li id="menu-item-15096" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-15096 menu-category-17"><a href="https://chewpeople.com.tw/category/style/travel/">旅遊提案</a>
+	<ul class="sub-menu">
+		<li id="menu-item-15097" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15097 menu-category-527"><a href="https://chewpeople.com.tw/category/style/travel/tw/">台灣</a></li>
+		<li id="menu-item-15098" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15098 menu-category-524"><a href="https://chewpeople.com.tw/category/style/travel/japan/">日本</a></li>
+		<li id="menu-item-15100" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15100 menu-category-525"><a href="https://chewpeople.com.tw/category/style/travel/hk/">香港</a></li>
+		<li id="menu-item-15099" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15099 menu-category-526"><a href="https://chewpeople.com.tw/category/style/travel/macao/">澳門</a></li>
+		<li id="menu-item-15850" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15850 menu-category-1377"><a href="https://chewpeople.com.tw/category/style/travel/singapore/">新加坡</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-17002" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-17002 menu-category-2"><a href="https://chewpeople.com.tw/category/art/">Art</a>
+<ul class="sub-menu">
+	<li id="menu-item-16998" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16998 menu-category-23"><a href="https://chewpeople.com.tw/category/art/artnews/">藝術情報</a></li>
+	<li id="menu-item-16999" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16999 menu-category-3"><a href="https://chewpeople.com.tw/category/art/design/">設計院</a></li>
+	<li id="menu-item-17000" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17000 menu-category-7"><a href="https://chewpeople.com.tw/category/art/music/">音樂廳</a></li>
+	<li id="menu-item-17001" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17001 menu-category-418"><a href="https://chewpeople.com.tw/category/fastnfurious/audio-visual-room/">視聽間</a></li>
+	<li id="menu-item-17003" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17003 menu-category-14"><a href="https://chewpeople.com.tw/category/art/archi/">建築薈</a></li>
+	<li id="menu-item-17004" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17004 menu-category-19"><a href="https://chewpeople.com.tw/category/art/magz/">書籍室</a></li>
+</ul>
+</li>
+<li id="menu-item-17005" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-17005 menu-category-4"><a href="https://chewpeople.com.tw/category/fastnfurious/">Fast &#038; Furious</a>
+<ul class="sub-menu">
+	<li id="menu-item-17006" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17006 menu-category-349"><a href="https://chewpeople.com.tw/category/fastnfurious/test/">國內試駕</a></li>
+	<li id="menu-item-17007" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17007 menu-category-16"><a href="https://chewpeople.com.tw/category/fastnfurious/mobiletest/">手機情報及測試</a></li>
+	<li id="menu-item-17008" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17008 menu-category-20"><a href="https://chewpeople.com.tw/category/fastnfurious/careportest/">汽車報導</a></li>
+	<li id="menu-item-17009" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17009 menu-category-342"><a href="https://chewpeople.com.tw/category/fastnfurious/overseastesting/">海外試駕</a></li>
+</ul>
+</li>
+<li id="menu-item-15090" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15090 menu-category-373"><a href="https://chewpeople.com.tw/category/style/stay-in-style/">Stay in Style</a></li>
+<li id="menu-item-15101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-15101 menu-category-364"><a href="https://chewpeople.com.tw/category/column/">Column</a>
+<ul class="sub-menu">
+	<li id="menu-item-15104" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15104 menu-category-1161"><a href="https://chewpeople.com.tw/category/column/sensei/">咬咬女中醫</a></li>
+	<li id="menu-item-28008" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28008 menu-category-3660"><a href="https://chewpeople.com.tw/category/column/%e5%92%ac%e5%8c%97%e6%9d%b1%e5%b0%88%e6%ac%84/">咬北東專欄</a></li>
+	<li id="menu-item-23113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23113 menu-category-2921"><a href="https://chewpeople.com.tw/category/column/funny-people/">台北時髦人</a></li>
+	<li id="menu-item-20366" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20366 menu-category-2319"><a href="https://chewpeople.com.tw/category/column/phdsbrain/">科學家的腦袋</a></li>
+	<li id="menu-item-19283" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19283 menu-category-2065"><a href="https://chewpeople.com.tw/category/column/ricky-buy/">初一十五要BuyBuy</a></li>
+	<li id="menu-item-15105" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15105 menu-category-366"><a href="https://chewpeople.com.tw/category/column/run/">張嘉哲的跑步日記</a></li>
+	<li id="menu-item-15103" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15103 menu-category-365"><a href="https://chewpeople.com.tw/category/column/coldice/">別讓寒冰不開心</a></li>
+	<li id="menu-item-16029" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16029 menu-category-1416"><a href="https://chewpeople.com.tw/category/column/mrsake/">清酒大丈夫</a></li>
+	<li id="menu-item-15102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15102 menu-category-367"><a href="https://chewpeople.com.tw/category/column/hui/">凡人以歌</a></li>
+	<li id="menu-item-15106" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15106 menu-category-368"><a href="https://chewpeople.com.tw/category/column/starmam/">菁菁夫人</a></li>
+</ul>
+</li>
+</ul></div>                </div>
+                            </div>
+        </div>
+        <div id="page-inner-wrap">
+            <div class="page-cover mobile-menu-close"></div>
+            <div class="bk-page-header">
+                <div class="header-wrap header bk-header-90">
+                    <div class="top-bar" style="display: ;">
+                        <div class="bkwrapper container">
+                                                            <div class="top-nav clearfix">
+                                                                            	<div class="lwa bk-lwa lwa-template-modal bk-template-modal">		            <a href="https://chewpeople.com.tw/wp-login.php" class="lwa-links-modal bk-links-modal">Sign in / Join</a>
+		        		<div class="lwa-modal bk-login-modal" style="display:none;">
+            <div class="lwa-form bk-login-form-wrapper bk-form-wrapper">
+                <h1 class="bk-login-title">Login</h1>
+    	        <form name="lwa-form" class="bk-login-modal-form bk-lwa-form" action="https://chewpeople.com.tw/wp-login.php" method="post">
+                    <div class="bk-login-panel">Welcome! Login in to your account</div>
+                    <div class="bk-login-status">
+                        <span class="lwa-status"></span>
+                    </div>
+    	            <div class="bk-ajaxform-wrap">
+    	                <div class="lwa-username bk-login-input">
+    	                    <div class="username_input bkusername_input">
+    	                        <input type="text" name="log" id="lwa_user_login" class="input" placeholder="your username" required>
+    	                    </div>
+    	                </div>
+    	                <div class="lwa-password bk-login-input">
+    	                    <div class="password_input bkpassword_input">
+    	                        <input type="password" name="pwd" id="lwa_user_pass" class="input" value="" placeholder="your password" required>
+    	                    </div>
+    	                </div>
+                            	                <div class="lwa-submit bk-formsubmit">
+    	                    <div class="lwa-links bk-links">
+    	                        <div class="bk-rememberme">
+        				        	        							<a class="lwa-links-remember bk-links-remember" href="https://chewpeople.com.tw/wp-login.php?action=lostpassword" title="Password Lost and Found">Lost your password?</a>
+        							    							</div>
+                                <div class="bk-registration">
+                                                                    </div>
+    	                    </div>
+                            <div class="lwa-submit-button bk-submit-button">
+    	                        <input type="submit" name="wp-submit" class="lwa-wp-submit" value="Log In" tabindex="100">
+    	                        <input type="hidden" name="lwa_profile_link" value="0">
+                            	<input type="hidden" name="login-with-ajax" value="login">
+    							    							<input type="hidden" name="redirect_to" value="https://chewpeople.com.tw">
+    							    	                    </div>
+    	                </div>
+    	            </div>
+    	        </form>
+            </div>
+        	            <div class="lwa-remember bk-remember-form-wrapper bk-form-wrapper" style="display:none;">
+                <h1 class="bk-login-title">Lost Password</h1>
+    	        <form name="lwa-remember" class="bk-remember-form bk-lwa-remember" action="https://chewpeople.com.tw/wp-login.php?action=lostpassword" method="post">
+    	        	<span class="lwa-status"></span>
+    	            <div class="bk-forgotpass clearfix">
+    	                <div class="lwa-remember-email bk-login-input">	                    
+                            <input type="text" name="user_login" id="lwa_user_remember" placeholder="Enter username or email">
+    	                </div>
+                            	                <div class="bk-recover-submit">
+                            <a href="#" class="bk-back-login"><i class="fa fa-long-arrow-left"></i>Back to login</a>
+                            <input type="submit" value="Get New Password">
+                            <input type="hidden" name="login-with-ajax" value="remember">	                
+    	                </div>
+    	            </div>
+    	        </form>
+            </div>
+	        		    		</div>
+	</div>                                                                                                                                				<div class="header-social">
+                    					<ul class="clearfix">
+                    						                    							<li class="social-icon fb"><a href="https://www.facebook.com/ChewPeopleFans/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+                    						                    						
+                    						                    						
+                    						                    						
+                    						                    						
+                    						                    						
+                    						                    							<li class="social-icon instagram"><a href="https://www.instagram.com/chew.peoplemag/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    						                    						
+                    						                    						
+                    						                    							<li class="social-icon youtube"><a href="https://www.youtube.com/channel/UCeCXnseX5Si71yiPlezT1Fg" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+                    						      							
+                    						                                    
+                                                                							<li class="social-icon vimeo"><a href="https://vimeo.com/user63512932" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+                    						                                            
+                                                                                        
+                                                                						
+                    					</ul>
+                    				</div>
+                    
+                                      
+                                </div><!--top-nav-->
+                                                    </div>
+                    </div><!--top-bar-->
+                    <!-- nav open -->
+            		<nav class="main-nav">
+                        <div class="main-nav-inner bkwrapper container">
+                            <div class="main-nav-container clearfix">
+                                <div class="main-nav-wrap">
+                                    <div class="mobile-menu-wrap">
+                                        <a class="mobile-nav-btn" id="nav-open-btn"><i class="fa fa-bars"></i></a>  
+                                    </div>
+                                    <!-- logo open -->
+                                                            			<div class="logo">
+                                        <h1>
+                                            <a href="https://chewpeople.com.tw">
+                                                <img src="../images/%C3%A6%C2%BD%C2%AE%C3%A4%C2%BA%C2%BA%C3%A7%C2%89%C2%A9LOGO-1.png" alt="logo">
+                                            </a>
+                                        </h1>
+                        			</div>
+                        			<!-- logo close -->
+                                                                        
+                                    <div id="main-menu" class="menu-%e4%b8%8a%e9%9d%a2%e7%9a%84%e8%8f%9c%e5%96%ae1-container"><ul id="menu-%e4%b8%8a%e9%9d%a2%e7%9a%84%e8%8f%9c%e5%96%ae1-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-9307 menu-category-352"><a href="https://chewpeople.com.tw/category/people/">People</a><div class="bk-dropdown-menu"><div class="bk-sub-menu-wrap"><ul class="bk-sub-menu clearfix">	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16030 menu-category-694"><a href="https://chewpeople.com.tw/category/people/macho/">男人味</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12094 menu-category-579"><a href="https://chewpeople.com.tw/category/people/photographer/">攝影人</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12097 menu-category-578"><a href="https://chewpeople.com.tw/category/people/designer/">設計人</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12099 menu-category-583"><a href="https://chewpeople.com.tw/category/people/technician/">科技人</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12098 menu-category-581"><a href="https://chewpeople.com.tw/category/people/musicer/">音樂人</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12096 menu-category-580"><a href="https://chewpeople.com.tw/category/people/artist/">藝術人</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14298 menu-category-1034"><a href="https://chewpeople.com.tw/category/people/chef/">料理人</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12095 menu-category-582"><a href="https://chewpeople.com.tw/category/people/star/">明亮星</a></li>
+</ul></div></div></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-9308 menu-category-351"><a href="https://chewpeople.com.tw/category/feature/">Feature</a><div class="bk-dropdown-menu"><div class="bk-sub-menu-wrap"><ul class="bk-sub-menu clearfix">	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10273 menu-category-372"><a href="https://chewpeople.com.tw/category/feature/bigissue/">主題報告</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17957 menu-category-1867"><a href="https://chewpeople.com.tw/category/feature/friends/">老友記</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15088 menu-category-353"><a href="https://chewpeople.com.tw/category/feature/super-channel-5/">Super Channel 5</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-10515 menu-category-377"><a href="https://chewpeople.com.tw/category/feature/coverstory/">封面故事</a><ul class="bk-sub-sub-menu">		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16569 menu-category-1515"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-9/">Vol.9</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14930 menu-category-588"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-54/">Vol.54</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15323 menu-category-1138"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-71/">Vol.71</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15085 menu-category-1088"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-72/">Vol.72</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17236 menu-category-1289"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-73/">Vol.73</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17235 menu-category-1337"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-74/">Vol.74</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15082 menu-category-381"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-77/">Vol.77</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15084 menu-category-459"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol78marriage/">Vol.78</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15083 menu-category-715"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-79/">Vol.79</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15087 menu-category-863"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-80/">Vol.80</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15086 menu-category-1033"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-81/">Vol.81</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17721 menu-category-1767"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-82/">Vol.82</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18615 menu-category-1922"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-83/">Vol.83</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21481 menu-category-2586"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol8485/">Vol.84+85</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21482 menu-category-2585"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-86/">Vol.86</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22227 menu-category-2765"><a href="https://chewpeople.com.tw/category/feature/coverstory/vol-87/">Vol.87</a></li>
+</ul></li>
+</ul></div></div></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-15089 menu-category-8"><a href="https://chewpeople.com.tw/category/style/">Style</a><div class="bk-dropdown-menu"><div class="bk-sub-menu-wrap"><ul class="bk-sub-menu clearfix">	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15091 menu-category-22"><a href="https://chewpeople.com.tw/category/style/whats-new/">What&#8217;s NEW</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27867 menu-category-3634"><a href="https://chewpeople.com.tw/category/style/%e7%a4%be%e9%95%b7%e7%9a%84%e9%a3%9b%e8%a1%8c%e9%85%92%e5%ba%97%e4%bf%b1%e6%a8%82%e9%83%a8/">社長的飛行酒店俱樂部</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15092 menu-category-9"><a href="https://chewpeople.com.tw/category/style/hotel/">住宿</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15093 menu-category-10"><a href="https://chewpeople.com.tw/category/style/cafe/">咖啡專門店</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15094 menu-category-12"><a href="https://chewpeople.com.tw/category/style/delicious/">好吃的學問</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15095 menu-category-15"><a href="https://chewpeople.com.tw/category/style/drunk/">微醺的品味</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-15096 menu-category-17"><a href="https://chewpeople.com.tw/category/style/travel/">旅遊提案</a><ul class="bk-sub-sub-menu">		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15097 menu-category-527"><a href="https://chewpeople.com.tw/category/style/travel/tw/">台灣</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15098 menu-category-524"><a href="https://chewpeople.com.tw/category/style/travel/japan/">日本</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15100 menu-category-525"><a href="https://chewpeople.com.tw/category/style/travel/hk/">香港</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15099 menu-category-526"><a href="https://chewpeople.com.tw/category/style/travel/macao/">澳門</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15850 menu-category-1377"><a href="https://chewpeople.com.tw/category/style/travel/singapore/">新加坡</a></li>
+</ul></li>
+</ul></div></div></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-17002 menu-category-2"><a href="https://chewpeople.com.tw/category/art/">Art</a><div class="bk-dropdown-menu"><div class="bk-sub-menu-wrap"><ul class="bk-sub-menu clearfix">	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16998 menu-category-23"><a href="https://chewpeople.com.tw/category/art/artnews/">藝術情報</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16999 menu-category-3"><a href="https://chewpeople.com.tw/category/art/design/">設計院</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17000 menu-category-7"><a href="https://chewpeople.com.tw/category/art/music/">音樂廳</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17001 menu-category-418"><a href="https://chewpeople.com.tw/category/fastnfurious/audio-visual-room/">視聽間</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17003 menu-category-14"><a href="https://chewpeople.com.tw/category/art/archi/">建築薈</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17004 menu-category-19"><a href="https://chewpeople.com.tw/category/art/magz/">書籍室</a></li>
+</ul></div></div></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-17005 menu-category-4"><a href="https://chewpeople.com.tw/category/fastnfurious/">Fast &#038; Furious</a><div class="bk-dropdown-menu"><div class="bk-sub-menu-wrap"><ul class="bk-sub-menu clearfix">	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17006 menu-category-349"><a href="https://chewpeople.com.tw/category/fastnfurious/test/">國內試駕</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17007 menu-category-16"><a href="https://chewpeople.com.tw/category/fastnfurious/mobiletest/">手機情報及測試</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17008 menu-category-20"><a href="https://chewpeople.com.tw/category/fastnfurious/careportest/">汽車報導</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17009 menu-category-342"><a href="https://chewpeople.com.tw/category/fastnfurious/overseastesting/">海外試駕</a></li>
+</ul></div></div></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15090 menu-category-373"><a href="https://chewpeople.com.tw/category/style/stay-in-style/">Stay in Style</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-15101 menu-category-364"><a href="https://chewpeople.com.tw/category/column/">Column</a><div class="bk-dropdown-menu"><div class="bk-sub-menu-wrap"><ul class="bk-sub-menu clearfix">	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15104 menu-category-1161"><a href="https://chewpeople.com.tw/category/column/sensei/">咬咬女中醫</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28008 menu-category-3660"><a href="https://chewpeople.com.tw/category/column/%e5%92%ac%e5%8c%97%e6%9d%b1%e5%b0%88%e6%ac%84/">咬北東專欄</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23113 menu-category-2921"><a href="https://chewpeople.com.tw/category/column/funny-people/">台北時髦人</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20366 menu-category-2319"><a href="https://chewpeople.com.tw/category/column/phdsbrain/">科學家的腦袋</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19283 menu-category-2065"><a href="https://chewpeople.com.tw/category/column/ricky-buy/">初一十五要BuyBuy</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15105 menu-category-366"><a href="https://chewpeople.com.tw/category/column/run/">張嘉哲的跑步日記</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15103 menu-category-365"><a href="https://chewpeople.com.tw/category/column/coldice/">別讓寒冰不開心</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16029 menu-category-1416"><a href="https://chewpeople.com.tw/category/column/mrsake/">清酒大丈夫</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15102 menu-category-367"><a href="https://chewpeople.com.tw/category/column/hui/">凡人以歌</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15106 menu-category-368"><a href="https://chewpeople.com.tw/category/column/starmam/">菁菁夫人</a></li>
+</ul></div></div></li>
+</ul></div>                                    <div class="ajax-search-wrap"><div id="ajax-form-search" class="ajax-search-icon"><i class="fa fa-search"></i></div><form class="ajax-form" method="get" action="https://chewpeople.com.tw/"><fieldset><input id="search-form-text" type="text" autocomplete="off" class="field" name="s" value="" placeholder="Search this Site..."></fieldset></form> <div id="ajax-search-result"></div></div> 
+                                </div>
+                            </div>    
+                        </div><!-- main-nav-inner -->       
+            		</nav>
+                    <!-- nav close --> 
+        		</div>                
+                <!-- ticker open -->
+                                <!-- ticker close -->
+            </div>                
+            
+            <!-- backtop open -->
+    		                <div id="back-top"><i class="fa fa-long-arrow-up"></i></div>
+                		<!-- backtop close --><div class="page-wrap bkwrapper container">
+    <div class="row">
+        <div class="bk-404-header">
+            <section class="error-number">
+                <h4>404</h4>
+            </section>              
+            <h1 class="bk-error-title">Page not found</h1>
+        </div>
+        
+        <div id="bk-404-wrap">
+            
+        	<div class="entry-content">			
+        		
+                <h2>Oops! The page you were looking for was not found. Perhaps searching can help.</h2>
+                
+        	</div>
+        
+        	<div class="search">
+        
+        	    <form action="https://chewpeople.com.tw/" id="searchform" method="get">
+    <div class="searchform-wrap">
+        <input type="text" name="s" id="s" value="Search" onfocus="if (this.value == "Search") { this.value = ""; }" onblur="if (this.value == "") { this.value = "Search"; }">
+    <div class="search-icon">
+        <i class="fa fa-search"></i>
+    </div>
+    </div>
+</form>        
+        	</div>
+            
+            <div class="redirect-home">
+                <i class="fa fa-home"></i>
+                <a href="https://chewpeople.com.tw/">Back to Homepage</a>
+            </div>
+        
+        	
+        </div> <!-- end #bk-404-wrap -->
+    </div>
+</div>
+<div class="footer">
+                    <div class="footer-content bkwrapper clearfix container">
+                    <div class="row">
+                        <div class="footer-sidebar col-md-4">
+                            <aside id="tag_cloud-5" class="widget widget_tag_cloud"><div class="bk-header"><div class="widget-title"><h3>你想看什麼</h3></div></div><div class="tagcloud"><a href="https://chewpeople.com.tw/tag/audi/" class="tag-cloud-link tag-link-30 tag-link-position-1" style="font-size: 8.8536585365854pt;" aria-label="AUDI (7 個項目)">AUDI</a>
+<a href="https://chewpeople.com.tw/tag/sony/" class="tag-cloud-link tag-link-371 tag-link-position-2" style="font-size: 10.560975609756pt;" aria-label="SONY (9 個項目)">SONY</a>
+<a href="https://chewpeople.com.tw/tag/volkswagen/" class="tag-cloud-link tag-link-903 tag-link-position-3" style="font-size: 9.7073170731707pt;" aria-label="Volkswagen (8 個項目)">Volkswagen</a>
+<a href="https://chewpeople.com.tw/tag/%e4%b8%8a%e6%b5%b7/" class="tag-cloud-link tag-link-1074 tag-link-position-4" style="font-size: 13.121951219512pt;" aria-label="上海 (13 個項目)">上海</a>
+<a href="https://chewpeople.com.tw/tag/%e5%8d%81%e4%ba%8c%e6%98%9f%e5%ba%a7/" class="tag-cloud-link tag-link-2200 tag-link-position-5" style="font-size: 11.926829268293pt;" aria-label="十二星座 (11 個項目)">十二星座</a>
+<a href="https://chewpeople.com.tw/tag/%e5%8f%b0%e5%8c%97/" class="tag-cloud-link tag-link-113 tag-link-position-6" style="font-size: 19.439024390244pt;" aria-label="台北 (32 個項目)">台北</a>
+<a href="https://chewpeople.com.tw/tag/%e5%8f%b0%e5%8c%97%e6%8a%98%e7%96%8a/" class="tag-cloud-link tag-link-1225 tag-link-position-7" style="font-size: 14.487804878049pt;" aria-label="台北折疊 (16 個項目)">台北折疊</a>
+<a href="https://chewpeople.com.tw/tag/%e5%8f%b0%e5%8d%97/" class="tag-cloud-link tag-link-118 tag-link-position-8" style="font-size: 15pt;" aria-label="台南 (17 個項目)">台南</a>
+<a href="https://chewpeople.com.tw/tag/%e5%8f%b0%e5%8d%97%e6%88%90%e4%ba%ba%e5%ad%b8/" class="tag-cloud-link tag-link-1076 tag-link-position-9" style="font-size: 12.439024390244pt;" aria-label="台南成人學 (12 個項目)">台南成人學</a>
+<a href="https://chewpeople.com.tw/tag/%e5%8f%b0%e7%81%a3/" class="tag-cloud-link tag-link-706 tag-link-position-10" style="font-size: 10.560975609756pt;" aria-label="台灣 (9 個項目)">台灣</a>
+<a href="https://chewpeople.com.tw/tag/%e5%92%96%e5%95%a1/" class="tag-cloud-link tag-link-1144 tag-link-position-11" style="font-size: 11.926829268293pt;" aria-label="咖啡 (11 個項目)">咖啡</a>
+<a href="https://chewpeople.com.tw/tag/%e5%95%a4%e9%85%92/" class="tag-cloud-link tag-link-1410 tag-link-position-12" style="font-size: 9.7073170731707pt;" aria-label="啤酒 (8 個項目)">啤酒</a>
+<a href="https://chewpeople.com.tw/tag/%e5%96%ae%e4%b8%80%e9%ba%a5%e8%8a%bd/" class="tag-cloud-link tag-link-2467 tag-link-position-13" style="font-size: 8pt;" aria-label="單一麥芽 (6 個項目)">單一麥芽</a>
+<a href="https://chewpeople.com.tw/tag/%e5%a8%81%e5%a3%ab%e5%bf%8c/" class="tag-cloud-link tag-link-337 tag-link-position-14" style="font-size: 13.121951219512pt;" aria-label="威士忌 (13 個項目)">威士忌</a>
+<a href="https://chewpeople.com.tw/tag/%e5%ad%ab%e5%95%9f%e8%83%bd/" class="tag-cloud-link tag-link-1116 tag-link-position-15" style="font-size: 8.8536585365854pt;" aria-label="孫啟能 (7 個項目)">孫啟能</a>
+<a href="https://chewpeople.com.tw/tag/%e5%ae%9c%e8%98%ad/" class="tag-cloud-link tag-link-145 tag-link-position-16" style="font-size: 8pt;" aria-label="宜蘭 (6 個項目)">宜蘭</a>
+<a href="https://chewpeople.com.tw/tag/%e5%af%86%e6%8e%a2%e5%b7%a5%e5%bb%a0/" class="tag-cloud-link tag-link-1470 tag-link-position-17" style="font-size: 8pt;" aria-label="密探工廠 (6 個項目)">密探工廠</a>
+<a href="https://chewpeople.com.tw/tag/%e5%b7%a5%e5%85%b7%e4%ba%ba/" class="tag-cloud-link tag-link-1139 tag-link-position-18" style="font-size: 11.926829268293pt;" aria-label="工具人 (11 個項目)">工具人</a>
+<a href="https://chewpeople.com.tw/tag/%e5%be%8c%e7%8f%be%e4%bb%a3%e9%a6%99%e6%b8%af/" class="tag-cloud-link tag-link-1301 tag-link-position-19" style="font-size: 17.90243902439pt;" aria-label="後現代香港 (26 個項目)">後現代香港</a>
+<a href="https://chewpeople.com.tw/tag/%e5%be%b5%e5%a9%9a%e5%95%9f%e4%ba%8b/" class="tag-cloud-link tag-link-468 tag-link-position-20" style="font-size: 11.926829268293pt;" aria-label="徵婚啟事 (11 個項目)">徵婚啟事</a>
+<a href="https://chewpeople.com.tw/tag/%e6%94%9d%e5%bd%b1/" class="tag-cloud-link tag-link-174 tag-link-position-21" style="font-size: 12.439024390244pt;" aria-label="攝影 (12 個項目)">攝影</a>
+<a href="https://chewpeople.com.tw/tag/%e6%96%b0%e5%85%89%e4%b8%89%e8%b6%8a/" class="tag-cloud-link tag-link-177 tag-link-position-22" style="font-size: 14.487804878049pt;" aria-label="新光三越 (16 個項目)">新光三越</a>
+<a href="https://chewpeople.com.tw/tag/%e6%97%85%e9%81%8a/" class="tag-cloud-link tag-link-186 tag-link-position-23" style="font-size: 12.439024390244pt;" aria-label="旅遊 (12 個項目)">旅遊</a>
+<a href="https://chewpeople.com.tw/tag/%e6%97%a5%e6%9c%ac/" class="tag-cloud-link tag-link-189 tag-link-position-24" style="font-size: 12.439024390244pt;" aria-label="日本 (12 個項目)">日本</a>
+<a href="https://chewpeople.com.tw/tag/%e6%98%9f%e5%ba%a7/" class="tag-cloud-link tag-link-1892 tag-link-position-25" style="font-size: 12.439024390244pt;" aria-label="星座 (12 個項目)">星座</a>
+<a href="https://chewpeople.com.tw/tag/%e6%99%82%e5%b0%9a/" class="tag-cloud-link tag-link-198 tag-link-position-26" style="font-size: 14.487804878049pt;" aria-label="時尚 (16 個項目)">時尚</a>
+<a href="https://chewpeople.com.tw/tag/%e6%a0%bc%e8%98%ad%e5%88%a9%e5%a8%81/" class="tag-cloud-link tag-link-1405 tag-link-position-27" style="font-size: 8pt;" aria-label="格蘭利威 (6 個項目)">格蘭利威</a>
+<a href="https://chewpeople.com.tw/tag/%e6%b8%85%e9%85%92/" class="tag-cloud-link tag-link-217 tag-link-position-28" style="font-size: 8.8536585365854pt;" aria-label="清酒 (7 個項目)">清酒</a>
+<a href="https://chewpeople.com.tw/tag/%e6%b8%85%e9%85%92%e5%a4%a7%e4%b8%88%e5%a4%ab/" class="tag-cloud-link tag-link-218 tag-link-position-29" style="font-size: 11.926829268293pt;" aria-label="清酒大丈夫 (11 個項目)">清酒大丈夫</a>
+<a href="https://chewpeople.com.tw/tag/%e6%bc%ab%e7%95%ab/" class="tag-cloud-link tag-link-769 tag-link-position-30" style="font-size: 8pt;" aria-label="漫畫 (6 個項目)">漫畫</a>
+<a href="https://chewpeople.com.tw/tag/%e6%be%b3%e9%96%80/" class="tag-cloud-link tag-link-225 tag-link-position-31" style="font-size: 11.243902439024pt;" aria-label="澳門 (10 個項目)">澳門</a>
+<a href="https://chewpeople.com.tw/tag/%e7%a7%91%e5%ad%b8/" class="tag-cloud-link tag-link-2302 tag-link-position-32" style="font-size: 10.560975609756pt;" aria-label="科學 (9 個項目)">科學</a>
+<a href="https://chewpeople.com.tw/tag/%e7%a7%91%e5%ad%b8%e5%ae%b6%e7%9a%84%e8%85%a6%e8%a2%8b/" class="tag-cloud-link tag-link-2292 tag-link-position-33" style="font-size: 11.243902439024pt;" aria-label="科學家的腦袋 (10 個項目)">科學家的腦袋</a>
+<a href="https://chewpeople.com.tw/tag/%e7%b1%b3%e5%85%b6%e6%9e%97/" class="tag-cloud-link tag-link-1848 tag-link-position-34" style="font-size: 9.7073170731707pt;" aria-label="米其林 (8 個項目)">米其林</a>
+<a href="https://chewpeople.com.tw/tag/%e7%be%8e%e9%a3%9f/" class="tag-cloud-link tag-link-253 tag-link-position-35" style="font-size: 14.487804878049pt;" aria-label="美食 (16 個項目)">美食</a>
+<a href="https://chewpeople.com.tw/tag/%e7%be%a9%e5%a4%a7%e5%88%a9/" class="tag-cloud-link tag-link-1440 tag-link-position-36" style="font-size: 8pt;" aria-label="義大利 (6 個項目)">義大利</a>
+<a href="https://chewpeople.com.tw/tag/%e8%8f%81%e8%8f%81%e5%a4%ab%e4%ba%ba/" class="tag-cloud-link tag-link-1891 tag-link-position-37" style="font-size: 13.634146341463pt;" aria-label="菁菁夫人 (14 個項目)">菁菁夫人</a>
+<a href="https://chewpeople.com.tw/tag/%e8%97%9d%e8%a1%93/" class="tag-cloud-link tag-link-276 tag-link-position-38" style="font-size: 13.121951219512pt;" aria-label="藝術 (13 個項目)">藝術</a>
+<a href="https://chewpeople.com.tw/tag/%e8%97%9d%e8%a1%93%e5%ae%b6/" class="tag-cloud-link tag-link-277 tag-link-position-39" style="font-size: 11.243902439024pt;" aria-label="藝術家 (10 個項目)">藝術家</a>
+<a href="https://chewpeople.com.tw/tag/%e8%a8%ad%e8%a8%88/" class="tag-cloud-link tag-link-1489 tag-link-position-40" style="font-size: 8.8536585365854pt;" aria-label="設計 (7 個項目)">設計</a>
+<a href="https://chewpeople.com.tw/tag/%e9%9b%bb%e5%bd%b1/" class="tag-cloud-link tag-link-310 tag-link-position-41" style="font-size: 16.024390243902pt;" aria-label="電影 (20 個項目)">電影</a>
+<a href="https://chewpeople.com.tw/tag/%e9%9f%b3%e6%a8%82/" class="tag-cloud-link tag-link-312 tag-link-position-42" style="font-size: 12.439024390244pt;" aria-label="音樂 (12 個項目)">音樂</a>
+<a href="https://chewpeople.com.tw/tag/%e9%a6%99%e6%b8%af/" class="tag-cloud-link tag-link-318 tag-link-position-43" style="font-size: 22pt;" aria-label="香港 (46 個項目)">香港</a>
+<a href="https://chewpeople.com.tw/tag/%e9%ab%98%e9%9b%84/" class="tag-cloud-link tag-link-325 tag-link-position-44" style="font-size: 8.8536585365854pt;" aria-label="高雄 (7 個項目)">高雄</a>
+<a href="https://chewpeople.com.tw/tag/%e9%bb%91%e8%86%a0/" class="tag-cloud-link tag-link-330 tag-link-position-45" style="font-size: 8.8536585365854pt;" aria-label="黑膠 (7 個項目)">黑膠</a></div>
+</aside><aside id="bk_social_counter-7" class="widget widget-social-counter">		<div class="wrap clearfix">
+			<ul class="clearfix">
+											
+								
+				                
+								
+				                                                                 				
+			</ul>
+				
+		</div><!-- /wrap -->			
+		</aside>                        </div>
+                        <div class="footer-sidebar col-md-4">
+                            		<aside id="recent-posts-8" class="widget widget_recent_entries">		<div class="bk-header"><div class="widget-title"><h3>最新上架文章</h3></div></div>		<ul>
+											<li>
+					<a href="https://chewpeople.com.tw/%e5%8d%83%e5%b1%a4%e8%b1%ac%e6%8e%92%e5%a7%8b%e7%a5%96%e6%99%b4%e6%9c%a8%e7%82%b8%e8%b1%ac%e6%8e%92/">千層豬排始祖來了！超嫩多汁晴木炸豬排</a>
+											<span class="post-date">2019-01-17</span>
+									</li>
+											<li>
+					<a href="https://chewpeople.com.tw/%e5%bb%a3%e5%b3%b6%e9%9c%b8%e5%97%8e%e6%8b%89%e9%ba%b5%e4%b8%80%e5%90%83%e4%b8%8a%e7%99%ae/">地表最強一吃上癮！廣島霸嗎拉麵來台</a>
+											<span class="post-date">2019-01-17</span>
+									</li>
+											<li>
+					<a href="https://chewpeople.com.tw/%e5%9c%93%e7%9b%b8%e9%9b%8b%e6%b0%b8%e5%96%ac%e6%b2%bb%e5%82%91%e7%94%9f/">圓相雋永 喬治傑生傳情意</a>
+											<span class="post-date">2019-01-17</span>
+									</li>
+											<li>
+					<a href="https://chewpeople.com.tw/%e5%b0%8f%e6%a3%95%e7%93%b6%e6%95%88%e6%9e%9c%e7%9c%8b%e5%be%97%e8%a6%8b/">小棕瓶效果看得見！搭時光機回春</a>
+											<span class="post-date">2019-01-14</span>
+									</li>
+											<li>
+					<a href="https://chewpeople.com.tw/swarovski%e5%9c%b0%e4%b8%ad%e6%b5%b7%e4%bc%91%e9%96%92%e5%ba%a6%e5%81%87/">璀璨閃爆！Swarovski地中海悠閒度假</a>
+											<span class="post-date">2019-01-14</span>
+									</li>
+											<li>
+					<a href="https://chewpeople.com.tw/celvoke%e5%bd%a9%e5%a6%9d%e7%99%bc%e6%8e%98%e7%9c%9f%e6%88%91/">拋開束縛，Celvoke彩妝發掘真我</a>
+											<span class="post-date">2019-01-11</span>
+									</li>
+											<li>
+					<a href="https://chewpeople.com.tw/smith-wollensky%e5%8d%83%e5%91%bc%e8%90%ac%e5%96%9a%e7%99%bb%e5%8f%b0/">無邊際視野！Smith &amp; Wollensky千呼萬喚登台</a>
+											<span class="post-date">2019-01-11</span>
+									</li>
+											<li>
+					<a href="https://chewpeople.com.tw/%e5%a5%a2%e8%8f%af%e8%81%9a%e5%85%89%e5%94%87%e8%86%8f%e9%96%83%e8%80%80%e5%8b%95%e4%ba%ba/">超上鏡光采！奢華聚光唇膏閃耀動人</a>
+											<span class="post-date">2019-01-09</span>
+									</li>
+											<li>
+					<a href="https://chewpeople.com.tw/breeze-nan-shan/">與世界同步！微風南山強勢開幕</a>
+											<span class="post-date">2019-01-09</span>
+									</li>
+											<li>
+					<a href="https://chewpeople.com.tw/%e7%a6%8f%e8%8f%af%e5%b9%b4%e8%8f%9c%e8%bc%95%e9%ac%86%e4%ba%ab%e7%94%a8%e4%ba%94%e6%98%9f%e7%b4%9a%e5%9c%8d%e7%88%90/">過年宅在家～福華年菜輕鬆享用五星級圍爐</a>
+											<span class="post-date">2019-01-09</span>
+									</li>
+					</ul>
+		</aside>                        </div>
+                        <div class="footer-sidebar col-md-4">
+                            <aside id="top-posts-5" class="widget widget_top-posts"><div class="bk-header"><div class="widget-title"><h3>最熱門</h3></div></div><ul class="widgets-list-layout no-grav">
+					<li>
+												<a href="https://chewpeople.com.tw/culture-skm/" title="選物新平台「新藝商號」簡約生活道具推薦：AKAMU這地器物、even、京好手物" class="bump-view" data-bump-view="tp">
+							<img width="40" height="40" src="../images/24837408_1723547164382061_997016294195895686_o.jpg" class="widgets-list-layout-blavatar" alt="選物新平台「新藝商號」簡約生活道具推薦：AKAMU這地器物、even、京好手物" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="https://chewpeople.com.tw/culture-skm/" class="bump-view" data-bump-view="tp">
+								選物新平台「新藝商號」簡約生活道具推薦：AKAMU這地器物、even、京好手物							</a>
+						</div>
+												</li>
+										<li>
+												<a href="https://chewpeople.com.tw/vol51-steven-lin/" title="屬於自己的威士忌，嘗過才知道：專訪威士忌達人 林一峰" class="bump-view" data-bump-view="tp">
+							<img width="40" height="40" src="../images/DSC_9791.jpg" class="widgets-list-layout-blavatar" alt="屬於自己的威士忌，嘗過才知道：專訪威士忌達人 林一峰" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="https://chewpeople.com.tw/vol51-steven-lin/" class="bump-view" data-bump-view="tp">
+								屬於自己的威士忌，嘗過才知道：專訪威士忌達人 林一峰							</a>
+						</div>
+												</li>
+										<li>
+												<a href="https://chewpeople.com.tw/10-best-liquor-set-in-2018cny/" title="過年送禮指南：10款讓你同時掙到面子和裡子的洋酒禮盒" class="bump-view" data-bump-view="tp">
+							<img width="40" height="40" src="../images/adam-jaime-119551.jpg" class="widgets-list-layout-blavatar" alt="過年送禮指南：10款讓你同時掙到面子和裡子的洋酒禮盒" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="https://chewpeople.com.tw/10-best-liquor-set-in-2018cny/" class="bump-view" data-bump-view="tp">
+								過年送禮指南：10款讓你同時掙到面子和裡子的洋酒禮盒							</a>
+						</div>
+												</li>
+										<li>
+												<a href="https://chewpeople.com.tw/fifth/" title="▊菁菁夫人專欄 ▊第五宮，每個人命中都有一部愛情片" class="bump-view" data-bump-view="tp">
+							<img width="40" height="40" src="../images/%C3%A8%C2%8F%C2%81%C3%A8%C2%8F%C2%81%C3%A5%C2%A4%C2%AB%C3%A4%C2%BA%C2%BA%C3%A4%C2%BE%C2%9B%C3%A7%C2%B6%C2%B2%C3%A7%C2%AB%C2%99%C3%A7%C2%94%C2%A8.jpg" class="widgets-list-layout-blavatar" alt="▊菁菁夫人專欄 ▊第五宮，每個人命中都有一部愛情片" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="https://chewpeople.com.tw/fifth/" class="bump-view" data-bump-view="tp">
+								▊菁菁夫人專欄 ▊第五宮，每個人命中都有一部愛情片							</a>
+						</div>
+												</li>
+										<li>
+												<a href="https://chewpeople.com.tw/cass_korean_beer-party2017/" title="厭世的人千萬別喝CASS：CASS韓國啤酒" class="bump-view" data-bump-view="tp">
+							<img width="40" height="40" src="../images/DSC04371.jpg" class="widgets-list-layout-blavatar" alt="厭世的人千萬別喝CASS：CASS韓國啤酒" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="https://chewpeople.com.tw/cass_korean_beer-party2017/" class="bump-view" data-bump-view="tp">
+								厭世的人千萬別喝CASS：CASS韓國啤酒							</a>
+						</div>
+												</li>
+										<li>
+												<a href="https://chewpeople.com.tw/counselor-erica/" title="諮商心理師許皓宜：每個人內心都有56道陰影？" class="bump-view" data-bump-view="tp">
+							<img width="40" height="40" src="../images/DSC01573.jpg" class="widgets-list-layout-blavatar" alt="諮商心理師許皓宜：每個人內心都有56道陰影？" data-pin-nopin="true">
+						</a>
+						<div class="widgets-list-layout-links">
+							<a href="https://chewpeople.com.tw/counselor-erica/" class="bump-view" data-bump-view="tp">
+								諮商心理師許皓宜：每個人內心都有56道陰影？							</a>
+						</div>
+												</li>
+					</ul>
+</aside><aside id="widget_contact_info-4" class="widget widget_contact_info"><div class="bk-header"><div class="widget-title"><h3>information</h3></div></div><div itemscope="" itemtype="http://schema.org/LocalBusiness"><div class="confit-address" itemscope="" itemtype="http://schema.org/PostalAddress" itemprop="address"><a href="https://maps.google.com/maps?z=16&#038;q=2f.,+no.374,+songjiang+rd.,+zhongshan+dist.,+taipei+city+104,+taiwan+(r.o.c.)" target="_blank">2F., No.374, Songjiang Rd., Zhongshan Dist., Taipei City 104, Taiwan (R.O.C.)</a></div><div class="confit-phone"><span itemprop="telephone"><a href="tel:+886%202598-1970">+886 2598-1970</a></span></div><div class="confit-email"><a href="mailto:ms.chewpeople@gmail.com">ms.chewpeople@gmail.com</a></div></div></aside>                        </div>
+                    </div>
+                </div>
+                        <div class="footer-lower">
+                <div class="container">
+                    <div class="footer-inner clearfix">
+                         
+                            <div id="footer-menu" class="menu-for-top-menu-container"><ul id="menu-for-top-menu" class="menu"><li id="menu-item-17011" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-17011 menu-category-6"><a href="https://chewpeople.com.tw/category/aboutme/">About Me</a></li>
+</ul></div>  
+                          
+                        <div class="bk-copyright"></div>
+                    </div>
+                </div>
+            </div>    
+        </div>    </div> <!-- Close Page inner Wrap -->
+
+	</div> <!-- Close Page Wrap -->
+    <div class="fb-quote"></div><div class="fb-customerchat" page_id="157513090929019" greeting_dialog_display="fade" ref="FB2WP" greeting_dialog_delay="5" logged_in_greeting="你好！有什麼能幫上忙的嗎？" logged_out_greeting="你好！有什麼能幫上忙的嗎？"></div>	<div style="display:none">
+	</div>
+<script>
+jQuery(document).ready(function(){
+//jQuery('<div id="chewad02" style="text-align: center;"><ins class="clickforceads " style="display:inline-block;" data-ad-zone-max=4200 data-ad-zone-min=4205 data-ad-width-max=728 data-ad-height-max=90 data-ad-width-min=320 data-ad-height-min=100 data-ad-changeMinWidth=1024></ins><script type="text/javascript" src="//cdn.doublemax.net/js/rwd_cap.js">/script></div>').insertBefore('#back-top');
+//Sidebar 01
+//jQuery('<ins class="clickforceads" style="display:inline-block;width:300px;height:250px" data-ad-zone="4202"></ins> <script async type="text/javascript" src="//cdn.doublemax.net/js/init.js" />').insertBefore('#chewadcode_sidebar01');
+//Sidebar 02
+//jQuery('<ins class="clickforceads" style="display:inline-block;width:300px;height:600px" data-ad-zone="4203"></ins> <script async type="text/javascript" src="//cdn.doublemax.net/js/init.js" />').insertBefore('#chewadcode_sidebar02');
+//jQuery('<ins class="clickforceads" style="display:inline-block;width:300px;height:290px" data-ad-zone="4281"></ins><script async type="text/javascript" src="//cdn.doublemax.net/js/init.js"/>').insertBefore('#chewadcode_sidebar_custom');
+//jQuery('<ins class="clickforceads" style="display:inline-block;width:300px;height:259px;" data-ad-zone="4358"></ins><script async type="text/javascript" src="//cdn.doublemax.net/js/init.js"/>').insertBefore('#chewadcode_sidebar_custom02');
+//new code
+});
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/chewpeople.com.tw\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u8acb\u8b49\u660e\u4f60\u4e0d\u662f\u6a5f\u5668\u4eba\u3002"}},"cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/scripts.js"></script>
+<script type="text/javascript" src="../js/devicepx-jetpack.js"></script>
+<script type="text/javascript" src="../js/shortcode.js"></script>
+<script type="text/javascript" src="../js/gprofiles.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/wpgroho.js"></script>
+<script type="text/javascript" src="../js/widget.min.js"></script>
+<script type="text/javascript" src="../js/core.min.js"></script>
+<script type="text/javascript" src="../js/tabs.min.js"></script>
+<script type="text/javascript" src="../js/accordion.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var bkSmoothScroll = {"status":"0"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/theme_plugins.js"></script>
+<script type="text/javascript" src="../js/onviewport.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax_btn_str = {"loadmore":"Load More","nomore":"No More Posts"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/module-load-post.js"></script>
+<script type="text/javascript" src="../js/menu.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var justified_ids = [];
+var ajax_c = [];
+var sharrre_path = "https:\/\/chewpeople.com.tw\/wp-content\/themes\/gloria\/js\/sharrre.php";
+var fixed_nav = "1";
+var gloria_ssl = ["1"];
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/customjs.js"></script>
+<script type="text/javascript" src="../js/wp-embed.min.js"></script>
+<script type="text/javascript" src="../js/e-201903.js" async="async" defer="defer"></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:6.8.1',blog:'125553861',post:'0',tz:'8',srv:'chewpeople.com.tw'} ]);
+	_stq.push([ 'clickTrackerInit', '125553861', '0' ]);
+</script>
+</body>
+
+</html>

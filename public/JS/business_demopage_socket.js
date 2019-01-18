@@ -72,6 +72,7 @@
               var url = '/DemoPage/site/' + this.device + '/' + this.zonesize + '/' + this.site + '/DefaultZone.html?cfadc=8725:' + this.matiral_id;
               var win = window.open(url, '_blank');
               win.focus();
+              
               break;
             case '32050':
               var url = '/DemoPage/site/' + this.device + '/' + this.zonesize + '/' + this.site + '/DefaultZone.html?cfadc=8783:' + this.matiral_id;
@@ -131,7 +132,8 @@
           dir.dir.forEach(ele => {
             if (ele == "內文全屏") {
 
-            } else {
+            }else if(ele == "漂浮影音"){}
+             else {
               zone_size_arr.push(ele);
             }
           });
@@ -159,7 +161,17 @@
       display_df_zone_block: function () {
         if (this.device == '' || this.zonesize == '' || this.site == '') {
           $("#zone_ch_block").css('display', 'none');
-        } else {
+          $("#cus_zone_block").css('display','none');
+        }
+        else if(this.device == 'phone' && this.zonesize == '320480' && this.site == '潮人物'){
+          $("#zone_ch_block").css('display', 'block');
+          $("#cus_zone_block").css('display','none');
+        }
+         else {
+           console.log(this.device);
+           console.log(this.zonesize);
+           console.log(this.site);
+           $("#cus_zone_block").css('display','block');
           $("#zone_ch_block").css('display', 'block');
         }
       },
@@ -237,6 +249,47 @@
     }
   })
 
+
+    //==========漂浮影音=========================
+    socket.emit('CtoS tell me fly_vdo site');
+    var flyvdo_arr = [];
+  
+    var FlyVdo = new Vue({
+      el: "#fly_vdo",
+      delimiters: ['$$', '$$'],
+      data: {
+        flyvdo_arr: flyvdo_arr,
+        site: '',
+        material_id: '',
+        // zone_code: ''
+      },
+      methods: {
+        ch_Content_site: function (item) {
+          this.site = item;
+        },
+        default_zone: function () {
+          window.open('/DemoPage/site/phone/漂浮影音/' + this.site + '/DefaultZone.html?cfadc=8810:' + this.material_id, '_blank');
+        },
+        // Cus_zone: function () {
+        //   socket.emit('CtoS fly_vdo Site', {
+        //     zone_code: this.zone_code,
+        //     site: this.site,
+        //   });
+        // }
+  
+      },
+      computed: {
+        //詢問Server 漂浮影音有啥網站
+        getFlyVdoSite: function () {
+          socket.on('StoC can use fly_vdo Site', function (FlyVdo_zone) {
+            
+            FlyVdo_zone.dir.forEach(ele => {
+              flyvdo_arr.push(ele);
+            });
+          })
+        }
+      }
+    })
 
 
   //接收 Server 傳來的 自訂版位 建立完成事件
