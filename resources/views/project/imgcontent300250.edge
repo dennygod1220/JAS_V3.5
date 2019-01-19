@@ -61,38 +61,100 @@
       <input type="text" id="btntext" class="form-control">
     </div>
     <button class="form-control btn btn-success" id="btn_sure">
-      確定
+      預覽
     </button>
   </div>
 
 
   {{-- 預覽區 --}}
   <div id="preview" style="display:none" class="row">
-    <div class="col">
+    <div class="col py-4">
       <div class="container">
         <div class="row">
           <div class="col">
             <iframe id="pre_300100" src="" frameborder="0" style="width:300px;height:100px"></iframe>
           </div>
+        </div>
+        <div class="row py-3">
           <div class="col">
-            <iframe id="pre_320100" src="" frameborder="0" style="width:320px;height:100px"></iframe>
+            <form class="form-inline">
+              <div class="form-group mb-4">
+                <label>背景顏色:</label>
+                <input type="color" name="color" id="bkg_300100" class="form-control">
+              </div>
+            </form>
           </div>
         </div>
 
-        <div class="row">
+
+        <div class="row py-3">
+          <div class="col">
+            <iframe id="pre_320100" src="" frameborder="0" style="width:320px;height:100px"></iframe>
+
+          </div>
+        </div>
+        <div class="row py-3">
+          <div class="col">
+            <form class="form-inline">
+              <div class="form-group mb-4">
+                <label>背景顏色:</label>
+                <input type="color" name="color" id="bkg_320100" class="form-control">
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="row py-3">
           <div class="col">
             <iframe id="pre_300250" src="" frameborder="0" style="width:300px;height:250px"></iframe>
           </div>
+        </div>
+        <div class="row py-3">
+            <div class="col">
+              <form class="form-inline">
+                <div class="form-group mb-4">
+                  <label>背景顏色:</label>
+                  <input type="color" name="color" id="bkg_300250" class="form-control">
+                </div>
+              </form>
+            </div>
+          </div>
+
+
+        <div class="row py-3">
           <div class="col">
             <iframe id="pre_320480" src="" frameborder="0" style="width:320px;height:480px"></iframe>
           </div>
         </div>
+        <div class="row py-3">
+            <div class="col">
+              <form class="form-inline">
+                <div class="form-group mb-4">
+                  <label>背景顏色:</label>
+                  <input type="color" name="color" id="bkg_320480" class="form-control">
+                </div>
+              </form>
+            </div>
+          </div>
 
-        <div class="row">
+
+        <div class="row py-3">
           <div class="col">
             <iframe id="pre_970250" src="" frameborder="0" style="width:970px;height:250px"></iframe>
           </div>
         </div>
+
+        <div class="row py-3">
+            <div class="col">
+              <form class="form-inline">
+                <div class="form-group mb-4">
+                  <label>背景顏色:</label>
+                  <input type="color" name="color" id="bkg_970250" class="form-control">
+                </div>
+              </form>
+            </div>
+          </div>
+
         {{-- 下載區 --}}
         <div id="download_block" style="display:none;" class="row">
           <a id="d1" target="_blank" class="btn btn-primary">下載 300100</a>

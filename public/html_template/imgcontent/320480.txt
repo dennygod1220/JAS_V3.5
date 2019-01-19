@@ -61,7 +61,7 @@
     </style>
 </head>
 
-<body marginwidth="0" marginheight="0" style="color:black;">
+<body marginwidth="0" marginheight="0" style="background-color:white">
     <a href="%%CLICK_URL%%" target="_blank">
         <div id="content">
             <img src="@@IMG@@" alt="" srcset="" style="width:320px">

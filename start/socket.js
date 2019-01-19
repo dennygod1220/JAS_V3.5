@@ -6,7 +6,7 @@ var find = use('find');
 var dir = use('node-dir');
 var FC = require('../cusmodules/FileControl');
 var adm_zip = require('adm-zip');
-
+var cheerio = require('cheerio');
 io.on('connection', function (socket) {
   console.log("ID: " + socket.id + " 連線");
 
@@ -245,7 +245,7 @@ io.on('connection', function (socket) {
     // display_subdir(path,'StoC site dir');
   })
 
-    //======================================================
+  //======================================================
   //======================漂浮影音=========================
   //======================================================
 
@@ -253,45 +253,45 @@ io.on('connection', function (socket) {
     var FlyVdo_zone = './public/DemoPage/site/phone/fly_vdo/';
     display_subdir(FlyVdo_zone, 'StoC can use fly_vdo Site');
   })
-    //Client 選擇自訂版位
-    socket.on('CtoS fly_vdo Site', function (Site) {
+  //Client 選擇自訂版位
+  socket.on('CtoS fly_vdo Site', function (Site) {
 
-      var src = './public/DemoPage/site/phone/fly_vdo/' + Site.site + '/index.html';
-      var dist = './public/DemoPage/site/phone/fly_vdo/' + Site.site + '/CusZone_' + socket.id + '.html';
-      //複製檔案
-      copyFile(src, dist);
-  
-      var getFunName = './public/DemoPage/site/phone/fly_vdo/' + Site.site + '/JAS_FuncName.txt';
-      //讀取 此網站所使用的function Name 將他require進來
-      fs.readFile(getFunName, 'utf8', function (err, funcName) {
-        if (err) throw err;
-        var df = require('../public/JS/DemoPage_Zone_set/' + funcName);
-        fs.readFile(dist, 'utf8', function (err, html) {
-          df.SetCusZone(html, dist, Site.zone_code);
-        })
-  
-        //告訴 Client 自訂版位OK
-        io.sockets.connected[socket.id].emit('StoC cus fly_vdo zone ok', {
-          CusZoneUrl: '/DemoPage/site/phone/fly_vdo/' + Site.site + '/CusZone_' + socket.id + '.html',
-        });
+    var src = './public/DemoPage/site/phone/fly_vdo/' + Site.site + '/index.html';
+    var dist = './public/DemoPage/site/phone/fly_vdo/' + Site.site + '/CusZone_' + socket.id + '.html';
+    //複製檔案
+    copyFile(src, dist);
+
+    var getFunName = './public/DemoPage/site/phone/fly_vdo/' + Site.site + '/JAS_FuncName.txt';
+    //讀取 此網站所使用的function Name 將他require進來
+    fs.readFile(getFunName, 'utf8', function (err, funcName) {
+      if (err) throw err;
+      var df = require('../public/JS/DemoPage_Zone_set/' + funcName);
+      fs.readFile(dist, 'utf8', function (err, html) {
+        df.SetCusZone(html, dist, Site.zone_code);
       })
-  
-      // display_subdir(path,'StoC site dir');
+
+      //告訴 Client 自訂版位OK
+      io.sockets.connected[socket.id].emit('StoC cus fly_vdo zone ok', {
+        CusZoneUrl: '/DemoPage/site/phone/fly_vdo/' + Site.site + '/CusZone_' + socket.id + '.html',
+      });
     })
+
+    // display_subdir(path,'StoC site dir');
+  })
 
   //======================================================
   //======================BD 轉小網=======================
   //======================================================
 
   //CLICKFORCE
-  socket.on('CtoS BD cap zone code',function(data){
+  socket.on('CtoS BD cap zone code', function (data) {
     const temp = FC.ReadFileSync('public/BD_temp/pb_cap.txt');
-    
-    const newHtml = temp+data.zonecode;
-    var url = '../BD_temp/cap/'+data.zoneid+'.html';
-    FC.writeFileSync('public/BD_temp/cap/'+data.zoneid+'.html',newHtml);
-    io.sockets.connected[socket.id].emit('StoC BD cap preview',{
-      url:url
+
+    const newHtml = temp + data.zonecode;
+    var url = '../BD_temp/cap/' + data.zoneid + '.html';
+    FC.writeFileSync('public/BD_temp/cap/' + data.zoneid + '.html', newHtml);
+    io.sockets.connected[socket.id].emit('StoC BD cap preview', {
+      url: url
     })
   })
 
@@ -302,50 +302,50 @@ io.on('connection', function (socket) {
 
   })
 
-//ADG
-socket.on('CtoS BD adg zone code',function(data){
-  const temp = FC.ReadFileSync('public/BD_temp/pb_adg.txt');
-  const newHtml = temp+data.zonecode;
-  var url = '../BD_temp/adg/'+data.zoneid+'.html';
-  FC.writeFileSync('public/BD_temp/adg/'+data.zoneid+'.html',newHtml);
-  io.sockets.connected[socket.id].emit('StoC BD adg preview',{
-    url:url
+  //ADG
+  socket.on('CtoS BD adg zone code', function (data) {
+    const temp = FC.ReadFileSync('public/BD_temp/pb_adg.txt');
+    const newHtml = temp + data.zonecode;
+    var url = '../BD_temp/adg/' + data.zoneid + '.html';
+    FC.writeFileSync('public/BD_temp/adg/' + data.zoneid + '.html', newHtml);
+    io.sockets.connected[socket.id].emit('StoC BD adg preview', {
+      url: url
+    })
   })
-})
-socket.on('CtoS BD pb_adg', function (data) {
-  var s3 = require('../cusmodules/BD/up_s3_adg');
-  s3.adg(data.zone_code, data.id, io, socket);
-})
+  socket.on('CtoS BD pb_adg', function (data) {
+    var s3 = require('../cusmodules/BD/up_s3_adg');
+    s3.adg(data.zone_code, data.id, io, socket);
+  })
 
-//ADS
-socket.on('CtoS BD ads zone code',function(data){
-  const temp = FC.ReadFileSync('public/BD_temp/pb_ads.txt');
-  const newHtml = temp+data.zonecode;
-  var url = '../BD_temp/ads/'+data.zoneid+'.html';
-  FC.writeFileSync('public/BD_temp/ads/'+data.zoneid+'.html',newHtml);
-  io.sockets.connected[socket.id].emit('StoC BD ads preview',{
-    url:url
+  //ADS
+  socket.on('CtoS BD ads zone code', function (data) {
+    const temp = FC.ReadFileSync('public/BD_temp/pb_ads.txt');
+    const newHtml = temp + data.zonecode;
+    var url = '../BD_temp/ads/' + data.zoneid + '.html';
+    FC.writeFileSync('public/BD_temp/ads/' + data.zoneid + '.html', newHtml);
+    io.sockets.connected[socket.id].emit('StoC BD ads preview', {
+      url: url
+    })
   })
-})
-socket.on('CtoS BD pb_ads', function (data) {
-  var s3 = require('../cusmodules/BD/up_s3_ads');
-  s3.ads(data.zone_code, data.id, io, socket);
-})
+  socket.on('CtoS BD pb_ads', function (data) {
+    var s3 = require('../cusmodules/BD/up_s3_ads');
+    s3.ads(data.zone_code, data.id, io, socket);
+  })
 
-//ADX
-socket.on('CtoS BD adx zone code',function(data){
-  const temp = FC.ReadFileSync('public/BD_temp/pb_adx.txt');
-  const newHtml = temp+data.zonecode;
-  var url = '../BD_temp/adx/'+data.zoneid+'.html';
-  FC.writeFileSync('public/BD_temp/adx/'+data.zoneid+'.html',newHtml);
-  io.sockets.connected[socket.id].emit('StoC BD adx preview',{
-    url:url
+  //ADX
+  socket.on('CtoS BD adx zone code', function (data) {
+    const temp = FC.ReadFileSync('public/BD_temp/pb_adx.txt');
+    const newHtml = temp + data.zonecode;
+    var url = '../BD_temp/adx/' + data.zoneid + '.html';
+    FC.writeFileSync('public/BD_temp/adx/' + data.zoneid + '.html', newHtml);
+    io.sockets.connected[socket.id].emit('StoC BD adx preview', {
+      url: url
+    })
   })
-})
-socket.on('CtoS BD pb_adx', function (data) {
-  var s3 = require('../cusmodules/BD/up_s3_adx');
-  s3.adx(data.zone_code, data.id, io, socket);
-})
+  socket.on('CtoS BD pb_adx', function (data) {
+    var s3 = require('../cusmodules/BD/up_s3_adx');
+    s3.adx(data.zone_code, data.id, io, socket);
+  })
   //======================================================
   //======================管理DemoPage 設定檔==============
   //======================================================
@@ -467,41 +467,7 @@ socket.on('CtoS BD pb_adx', function (data) {
 
   })
   //================圖文 300250==========================
-  socket.on('CtoS img content 300250', function (data) {    
-    var temp_300250 = FC.ReadFileSync('public/html_template/imgcontent/300250.txt');
-    var code_300250 = temp_300250.replace('@@TITLE@@',data.title);
-    code_300250 = code_300250.replace('@@CONTENT@@',data.content);
-    code_300250 = code_300250.replace('@@CUSTOMER@@',data.customer);
-    code_300250 = code_300250.replace('@@BTN@@',data.btntext);
-    code_300250 = code_300250.replace('@@IMG@@', data.url);
-
-    var temp_300100 = FC.ReadFileSync('public/html_template/imgcontent/300100.txt');
-    var code_300100 = temp_300100.replace('@@TITLE@@',data.title);
-    code_300100 = code_300100.replace('@@CONTENT@@',data.content);
-    code_300100 = code_300100.replace('@@CUSTOMER@@',data.customer);
-    code_300100 = code_300100.replace('@@BTN@@',data.btntext);
-    code_300100 = code_300100.replace('@@IMG@@', data.url);
-
-    var temp_320100 = FC.ReadFileSync('public/html_template/imgcontent/320100.txt');
-    var code_320100 = temp_320100.replace('@@TITLE@@',data.title);
-    code_320100 = code_320100.replace('@@CONTENT@@',data.content);
-    code_320100 = code_320100.replace('@@CUSTOMER@@',data.customer);
-    code_320100 = code_320100.replace('@@BTN@@',data.btntext);
-    code_320100 = code_320100.replace('@@IMG@@', data.url);
-
-    var temp_320480 = FC.ReadFileSync('public/html_template/imgcontent/320480.txt');
-    var code_320480 = temp_320480.replace('@@TITLE@@',data.title);
-    code_320480 = code_320480.replace('@@CONTENT@@',data.content);
-    code_320480 = code_320480.replace('@@CUSTOMER@@',data.customer);
-    code_320480 = code_320480.replace('@@BTN@@',data.btntext);
-    code_320480 = code_320480.replace('@@IMG@@', data.url);
-
-    var temp_970250 = FC.ReadFileSync('public/html_template/imgcontent/970250.txt');
-    var code_970250 = temp_970250.replace('@@TITLE@@',data.title);
-    code_970250 = code_970250.replace('@@CONTENT@@',data.content);
-    code_970250 = code_970250.replace('@@CUSTOMER@@',data.customer);
-    code_970250 = code_970250.replace('@@BTN@@',data.btntext);
-    code_970250 = code_970250.replace('@@IMG@@', data.url);
+  socket.on('CtoS img content 300250', function (data) {
 
     if (FC.Exists('public/UserProfile/' + data.user + '/Project') == false) {
       FC.MkdirSync('public/UserProfile/' + data.user + '/Project');
@@ -513,44 +479,59 @@ socket.on('CtoS BD pb_adx', function (data) {
     var mm = date.getMinutes();
     var SS = date.getSeconds();
 
-    var File_300100 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文300100.txt';
-    var File_320100 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文320100.txt';
-    var File_300250 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文300250.txt';
-    var File_320480 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文320480.txt';
-    var File_970250 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文970250.txt';
+    var path_prefix = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS +'_圖文';
 
-    FC.writeFileSync(File_300250, code_300250);
-    FC.writeFileSync(File_300100, code_300100);
-    FC.writeFileSync(File_320100, code_320100);
-    FC.writeFileSync(File_320480, code_320480);
-    FC.writeFileSync(File_970250, code_970250);
+    var N_prefix = 'UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS +'_圖文';
 
-    var H_File_300100 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文300100.html';
-    var H_File_320100 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文320100.html';
-    var H_File_300250 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文300250.html';
-    var H_File_320480 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文320480.html';
-    var H_File_970250 = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_圖文970250.html';
+    var arr = ['300100','320100','300250','320480','970250'];
 
-    FC.writeFileSync(H_File_300250, code_300250);
-    FC.writeFileSync(H_File_300100, code_300100);
-    FC.writeFileSync(H_File_320100, code_320100);
-    FC.writeFileSync(H_File_320480, code_320480);
-    FC.writeFileSync(H_File_970250, code_970250);
-    
-    var NH_File_300100 = H_File_300100.replace('public/','');
-    var NH_File_320100 = H_File_320100.replace('public/','');
-    var NH_File_300250 = H_File_300250.replace('public/','');
-    var NH_File_320480 = H_File_320480.replace('public/','');
-    var NH_File_970250 = H_File_970250.replace('public/','');
+    var arr2 = [];
+    var arr3 = [];
+    for(var i =0;i<arr.length;i++){
+      var temp = FC.ReadFileSync('public/html_template/imgcontent/'+arr[i]+'.txt');
+      temp = temp.replace('@@TITLE@@', data.title);
+      temp = temp.replace('@@CONTENT@@', data.content);
+      temp = temp.replace('@@CUSTOMER@@', data.customer);
+      temp = temp.replace('@@BTN@@', data.btntext);
+      temp = temp.replace('@@IMG@@', data.url);
+      FC.writeFileSync(path_prefix + arr[i] +'.txt', temp);
+      FC.writeFileSync(path_prefix + arr[i] +'.html', temp);
+      arr2.push(N_prefix+arr[i]+'.html');
+      arr3.push(path_prefix+arr[i] +'.txt');
+    }
+
+
 
     io.sockets.connected[socket.id].emit('StoC im content preview', {
-      pre_url : [
-        NH_File_300100,NH_File_320100,NH_File_300250,NH_File_320480,NH_File_970250
-      ],
-      download_url:[
-        File_300100,File_320100,File_300250,File_320480,File_970250
-      ]
+      pre_url: arr2,
+      download_url: arr3
     })
+
+  })
+
+
+
+  //================圖文 300250 改顏色==========================
+  socket.on('CtoS img content bkg_300250', function (data) {
+    var id = data.id;
+    var src = data.src;
+    src = src.replace('../', 'public/');
+    var temp_300250 = FC.ReadFileSync(src);
+
+
+    var $ = cheerio.load(temp_300250);
+    if(data.id == "pre_320480"){
+      $("#content").css('background-color', data.bkc_300250);
+    }else{
+      $('body').css('background-color', data.bkc_300250);
+    }
+    
+    var ht = $.html();
+    fs.writeFile(src, ht, function () {
+      io.sockets.connected[socket.id].emit('StoC im content preview chg bkg',{
+        id:id
+      })
+    });
 
   })
 

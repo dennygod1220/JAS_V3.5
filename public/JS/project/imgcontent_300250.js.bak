@@ -74,7 +74,7 @@ $("#btn_sure").click(function () {
 })
 //Server 丟出 圖文 預覽
 socket.on('StoC im content preview', function (data) {
-  // $("#second_form").css('display', 'none');
+  $("#second_form").css('display', 'none');
   $("#preview").css('display', 'block');
   $("#download_block").css('display', 'block');
 
@@ -101,7 +101,9 @@ socket.on('StoC video convert has error', function () {
   $("#btn_send").css('display', 'block');
 })
 
-function chg_bkc(id, id2) {
+
+$("#bkg_300250").change(function () {
+
   socket.emit('CtoS img content bkg_300250', {
     url: $("#img_url").text(),
     title: $("#title").val(),
@@ -109,28 +111,12 @@ function chg_bkc(id, id2) {
     customer: $("#customer").val(),
     btntext: $("#btntext").val(),
     user: $("#username").text().trim(),
-    bkc_300250: $("#" + id2).val(),
-    src: $("#" + id).attr('src'),
-    id: id
+    bkc_300250: $("#bkg_300250").val(),
+    src: $("#pre_300250").attr('src')
   })
-}
+})
 
-$("#bkg_300100").change(function () {
-  chg_bkc('pre_300100', 'bkg_300100')
-});
-$("#bkg_320100").change(function () {
-  chg_bkc('pre_320100', 'bkg_320100')
-});
-$("#bkg_300250").change(function () {
-  chg_bkc('pre_300250', 'bkg_300250')
-});
-$("#bkg_320480").change(function () {
-  chg_bkc('pre_320480', 'bkg_320480')
-});
-$("#bkg_970250").change(function () {
-  chg_bkc('pre_970250', 'bkg_970250')
-});
 
-socket.on('StoC im content preview chg bkg', function (data) {
-  $('#' + data.id).attr('src', $('#' + data.id).attr('src'));
+socket.on('StoC im content preview chg bkg', function () {
+  $('#pre_300250').attr('src', $('#pre_300250').attr('src'));
 })
