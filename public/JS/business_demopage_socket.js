@@ -167,6 +167,10 @@
           $("#zone_ch_block").css('display', 'block');
           $("#cus_zone_block").css('display','none');
         }
+        else if(this.device == 'phone' && this.zonesize == '320480' && this.site == '台灣英文新聞'){
+          $("#zone_ch_block").css('display', 'block');
+          $("#cus_zone_block").css('display','none');
+        }
          else {
            $("#cus_zone_block").css('display','block');
           $("#zone_ch_block").css('display', 'block');
