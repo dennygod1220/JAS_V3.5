@@ -37,7 +37,7 @@ function only_download_site(url,SiteName,phone){
             // zip.addLocalFile('public/DownLoadSite/'+SiteName);
             // zip.writeZip('public/DownLoadSiteZIP/'+SiteName+'.zip');  
         },1000)
-        console.log('下載')
+        console.log('下載完成')
       }).catch(console.log);
 }
 

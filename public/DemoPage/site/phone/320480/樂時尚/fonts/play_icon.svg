@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>play_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.999729%" id="linearGradient-1">
+            <stop stop-color="#CFBAE5" stop-opacity="0.85" offset="0%"></stop>
+            <stop stop-color="#8C4593" stop-opacity="0.85" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="embeddedplayer_hover" transform="translate(-120.000000, -85.000000)">
+            <g id="play_icon" transform="translate(120.000000, 85.000000)">
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="2" fill="url(#linearGradient-1)" cx="30" cy="30" r="29"></circle>
+                <path d="M32.9868601,21.028153 L43.6134577,37.4510767 C44.0334989,38.1002312 43.8477658,38.9669855 43.1986113,39.3870267 C42.97204,39.5336316 42.7079253,39.6116285 42.4380595,39.6116285 L21.1848642,39.6116285 C20.4116655,39.6116285 19.7848642,38.9848271 19.7848642,38.2116285 C19.7848642,37.9417626 19.862861,37.677648 20.0094659,37.4510767 L30.6360636,21.028153 C31.0561048,20.3789985 31.9228591,20.1932654 32.5720136,20.6133066 C32.7380431,20.7207374 32.8794292,20.8621235 32.9868601,21.028153 Z" id="Triangle" fill="#FFFFFF" transform="translate(31.811545, 30.000083) rotate(-270.000000) translate(-31.811545, -30.000083) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

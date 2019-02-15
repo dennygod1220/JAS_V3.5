@@ -27,3 +27,96 @@ setTimeout(function () {
 }, 1000);
 
 </script>
+
+
+
+
+
+<!-- DFP的關閉紐 -->
+
+
+<style>
+.css_pagead_bg 
+{
+    /*position: absolute;*/
+    position: fixed;
+    z-index: 10000010;
+    background-color: rgba(0, 0, 0, 0.5); /*transparent;*/
+    height: 100%;
+    width: 200%;
+    min-height:1280px;
+    top: 0;
+    left: 0;
+}
+.css_pagead_adarea 
+{
+    position:absolute;
+    z-index:100000050;
+    /*border:1px solid red;*/
+    width:320px;
+    /*height:480px;*/
+    display: table;         
+    /*display:none;*/    
+}
+.css_pagead_adkeep 
+{
+    width:320px;
+    /*height:563px;*/
+    /*border:1px solid red;*/
+}
+
+.css_pagead_close 
+{
+    position:absolute;
+    z-index:100000060;
+    /*border:1px solid red;*/
+    width:70px;
+    height:70px;
+    top:0px;
+    right:0px; 
+    cursor: pointer;    
+    background-size: 50px 50px;
+    background-image: url(//pagead.chinatimes.com/images/close.png);
+    opacity:0.5;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.01);
+    color: transparent;
+}
+
+
+</style>
+<link rel="stylesheet" href="http://pagead.chinatimes.com/slot/dfp/style_dfp.css?20190215093241">
+<ins style="display:inline-block;width:320px;height:480px;left:0;top:20px;width: 100%;" data-ad-zone="8725" class="clickforceads"
+id="mycover"></ins>
+<script async type="text/javascript" src="//cdn.doublemax.net/js/init.js"></script>
+
+<script>
+setTimeout(function () {
+  var mycover = document.getElementById('mycover');
+  mycover.setAttribute('style',
+    'width:100%;height:100%;left:0;top:0;position: fixed;z-index: 999999;text-align: center;');
+  console.log(mycover.childNodes[0].childNodes);
+  var b = document.createElement('div');
+  b.setAttribute('style',
+    'opacity: 0.3; background: rgb(0, 0, 0); top: 0px; cursor: pointer; z-index: 999999; width: 100%; height: 100%; position: fixed; left: 0px;'
+  );
+  mycover.appendChild(b);
+  mycover.childNodes[0].setAttribute('style',
+    'width: 320px;margin: 30px auto;z-index: 9999999;position: relative;');
+  var c = document.createElement('div');
+  c.innerHTML = "X";
+//   c.setAttribute('style',
+//     'position: absolute;top:0px; width: 50px; height: 50px; cursor: pointer; z-index: 99999999; background: rgb(255, 255, 255); opacity: 0.7; font-size: 40px; line-height: 50px; text-align: center; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; border-radius: 99em; border: 2px solid rgb(0, 0, 0);'
+//   )
+c.setAttribute('class','css_pagead_close');
+  mycover.childNodes[0].appendChild(c);
+
+
+}, 1000);
+
+</script>
+
+
+<!-- 經理人的 -->
+<img src="//cdn2.sales-frontier.com/adtype/pdpopup/close-button.png" style="width:45px;height:45px;cursor:pointer;">

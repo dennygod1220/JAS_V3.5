@@ -193,8 +193,8 @@
         block(this.device,this.zonesize,this.site,'商周');
         block(this.device,this.zonesize,this.site,'台灣英文新聞');
         block(this.device,this.zonesize,this.site,'潮人物');
-
-
+        block(this.device,this.zonesize,this.site,'樂時尚');
+        block(this.device,this.zonesize,this.site,'良醫健康網');
 
       },
     }
