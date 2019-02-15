@@ -1,0 +1,363 @@
+﻿h1, h2, h3, h4 {font-weight: 100}
+small, .small{font-size: 80%}
+a {
+    text-decoration: none;
+    outline: none;
+}
+a:link, a:visited {
+    color: #000;
+}
+a:hover {
+    color: #cd0505;
+}
+button, a {border: none;outline: none}
+.clear {clear: both;}
+.clearfix:after, .article_item:after, .topnav:after {
+	content: ".";
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+.thumb {display: block}
+.thumb img {width: 100%}
+.text-right {text-align: right}
+.buttnoStyle, a.buttnoStyle {
+	background: #cd0505;
+	display: inline-block;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0 12px;
+	line-height: 2em;
+	color: #FFF
+}
+
+.header_top, .header_main, .main_nav, .maincontent, .topad, .bottomad, .relatedpost .wrapper, .desktop-nav > ul, .footer-1200 { max-width:1200px; margin:0 auto;width: 90% }
+/* head */
+.desktop-nav > ul > li.blackstyle { background: #333 }
+.desktop-nav > ul > li.blackstyle {border-right: 1px solid #555;}
+.header_content {border-bottom: #cd0505 1px solid;}
+
+/**/
+.statustop {font-size: 15px;padding: 10px 0 20px;} /*20160607*/
+.statustop .path {
+    color: #AAA;
+    float: left;
+    overflow: hidden;
+}
+.statustop .path span.title, .statustop .path a {
+    background: url(../images/arrowformore_2.png) right -39px no-repeat;
+    padding-right: 15px;
+}
+.statustop .path span.title {
+    color: #AAA;
+}
+.statustop .msg {
+    color: #555;
+    float: right;
+    text-align: right;
+    white-space: nowrap;
+    width: 300px;
+    overflow: hidden;
+}
+.contbody .msg {
+    background-color: #EDEDED;
+    line-height: 32px;
+    margin-bottom: 15px;
+    padding: 0 8px;
+    height: 32px;
+}
+.msg a {
+    padding: 0 5px;
+}
+.statustop .public, .statustop .public a {
+    padding-left: 4px;
+}
+.contbody {
+    float: left;
+	width: calc(99.999999% - 400px); /*20160607*/
+}
+.mainL_content, .mainR_content {
+    border-top: 10px solid #e6e6e6;
+}
+.area_name, .area_name a {
+    color: #cd0505;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.channelname {
+	color: #cd0505;
+	border-bottom: #cd0505 5px solid;
+	padding-bottom: 5px;
+}
+.channelname h1, .channelname h2, .channelname div {
+	/*font-weight: 100;*//*20160725*/
+    font-size: 1.5rem;/*20160607*/
+	line-height: 1.5rem;
+}
+.channelname div { font-weight: 100; }
+
+.channelname.clearfix h1, .channelname.clearfix h2, .channelname.clearfix div {
+	float: left;
+	margin-top: 10px;
+}
+.channelname.clearfix .sortView {
+	float: right
+}
+.channelname small {font-size:1rem ; border-left:1px solid #cd0505; padding-left:10px; line-height: 1rem; margin-left:10px;}/*20160607*/
+
+/* side */
+.sidebar {
+	float: right;
+	width: calc(99.999999% * 3/10);
+	max-width: 350px;
+	border: #DDD 1px solid;
+	padding: 25px
+}
+.mainR_content {
+    border-top: 10px solid #e6e6e6;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.promoR li a {
+    background: url(../images/red-li.png) 0 5px no-repeat;
+    padding-left: 17px;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #666;
+    text-align: left;
+}
+.bw_event {
+    width: 100%;
+    height: auto;
+	text-align: center;
+    margin: 0 auto;
+}
+.bw_event .bwevent-txt {
+	border: #CCC 1px solid;
+	border-top: none;
+	padding: 5px 15px 15px;
+}
+.bw_event .bwevent-txt h4 {
+	font-size: 1.35rem;
+	margin-bottom: 5px;
+}
+.bw_event .bwevent-txt small {
+	display: block;
+	font-size: 0.8rem;
+	margin-top: -5px;
+}
+.bookList {border-bottom: #CCC 2px solid;}
+.bookList .bookitem:last-child {margin-bottom: 0}
+.bookitem {
+	clear: both;
+	border-bottom: #CCC 1px solid;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+.bookitem .thumb {
+	float: left;
+	width: 40%;
+	margin-right: 15px
+}
+.bookitem h4 {font-size: 0.95rem;line-height: 1.35em}
+.bookitem .sort {font-size: 0.7rem;margin: 10px auto}
+.bookitem .addToCart strong {font-size: 1.15rem;margin-top: 4px;display: inline-block}
+.bookitem .buttnoStyle {float: right;font-size: 0.8rem;}
+
+/* AD */
+.topad .container, .bottomad .container, .leftcolumn_ad, .contad {margin: 30px auto;text-align: center}
+.topad span, .sidead span, .bottomad span, .leftcolumn_ad span, .contad span {
+    background: url(../images/ad_text.gif) 0 0 no-repeat;
+    color: gray;
+    display: block;
+    font-size: 8px;
+    text-indent: -9999em;
+    width: 62px;
+    height: 10px;
+}
+.sidebar .sidead:first-child {margin-bottom: 25px}
+.bw_ad {text-align: center;}
+.bw_ad a strong {
+	background-color: #CD0505;
+	display: inline-block;
+	padding: 5px 15px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	color: #FFF;
+	margin-right: 5px
+}
+
+/* List */
+.sortView {
+	position: relative;
+	top:0px;
+	
+}
+.sortView a {
+	border: #CCC 1px solid;
+	padding: 0;
+    font-size: 1rem;
+    color: #555;
+    display: inline-block;
+	padding: 6px 12px;
+	text-align: center;
+}
+.sortView a:hover {color: #000;}
+.sortView a:first-child {
+	border-right: none
+}
+.sortView a.select {
+	background: #F0F0F0;
+	color: #000;
+	-moz-box-shadow: inset 0 0 5px #CCC;
+	-webkit-box-shadow: inset 0 0 5px #CCC;
+	box-shadow:
+}
+.articleType {
+	border-bottom: #CCC 1px solid;
+	margin: 2rem auto;
+	padding-bottom: 30px;
+}
+.articleType .thumb {
+	float: right;
+	margin-left: 25px;
+	width: 40%;
+}
+.articleType .articleDetail p {font-size: 0.95rem;line-height: 1.75em;text-align: justify;text-justify: distribute;}
+.articleType .articleDetail p a {text-decoration: underline}
+.articleType h1 {font-size: 1.45rem;line-height: 1.25em}
+.articleType h1 small {display: block;font-size: 1rem}
+.articleType .articleInfo {font-size: 0.75rem;color: #888;overflow: hidden;margin: 12px auto}
+.articleType .bottomtoolbar {border-top: #CCC 1px dotted;font-size: 0.8rem;padding-top: 10px;margin-top: 20px;color: #555}
+.articleType .socialshare > div {margin-left: 15px;float: left}
+.articleType .bottomtoolbar .socialshare a {color: #888}
+.articleType .socialshare > div span {font-size: 1.25rem;padding: 0 0 0 5px;color: #333}
+.articleType .bottomtoolbar .socialshare a:hover, .articleType .bottomtoolbar .socialshare a:hover span {color: #CD0505}
+.articleType .bottomtoolbar .tag {float: left}
+.articleType .bottomtoolbar .socialshare {float: right}
+.gridView {margin: 0 -2%}
+.gridView .articleType {float: left;margin: 1.25rem 2%;width: 46%}
+.gridView .articleType .thumb {float: none;width: 100%;margin: 0 auto 10px}
+
+/* page nav */
+.pagination {
+    clear: both;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+.pagination li {
+    color: #AAA;
+    display: inline;
+}
+.pagination a, .pagination .select, .pagination span  {
+	display: inline-block;
+	line-height: 40px;
+	width: 40px;
+	height: 40px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.pagination a  {
+	background-color: #DDD;
+}
+.pagination .select {
+    background-color: #AF0000;
+	color: #FFF;
+}
+.pagination a:hover {
+    background-color: #333;
+    color: #FFF;
+}
+.pagination li.first a:hover, .pagination li.last a:hover {
+    color: #333;
+}
+
+/* tag */
+.tag li {
+    float: left;
+    padding: 0 6px 5px 0;
+}
+.tag li a {
+	border: #333 1px solid;
+    line-height: 100%;
+	padding: 0px 15px;
+	display: block;
+    line-height: 2em;
+}
+.tag li a:hover {
+	background: #CD0505;
+	color: #FFF;
+	border-color: #CD0505;
+}
+
+/*文內連結*/
+a.redlk{ color:#cd0505; text-decoration: underline; padding:0 5px;}
+a.redlk:hover { color:#b40505; text-decoration:none;}
+
+/* RSS */
+.featuredGrid li {
+ float: left;
+ width: 23%;
+ margin: 20px 2.5% 10px 0;
+}
+.featuredGrid li:nth-child(4n+0) {
+ margin: 20px 0 10px
+}
+.featuredGrid li a {
+ border: #CCC 1px solid;
+ padding: 1.75em;
+ display: block;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ color: #333;
+}
+.featuredGrid .bw a {border-top: #CD0505 5px solid}
+.featuredGrid .wealth a {border-top: #facd0f 5px solid}
+.featuredGrid .smart a {border-top: #F60 5px solid}
+.featuredGrid .golf a {border-top: #18552C 5px solid}
+.featuredGrid .bw a:hover {border-color: #CD0505;color: #FFF;background: #CD0505}
+.featuredGrid .wealth a:hover {border-color: #facd0f;color: #FFF;background: #facd0f}
+.featuredGrid .smart a:hover {border-color: #F60;color: #FFF;background: #F60}
+.featuredGrid .golf a:hover {border-color: #18552C;color: #FFF;background: #18552C}
+.featuredGrid li strong {display: block;margin: 0.5em auto 1.5em;font-size: 1.35em;font-weight: 400}
+.featuredGrid .line {border-bottom: 1px #333 solid;display: inline-block;padding-bottom: 4px;text-decoration: none;}
+.featuredGrid a:hover .line {border-color: #FFF}
+.text-center {text-align: center}
+.note {
+ background: #F0F0F0;
+ margin: 3em auto;
+ padding: 2em;
+ line-height: 200%;
+}
+.note > p {margin: 1.25em auto 0.75em}
+.note .rule {
+ border-top: #CCC 1px dotted;
+ padding: 1em 0 0 18px;
+ list-style-type: square
+}
+.line {text-decoration: underline}
+
+/* Media queries */
+@media screen and (max-width: 1024px) {
+	body {font-size: 15px}
+}
+
+@media screen and (max-width: 768px) {
+ h1, h2, h3, h4 {font-weight:700;}
+ .statustop .path { display:none;}
+ .contbody {
+    float: none;
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 667px) {
+}

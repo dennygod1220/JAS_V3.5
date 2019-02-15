@@ -4,6 +4,13 @@
   var site_arr = [];
 
 
+  function block(d,z,s,sitename){
+    if(d == 'phone' && z == '320480' && s == sitename){
+      $("#zone_ch_block").css('display', 'block');
+      $("#cus_zone_block").css('display','none');
+    }
+  }
+
   var app = new Vue({
     // el: "#demopage_choise",
     el: "#home",
@@ -159,22 +166,36 @@
       },
       //是否顯示 自訂版位或預設版位
       display_df_zone_block: function () {
+
+
+
         if (this.device == '' || this.zonesize == '' || this.site == '') {
           $("#zone_ch_block").css('display', 'none');
           $("#cus_zone_block").css('display','none');
         }
-        else if(this.device == 'phone' && this.zonesize == '320480' && this.site == '潮人物'){
-          $("#zone_ch_block").css('display', 'block');
-          $("#cus_zone_block").css('display','none');
-        }
-        else if(this.device == 'phone' && this.zonesize == '320480' && this.site == '台灣英文新聞'){
-          $("#zone_ch_block").css('display', 'block');
-          $("#cus_zone_block").css('display','none');
-        }
+        // else if(this.device == 'phone' && this.zonesize == '320480' && this.site == '潮人物'){
+        //   $("#zone_ch_block").css('display', 'block');
+        //   $("#cus_zone_block").css('display','none');
+        // }
+        // else if(this.device == 'phone' && this.zonesize == '320480' && this.site == '台灣英文新聞'){
+        //   $("#zone_ch_block").css('display', 'block');
+        //   $("#cus_zone_block").css('display','none');
+        // }
+        // else if(this.device == 'phone' && this.zonesize == '320480' && this.site == 'juksy_m'){
+        //   $("#zone_ch_block").css('display', 'block');
+        //   $("#cus_zone_block").css('display','none');
+        // }
          else {
            $("#cus_zone_block").css('display','block');
           $("#zone_ch_block").css('display', 'block');
         }
+        block(this.device,this.zonesize,this.site,'juksy_m');
+        block(this.device,this.zonesize,this.site,'商周');
+        block(this.device,this.zonesize,this.site,'台灣英文新聞');
+        block(this.device,this.zonesize,this.site,'潮人物');
+
+
+
       },
     }
   })

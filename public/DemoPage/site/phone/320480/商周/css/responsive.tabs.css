@@ -1,0 +1,193 @@
+.bwtabs_wrp {
+	width: 560px;
+	margin: 0 auto;
+
+}
+.tab-content p, .accordion-content p { margin-bottom:10px; }
+
+.tabs-list { list-style:none; }
+
+.tabs-list li {
+  float: left;
+  width: 33.33333%;
+  border-right: 4px solid #fff;
+  box-sizing: border-box;
+  text-align: center;
+}
+.tabs-list li:last-child{
+	border: none;
+}
+.tabs-list li a {
+   display:block;
+   height:2.4rem;
+   line-height:2.8rem;
+   background-color:#f0f0f0;
+   color:#b4b4b4;
+   text-decoration:none;
+   font-size:1.125rem;
+   transition:all 0.4s ease 0s;
+    }
+
+.tabs-list li a:hover { background-color:#e6e6e6; color:#cd0505; }
+.tabs-list li.active a { background-color:#e6e6e6; color:#cd0505; }
+.tabs-list li.focus a { color: #9c896c;  }
+.tabs-list li.focus a:before{
+	content:"NEW";
+	display: inline-block;
+	padding: 2px;
+	margin-right: 5px;
+	border: 1px solid #9c896c;
+	color: #9c896c;
+	font-size: 12px;
+	line-height: 1em;
+	transform: translateY(-3px);
+	-webkit-transform: translateY(-3px);
+	-moz-transform: translateY(-3px);
+}
+.tabs-list li.focus a:hover { color: #333; }
+
+.tab-content { margin:3px 0 15px;background-color:#e6e6e6; padding:10px; color:#000; font-size:1.125rem; line-height:1.65rem;}
+
+
+/*++ add 20160530 ++*/
+.tab_photo_wrp{
+    width:100%;
+    overflow:hidden;
+	margin-bottom:20px;
+}
+.tab_photo{
+	float:left;
+    width:250px;
+    margin:0 10px;
+    overflow:hidden;
+}
+.tab_photo.tab_photo_full{
+  width: 100%;
+  margin: 0;
+}
+.tab_photo a img{
+	max-width:100%;
+	margin-bottom:5px;
+}
+.tab-content p a{
+    text-decoration:none;
+    color:#000;
+}
+.tab-content p a:hover{
+	text-decoration: none;
+	color:#cd0505;
+}
+.tab-content li a{
+	display:block;
+	color:#000;
+	padding:.6rem 0;
+	border-top:1px dotted rgba(0,0,0,.1);
+	margin:0 10px;
+	text-decoration:none;
+}
+.tab-content li a:hover{
+	color:#cd0505;
+	text-decoration:none;
+}
+
+ins { text-decoration: none; }
+
+.bwtabs .accordion-handle { display:none; }
+
+.tabs-vertical-left, .tabs-vertical-right { *zoom:1; }
+.tabs-vertical-left:before, .tabs-vertical-left:after, .tabs-vertical-right:before, .tabs-vertical-right:after { visibility:hidden; display:block; font-size:0;content:" "; clear:both; height:0; }
+.tabs-vertical-left .tabs-list, .tabs-vertical-right .tabs-list { width:25%; }
+.tabs-vertical-left .tabs-list li, .tabs-vertical-right .tabs-list li { display:block; margin:0 0 5px 0; width:100%; }
+.tabs-vertical-left .tabs-list li a, .tabs-vertical-right .tabs-list li a { height:auto; padding:8px 20px; line-height:1.5; }
+.tabs-vertical-left .tabs-container, .tabs-vertical-right .tabs-container { width:75%; }
+.tabs-vertical-left .tabs-list { float:left; }
+.tabs-vertical-left .tabs-container { float:right; }
+.tabs-vertical-left .tabs-container .tab-content { margin:0 0 0 15px; }
+.tabs-vertical-right .tabs-list { float:right; }
+.tabs-vertical-right .tabs-container { float:left; }
+.tabs-vertical-right .tabs-container .tab-content { margin:0 15px 0 0; }
+
+.accordion-handle { position:relative; margin-bottom:10px; background-color:#f5f5f5; text-decoration:none; color:#b4b4b4; cursor:pointer; transition:all 0.4s ease 0s; }
+.accordion-handle:hover { background-color:#e6e6e6; color:#fff; }
+.accordion-handle.active { background-color:#e6e6e6; color:#cd0505;  }
+.accordion-handle i { display:block; width:38px; height:38px; overflow:hidden; position:absolute; right:0; top:0; background:url(../404.aspx) no-repeat top center; }
+.accordion-handle.active i { background-position:bottom center; }
+.accordion-content { margin-bottom:15px; display:none; }
+
+@media only screen and ( max-width:1024px ){
+  .bwtabs_wrp { width:100%; margin:0 auto;}
+  /*.tabs-list li { width: 24%; text-align: center; }*/
+  .tabs-list li a {   height:2.5rem; line-height:2.5rem;  padding:0;  font-size:1rem; }
+  .tab_photo{float:left;width:calc(50% - 20px);margin:0 10px; }
+}
+@media only screen and ( max-width:1024px ) and ( min-width:769px ){
+  .tabs-list li.focus a:before { display: none; }
+}
+@media only screen and ( max-width: 600px ) {
+  .tabs-list li a { font-size: .9rem }
+  .tabs-list li.focus a:before { padding: 0; border: none; margin-left: 2px; transform: translateY(-2px) scale(.8); -webkit-transform: translateY(-2px) scale(.8); -moz-transform: translateY(-2px) scale(.8); }
+}
+@media only screen and ( max-width:480px ){
+ .tab-content { margin:3px 0 15px;padding:10px; color:#000; font-size:.9rem; line-height:1.3rem;}
+  .tabs-list li a {   height:2rem; line-height:2rem; }
+  .tabs-list li.focus a:before { display: none; }
+
+}
+@media only screen and ( max-width:400px ){
+	/*.tabs-list li { width: 23.7%; }*/
+  .tabs-list li a { font-size:.8rem; }
+}
+
+@media only screen and ( max-width:320px ){
+  .tabs-list li a {   font-size:.7rem; }
+  .tab_photo{float:left;width:calc(50% - 10px);margin:0 5px; }
+}
+
+/*@media only screen and ( max-width:550px ){
+	.responsive-tabs .tabs-list { display:none; }
+	.responsive-tabs .accordion-handle { display:block;}
+	.responsive-tabs.tabs-vertical-left .tabs-container, .responsive-tabs.tabs-vertical-right .tabs-container { width:100%; float:none; }
+	.responsive-tabs.tabs-vertical-left .tabs-container .tab-content, .responsive-tabs.tabs-vertical-right .tabs-container .tab-content { margin:3px 0 15px; }
+}*/
+
+/* 首頁 .bwtabs 第一個增加 .more */
+.bwtabs .tab-content > ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+.bwtabs .tab-content > ul a {
+	padding: .45rem 0;
+}
+.bwtabs .tab-content > ul a.more {
+	padding: 0;
+	background-color: #dcdcdc;
+	border-top: 0;
+	text-align: center;
+	font-size: 85%;
+	color: #cd0505;
+}
+.bwtabs .tab-content > ul a.more:hover,
+.bwtabs .tab-content > ul a.more:focus {
+	background-color: #B40505;
+	color: #FFF;
+}
+@media screen and (min-width: 1025px) {
+	.bwtabs .tab-content > ul {
+		min-height: 184.75px;
+		max-height: 184.75px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.bwtabs .tab-content > ul {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+}
