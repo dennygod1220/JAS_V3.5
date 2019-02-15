@@ -26,6 +26,8 @@ Route.group(() => {
   Route.get('/BD/pb_adg',({view})=> view.render('BD/pb_adg'));
   Route.get('/BD/pb_ads',({view})=> view.render('BD/pb_ads'));
   Route.get('/BD/pb_adx',({view})=> view.render('BD/pb_adx'));
+  //許願清單
+  Route.get('/wish', ({view}) => view.render('Wish/index'));
   //下載檔案
   Route.get('/Project/download/public/UserProfile/:user/Project/:filename','ProjectController.downloadContentCover_nobanner');
   Route.get('/Project/download/public/UserProfile/:user/Project/:filename','ProjectController.downloadimgcontent');

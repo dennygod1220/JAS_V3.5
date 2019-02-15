@@ -45,7 +45,42 @@
 
 <body>
   @include('layout/nav')
+<style>
 
+  @keyframes runrun{
+    0%{
+      opacity:0;
+    }
+    50%{
+      opacity:0.5;
+    }
+    50%{
+      opacity:1;
+    }
+    75%{
+      opacity:0.5;
+    }
+    100%{
+      opacity:0;
+    }
+  }
+#run_block{
+  overflow-x: hidden;
+}
+  #run_text{
+    white-space:nowrap;
+    color:#3c3737e0;
+    text-align:center;
+    animation: runrun 5s ;
+    animation-iteration-count: 2;
+    opacity:0;
+  }
+</style>
+<div id="run_block" style="width:100%;">
+  <div id="run_text">
+    <h5>2/15 更新 320480蓋板變多了歐!!</h5>
+  </div>
+</div>
   @!section('content')
 
 
