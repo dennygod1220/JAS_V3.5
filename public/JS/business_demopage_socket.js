@@ -8,6 +8,9 @@
     if(d == 'phone' && z == '320480' && s == sitename){
       $("#zone_ch_block").css('display', 'block');
       $("#cus_zone_block").css('display','none');
+    }else if(d == 'PC' && z == '800600' && s == sitename){
+      $("#zone_ch_block").css('display', 'block');
+      $("#cus_zone_block").css('display','none');
     }
   }
 
@@ -98,6 +101,11 @@
               break;
             case '970250':
               var url = '/DemoPage/site/' + this.device + '/' + this.zonesize + '/' + this.site + '/DefaultZone.html?cfadc=8727:' + this.matiral_id;
+              var win = window.open(url, '_blank');
+              win.focus();
+              break;
+            case '800600':
+              var url = '/DemoPage/site/' + this.device + '/' + this.zonesize + '/' + this.site + '/DefaultZone.html?cfadc=9125:' + this.matiral_id;
               var win = window.open(url, '_blank');
               win.focus();
               break;
@@ -195,6 +203,7 @@
         block(this.device,this.zonesize,this.site,'潮人物');
         block(this.device,this.zonesize,this.site,'樂時尚');
         block(this.device,this.zonesize,this.site,'良醫健康網');
+        block(this.device,this.zonesize,this.site,'少女前線');
 
       },
     }
