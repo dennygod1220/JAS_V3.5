@@ -10,6 +10,7 @@ class Displayusername {
    * @param {Function} next
    */
   async handle({request,auth,response}, ctx, next) {
+    // console.log(ctx);
     
     await next()
   }

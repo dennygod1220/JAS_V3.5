@@ -1,0 +1,529 @@
+::-moz-selection{ background: #FF5E99; color:#FFF; text-shadow: none; }
+::selection { background:#FF5E99; color:#FFF; text-shadow: none; }
+
+.navbar-inverse .navbar-brand {
+  color: #EEE;
+}
+.rss {
+  width: 17px;
+  height: 17px;
+  display:inline-block;
+  background: url('../fonts/rss.svg') no-repeat 0 0;
+  background-size: 100%;
+  margin-right: 3px;
+  vertical-align: top;
+}
+.font70 {
+  font-size: 12px;
+}
+
+
+
+.news_list .media-left{
+  width: 150px;
+  height: 100px;
+  min-width: 150px;
+}
+.news_list .media-object{
+  max-width: 140px;
+  max-height: 100px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  padding: 2px;
+}
+.news_list .media-body small{
+  color: #555;
+}
+.news_list .empty_image {
+  width: 140px;
+  height: 80px;
+  background-color: #EEE;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+
+
+.download {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.download li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.btn-default {
+  background-color: #FFF;
+  background-image: none;
+  color: #333333;
+}
+.btn-default.active, .btn-default:active, .btn-default.active:hover, .btn-default:hover {
+  background-color: #555;
+  background-image: none;
+  color: #FFF;
+}
+
+.tips b {
+  color: #CE9000;
+  font-weight: bold;
+}
+
+
+a.gun_card {
+  display: block;
+  width: 128px;
+  height: 256px;
+  background-repeat: no-repeat;
+　background-attachment: fixed;
+　background-position: center;
+  /*background-size: 80%;*/
+  text-indent: -9999px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+a.gun_card:hover {
+  background-position: -128px 0;
+}
+a.gun_card_mini, a.mission_icon, a.fairy_icon {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-repeat: no-repeat;
+　background-attachment: fixed;
+　background-position: center;
+  /*background-size: 80%;*/
+  text-indent: -9999px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background-position: -42px -40px;
+  float: left;
+  margin-right: 5px;
+}
+a.gun_card_mini {
+  background-position: 0 0;
+}
+amp-img.gun_card_mini {
+  margin: 0 5px 0 0;
+  float: left;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+a.mission_icon {
+  background-size: 150%;
+  background-position: center;
+  width: 70px;
+  border: 1px solid #CCC;
+}
+a.fairy_icon {
+  background-size: 130%;
+  background-position: center;
+  /*width: 70px;*/
+  border: 1px solid #CCC;
+}
+.star2 {
+  color: #CCC;
+  border-color: #CCC;
+}
+.star3 {
+  color: #6FDDCA;
+  border-color: #6FDDCA;
+}
+.star4 {
+  color: #D2DF5B;
+  border-color: #D2DF5B;
+}
+.star5 {
+  color: #FFB400;
+  border-color: #FFB400;
+}
+span.ratio_value {
+  font-size: 12px;
+  color: #888;
+}
+td span.ratio_value {
+  display: block;
+}
+.mission_link_list small{
+  color: red;
+}
+.good_value {
+  color: green;
+  font-weight: bold;
+}
+.bad_value {
+  color: red;
+  font-weight: bold;
+}
+.h1-desc {
+  padding: 10px;
+  color: #FF5151;
+}
+
+div.equip_list {
+  float: left;
+  width: 148px;
+  padding: 5px 5px 5px 10px;
+  border-radius: 5px;
+}
+div.equip_list span {
+  font-size: 12px;
+  text-align: center;
+  display: block;
+}
+div.equip_list h4 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+a.equip_image, a.equip_image_icon, a.item_image_icon, a.furniture_image_icon, .enemy_image_icon {
+  display: block;
+  width: 128px;
+  height: 128px;
+  background-repeat: no-repeat;
+　background-attachment: fixed;
+　background-position: center;
+  /*background-size: 80%;*/
+  text-indent: -9999px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+a.equip_image_icon {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 5px;
+  background-size: cover;
+}
+a.item_image_icon {
+  border: 1px solid #CCC;
+}
+.enemy_image_icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #CCC;
+  float: left;
+  margin-right: 5px;
+  background-size: cover;
+  background-position: center;
+}
+a.item_image {
+  display: block;
+  width: 134px;
+  height: 134px;
+  background-repeat: no-repeat;
+　background-attachment: fixed;
+　background-position: center;
+  /*background-size: 80%;*/
+  text-indent: -9999px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+}
+a.fairy_image {
+  display: block;
+  width: 134px;
+  height: 134px;
+  background-repeat: no-repeat;
+　background-attachment: fixed;
+　background-position: center;
+  background-size: 100%;
+  text-indent: -9999px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+}
+
+div.items_list {
+  float: left;
+  width: 180px;
+  height: 80px;
+  overflow: hidden;
+  padding: 5px 5px 5px 10px;
+  border-radius: 5px;
+}
+div.items_list h4 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  width: 90px;
+}
+a.item_image_icon {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 5px;
+  background-size: cover;
+}
+
+
+a.furniture_image_icon {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 5px;
+  background-size: cover;
+
+}
+
+a.mission_image {
+   display: block;
+  width: 128px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -9999px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+}
+
+
+
+div.fairy_list {
+  float: left;
+  width: 140px;
+  height: 160px;
+  overflow: hidden;
+  padding: 5px 5px 5px 10px;
+  border-radius: 5px;
+}
+div.fairy_list h4 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  width: 170px;
+}
+a.fairy_image_icon {
+  width: 128px;
+  height: 128px;
+  float: left;
+  margin-right: 5px;
+  background-size: cover;
+  text-indent: -9999px;
+}
+
+
+.mission_emtype0 {
+  color: #FFBB00;
+  font-weight: bold;
+}
+.mission_emtype1 {
+  color: #ED3500;
+  font-weight: bold;
+}
+.mission_emtype3 {
+  color: #114467;
+  font-weight: bold;
+}
+
+
+div.gun_card_list {
+  float:left;
+  width: 148px;
+  padding:5px 5px 5px 10px;
+  border-radius: 5px;
+}
+div.gun_card_list:hover {
+  background-color: #EEE;
+}
+div.gun_card_list h4 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+div.gun_card_list span {
+  font-size: 12px;
+  padding-right: 8px;
+}
+div.gun_card_list_mini {
+  width: 200px;
+}
+div.gun_card_list_mini h4 {
+  text-align: left;
+  margin: 3px 0;
+}
+.gun_card_list .gun_card {
+  position: relative;
+}
+.gun_card_list u {
+  font-size: 10px;
+  text-decoration: none;
+  text-align: right;
+  color: #AAA;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  text-indent: 0;
+  text-shadow: 1px 1px 1px #EEE;
+}
+
+
+.list_grid_info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  min-height: 54px;
+  color: #FF5151;
+  text-align: center;
+}
+
+
+div.equip_list_mini {
+  width: 200px;
+  float: left;
+  padding: 5px 5px 5px 10px;
+  border-radius: 5px;
+}
+div.equip_list_mini:hover {
+  background-color: #EEE;
+}
+div.equip_list_mini small {
+  display: block;
+  font-size: 12px;
+}
+div.equip_list_mini .equip_image_icon {
+  width: 60px;
+  height: 60px;
+}
+div.equip_list_mini h4 {
+  text-align: left;
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+
+
+div.enemy_list_mini {
+  width: 250px;
+  float: left;
+  padding: 5px 5px 5px 10px;
+  border-radius: 5px;
+}
+div.enemy_list_mini:hover {
+  background-color: #EEE;
+}
+div.enemy_list_mini h4 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 3px 0;
+  color: red;
+}
+ul.enemy_team_list {
+  float: left;
+  list-style: none;
+  font-size: 14px;
+  width: 180px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.effect_grid{
+  margin-left: 10px;
+  float: left;
+}
+.effect_grid_x{
+  float:left; max-width:25px; height:75px;
+}
+.effect_desc {
+  float: left;
+}
+div.gun_grid {
+  width: 20px;
+  height: 20px;
+  float:left;
+  border: 1px solid #999;
+  margin: 3px;
+  text-indent: -9999px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 10px;
+}
+div.grid_effect_none {
+  background-color: #CCC;
+}
+div.grid_effect_center {
+  background-color: #FFF;
+}
+div.grid_effect {
+  background-color: #00b3ee;
+}
+
+
+
+
+/*map*/
+
+#content{
+  position:relative;
+}
+.mydiv{
+  border:1px solid #368ABB;
+  background-color:#43A4DC;
+  position:absolute;
+}
+.mydiv:after{
+  content:no-close-quote;
+  position:absolute;
+  top:50%;
+  left:50%;
+  /*background-color:black;*/
+  width:4px;
+  height:4px;
+  border-radius:50%;
+  margin-left:-2px;
+  margin-top:-2px;
+}
+.point-line{
+  position:absolute;
+  width:2px;
+  margin-top:-1px;
+  background-color:red;
+}
+
+
+
+
+.events_por {
+  padding:10px;
+  border:1px solid #CCC;
+  margin: 0 10px 10px 0;
+}
+.events_por:hover {
+  background-color: #EEE;
+}
+.events_por h4 {
+  width: 235px;
+  overflow: hidden;
+  /*font-size: 15px;*/
+  height: 17px;
+}
+.events_por img {
+  max-width:  235px;
+  max-height: 235px;
+  min-width:  235px;
+  min-height: 235px;
+}
+.events_por small.no {
+  margin-top: 3px;
+}
+
+
+
+@media (max-width: 600px) {
+  a.gun_card {
+    height: 128px;
+  }
+}

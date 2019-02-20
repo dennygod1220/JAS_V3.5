@@ -37,7 +37,7 @@ Route.group(() => {
   Route.get('nowStart','CronJobController.now_start')
 
   Route.get('cf_weather','CronJobController.cf_weather');
-}).middleware(['auth']);
+}).middleware(['auth','admin']);
 
 Route.group(()=>{
   //======管理頁面===============

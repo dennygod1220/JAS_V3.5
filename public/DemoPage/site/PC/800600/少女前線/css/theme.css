@@ -1,0 +1,95 @@
+/**
+ * 針對顏色與主題的調整 才放這個檔案
+ */
+
+.navbar-inverse {
+  background-color: #000000;
+  -webkit-box-shadow: 0px 0px 4px 4px #CCC;
+          box-shadow: 0px 0px 4px 4px #CCC;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #EEE;
+  /*background-color: #5F59CF;*/
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: #CCC;
+  color: #000;
+}
+.navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #FFF;
+  color: #000;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #FFF;
+  color: #000;
+}
+.nav > li > a {
+  border: 1px solid #FFF;
+  border-radius: 3px;
+  padding: 5px 8px;
+  margin: 8px 4px;
+  color: #FFF;
+}
+
+
+.table>thead>tr>th {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #EFEFEF;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  vertical-align: middle;
+}
+
+
+.table-curved {
+    border-collapse: separate;
+}
+.table-curved {
+    border: solid #ccc 1px;
+    border-radius: 6px;
+    border-left:0px;
+}
+.table-curved td, .table-curved th {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.table-curved th {
+    border-top: none;
+}
+.table-curved th:first-child {
+    border-radius: 6px 0 0 0;
+}
+.table-curved th:last-child {
+    border-radius: 0 6px 0 0;
+}
+.table-curved th:only-child{
+    border-radius: 6px 6px 0 0;
+}
+.table-curved tr:last-child td:first-child {
+    border-radius: 0 0 0 6px;
+}
+.table-curved tr:last-child td:last-child {
+    border-radius: 0 0 6px 0;
+}
+
+
+.navbar-nav>li>.dropdown-menu {
+  margin-top: 2px;
+  background-color: #000;
+}
+.dropdown-menu>li>a {
+  color: #FFF;
+}
+
+
+h1 {
+  margin-top: 10px;
+  color: #222;
+}
+h3 {
+  color: #222;
+}
+
+
+
