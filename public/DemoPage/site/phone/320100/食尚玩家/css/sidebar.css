@@ -1,0 +1,260 @@
+
+/*左右兩邊側欄區塊*/
+
+.sidebar_div {
+	background: #FFF;
+	box-sizing: border-box;
+	padding: 15px 0 10px 0;
+}
+@media (max-width:767px){
+.sidebar_div {
+	padding: 15px 0 10px 0;
+}
+}
+@media (min-width:767px) and (max-width:768px) {
+.sidebar_div {
+	width: 100%;
+	overflow: hidden;
+}
+}
+
+/*文字測攔*/
+.list_text {
+	margin: 0;
+	padding:10px 0;
+	border-bottom: 1px solid #dedede;
+	box-sizing: border-box;
+}
+.list_text:nth-child(2) {
+	padding-top:0;
+}
+.list_text:last-child {
+	border-bottom: 0px;
+}
+.list_text .no {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.list_text .txt {
+	margin: 0;
+	padding: 0 0 0 25px;
+}
+
+@media (min-width:767px) and (max-width:768px) {
+.list_text {
+	display: inline-block;
+	float: left;
+	width: 48%;
+	height:60px;
+}
+.list_text.right {
+	float: right;	
+}
+.list_text:nth-child(2) {
+	padding:0;
+}
+.list_text:nth-child(3) {
+	padding: 0;
+}
+.list_text:nth-child(4) {
+	height:70px;
+}
+.list_text:nth-child(5) {
+	height:70px;
+}
+.list_text:nth-child(6) {
+	border-bottom: 0px;
+}
+}
+/*文字測攔 ed*/
+
+
+/*圖文測攔*/
+.list_photo {
+	margin: 0;
+	padding:7px 0;
+	overflow: hidden;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.list_photo:nth-child(2) {
+	padding-top:0;
+}
+.list_photo:last-child {
+	padding-bottom: 6px;
+}
+.list_photo a:hover {
+	color: #fd3a13;
+}
+.photo_pic {
+	width: 120px;
+	height: 67px;
+	margin: 0;
+	padding:0;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	line-height: 0;
+}
+.photo_pic img {
+	width: 120px;
+	height: auto;
+}
+.photo_txt {
+	padding: 8px 0 0 10px;
+	height: 45px;
+	overflow: hidden;
+}
+
+@media (min-width:767px) and (max-width:768px) {
+.list_photo {
+	display: inline-block;
+	float: left;
+	width: 48%;
+	height: 70px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+.list_photo.right {
+	float: right;
+}
+.list_photo:nth-child(2) {
+	padding: 0;
+}
+.list_photo:nth-child(3) {
+	padding: 0;
+}
+.list_photo:nth-child(6) {
+	padding-bottom: 0;
+	margin-bottom: 5px;
+}
+.list_photo:last-child {
+	padding-bottom: 0;
+	margin-bottom: 5px;
+}
+.photo_txt {
+	padding: 6px 0 0 10px;
+}
+}
+/*圖文測攔 ed*/
+
+
+/*Focus. 議題包測攔*/
+.list_issue {
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+.issus_div {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+.issue_pic {
+	width: 268px;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+	line-height: 0;
+}
+.issue_pic img {
+	width: 268px;
+	height: auto;
+}
+.issue_play {
+	position: absolute;
+	top:10px;
+	right: 10px;
+}
+.issue_play img {
+	width: 28px !important;
+	height: auto !important;
+}
+.issue_txt {
+	padding: 0 5px;
+	margin: 6px auto;
+	font-size: 18px;
+	line-height: 24px;
+}
+.issue_box {
+	width: 100%;
+	padding: 0;
+	margin: 4px 0 14px 0;
+	overflow: hidden;
+}
+.issue_box_pic {
+	padding: 0;
+	margin: 0;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	line-height: 0;
+}
+.issue_box_pic img {
+	width: 120px;
+	height: auto;
+}
+.issue_play2 {
+	position: absolute;
+	top: 6px;
+	right: 6px;
+}
+.issue_play2 img {
+	width: 28px !important;
+	height: auto !important;
+}
+.issue_box_txt_div {
+	margin: 0 0 0 130px;
+}
+.issue_box_txt {
+	height: 45px;
+	padding:0;
+	margin: 0;
+	font-size: 18px;
+	line-height: 22px;
+	overflow: hidden;
+}
+/*Focus. 議題包測攔 ed*/
+
+
+
+/*即時熱搜*/
+.list_tag {
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+a.tag_block {
+	display: inline-block;
+	margin:0 3px 10px 0;
+	padding: 6px;
+	background: #ededed;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+}
+a.tag_block:hover {
+	background: #fd3a13;
+	color: #FFF;
+}
+/*即時熱搜 ed*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

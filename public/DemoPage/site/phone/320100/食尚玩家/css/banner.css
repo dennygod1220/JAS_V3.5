@@ -1,0 +1,188 @@
+
+
+/*廣告命名規則
+_1600 只有 1600~1366 出現
+_1024 只有 1024 出現
+_768 只有 768 出現
+_mo 只有手機版 (767) 出現
+沒有帶數字的代表有兩種解析 (1600~1024)都會出現
+*/
+
+/*1600*/
+.ad_970x90 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+.ad_970x90_1600 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+.ad_970x90_1024 {display: none;}
+
+.ad_728x90_1600 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+.ad_728x90_768 {display: none;}
+
+.ad_650x100_1024 {display: none;}
+
+.ad_468x60 {display: none;}
+
+.ad_320X100_1600 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+.ad_320x100_mo {display: none;}
+.ad_320x50_mo {display: none;}
+
+.ad_300x250 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+.ad_300x250_1600 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+.ad_300x250_1024 {display: none;}
+.ad_300x250_mo {display: none;}
+
+.ad_300x600 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+.ad_300x600_1600 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+.ad_300x600_1024 {display: none;}
+
+
+/*蓋板廣告*/
+.advertising_lightbox{ padding-top:10%;width:100%;height:100%;position:fixed;background-color:rgba(0,0,0,0.5);z-index:100;display:none;}
+.ad_320x480{position:relative;display:block;width:320px;height:auto;margin: 0 auto;text-align:center;line-height: 0;}
+.ad_320x480 .img{overflow:hidden;}
+.ad_320x480 .xx{width:30px;margin:5px;position: absolute;top:-15px;right:-15px;cursor: pointer;}
+@media (max-width:767px){.advertising_lightbox{display:block;}}
+@media (max-width:320px){.ad_320x480{width:90%;}}
+/*蓋板廣告*/
+
+
+
+/*1366*/
+@media (max-width:1599px) {
+.ad_970x90 {display: block;}
+.ad_970x90_1600 {display: block;}
+.ad_970x90_1024 {display: none;}
+	
+.ad_728x90_1600 {display: block;}
+.ad_728x90_768 {display: none;}
+	
+.ad_650x100_1024 {display: none;}
+
+.ad_468x60 {display: none;}
+	
+.ad_320X100_1600 {display: block;}
+.ad_320x100_mo {display: none;}
+.ad_320x50_mo {display: none;}
+	
+.ad_300x250 {display: block;}
+.ad_300x250_1600 {display: block;}
+.ad_300x250_1024 {display: none;}
+.ad_300x250_mo {display: none;}	
+
+.ad_300x600 {display: block;}
+.ad_300x600_1600 {display: block;}
+.ad_300x600_1024 {display: none;}
+}
+
+
+/*1024*/
+@media (max-width:1365px) {
+.ad_970x90 {display: block;}
+.ad_970x90_1600 {display: none;}
+.ad_970x90_1024 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+	
+.ad_728x90_1600 {display: none;}
+.ad_728x90_768 {display: none;}
+	
+.ad_650x100_1024 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+	
+.ad_468x60 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+	
+.ad_320X100_1600 {display: none;}
+.ad_320x100_mo {display: none;}
+.ad_320x50_mo {display: none;}
+	
+.ad_300x250 {display: block;}
+.ad_300x250_1600 {display: none;}
+.ad_300x250_1024 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+.ad_300x250_mo {display: none;}
+	
+.ad_300x600 {display: block;}
+.ad_300x600_1600 {display: none;}
+.ad_300x600_1024 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+}
+
+
+/*768*/
+@media (max-width:1023px) {
+.ad_970x90 {display: none;}
+.ad_970x90_1600 {display: none;}
+.ad_970x90_1024 {display: none;}	
+	
+.ad_728x90_1600 {display: none;}
+.ad_728x90_768 {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+	
+.ad_650x100_1024 {display: none;}
+	
+.ad_468x60 {display: block;}
+	
+.ad_320X100_1600 {display: none;}
+.ad_320x100_mo {display: none;}
+.ad_320x50_mo {display: none;}
+
+.ad_300x250 {display: none;}
+.ad_300x250_1600 {display: none;}
+.ad_300x250_1024 {display: none;}
+.ad_300x250_mo {display: none;}	
+
+.ad_300x600 {display: none;}
+.ad_300x600_1600 {display: none;}
+.ad_300x600_1024 {display: none;}
+}
+
+
+/*767*/
+@media (max-width:767px) {
+.ad_970x90 {display: none;}
+.ad_970x90_1024 {display: none;}	
+	
+.ad_728x90_1600 {display: none;}
+.ad_728x90_768 {display: none;}
+	
+.ad_650x100_1024 {display: none;}
+	
+.ad_468x60 {display: none;}
+
+.ad_320X100_1600 {display: none;}	
+.ad_320x100_mo {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+.ad_320x50_mo {display: block;width: 100%;height: 50px;margin: 0;text-align: center;line-height: 0;padding: 5px 0;position: fixed;z-index: 3; bottom: 0; background: rgba(0,0,0,.7);}
+	
+.ad_300x250 {display: none;}
+.ad_300x250_1600 {display: none;}
+.ad_300x250_1024 {display: none;}
+.ad_300x250_mo {display: block;width: 100%;height: auto;margin: 0 auto;text-align: center;line-height: 0;overflow: hidden;}
+
+.ad_300x600 {display: none;}
+.ad_300x600_1600 {display: none;}
+.ad_300x600_1024 {display: none;}
+}
+
+@media (max-width:320px) {
+.ad_320x100_mo {width: 100%;}
+.ad_300x250_mo {width: 100%;}
+}
+
+/*廣告間距*/
+
+/*1600*/
+.ad_margin_10 {margin: 10px auto;}
+.ad_margin_20 {margin: 20px auto;}
+.ad_margin_30 {margin: 30px auto;}
+.ad_margin_30_20 {margin: 30px auto;}
+
+/*1366*/
+@media (max-width:1599px) {
+.ad_margin_30_20 {margin: 20px auto;}
+}
+
+/*768*/
+@media (max-width:1023px) {
+.ad_margin_30_20 {margin: 20px auto;}
+}
+
+/*767*/
+@media (max-width:767px) {
+.ad_margin_30_20 {margin: 20px auto;}
+}
+/*廣告間距 ed*/
+
+
+

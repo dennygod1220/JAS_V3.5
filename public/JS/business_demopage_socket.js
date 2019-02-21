@@ -20,6 +20,13 @@
     }
   }
 
+  function block_phone_320100(d,z,s,sitename){
+    if(d == 'phone' && z == '320100' && s == sitename){
+      $("#zone_ch_block").css('display', 'block');
+      $("#cus_zone_block").css('display','none');
+    }
+  }
+
   var app = new Vue({
     // el: "#demopage_choise",
     el: "#home",
@@ -216,6 +223,7 @@
         block_phone_300250(this.device,this.zonesize,this.site,'妞新聞');
         block_phone_300250(this.device,this.zonesize,this.site,'三立新聞');
         block_phone_300250(this.device,this.zonesize,this.site,'UDN');
+        block_phone_320100(this.device,this.zonesize,this.site,'食尚玩家');
         
         
       },

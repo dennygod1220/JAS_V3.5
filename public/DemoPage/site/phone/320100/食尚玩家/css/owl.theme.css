@@ -1,0 +1,73 @@
+/* 
+ * 	Default theme - Owl Carousel CSS File
+ *	v2.0.0
+ */
+/* 代码整理：懒人之家 www.lanrenzhijia.com */
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-nav div{
+	color: #FFF;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px 8px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #fff;
+	cursor: pointer;
+    opacity: 0.5;
+}
+.owl-theme .owl-controls .owl-nav .disabled{
+	opacity: 0.5;
+	cursor: default;
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls .owl-nav div:hover{
+	text-decoration: none;
+}
+
+/* Styling dots*/
+.owl-theme .owl-dots .owl-dot{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+
+.owl-theme .owl-dots .owl-dot span{
+	-webkit-backface-visibility: visible;
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 6px 6px;
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #fff;
+	opacity:0.5;
+	transition-property: opacity;
+  	transition-duration: 200ms;
+  	transition-timing-function: ease;
+}
+@media (max-width:767px) {
+	.owl-theme .owl-dots .owl-dot span{
+	width: 6px;
+	height: 6px;
+	margin: 4px 4px;	
+	}
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	background: #fff;
+	opacity:1;
+}
+
