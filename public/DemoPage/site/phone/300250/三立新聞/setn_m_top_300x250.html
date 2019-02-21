@@ -1,0 +1,142 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+
+</head>
+<body style="margin:0;padding:0">
+            <img id="imgBG" src="images/122412_Vidol_brother_320x50.jpg" style="width:100vw;height: calc(100vw * 5 / 32)" onclick="javascript:window.open('//ad.setn.com/AdsDataCollect/AdsClick/5743');">
+<script src="js/jquery.js"></script>
+        <script>
+            var player;
+
+            //Youtube API
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('player', {
+                    videoId: '',
+                    playerVars: { 'autoplay': 0, 'playsinline': 1 },
+                    events: {
+                        'onReady': onPlayerReady,
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            }
+            var hasplay = false;
+            var isApp = 0;
+            var device = "MOBILE";
+            var timeoutObj;
+
+            function onPlayerStateChange(event) {
+                if (event.data == YT.PlayerState.PLAYING) {
+                    if(!hasplay){
+                        hasplay = true;
+                        var timeout = 3000;
+                        if(device != "WEB")
+                        {
+                            timeout = 1;
+                        }
+                        timeoutObj = setTimeout(function(){
+                            $.sendStatistics('VideoClick', 5743);
+                        }, timeout);
+                        var partTime = Math.round(player.getDuration() / 4);
+                        RecordWatchTime(partTime, 1);
+                        $("#play").hide();
+                        $("#videoImg").hide();
+                    }
+                }else if(event.data == YT.PlayerState.PAUSED || event.data == YT.PlayerState.ENDED)
+                {
+                    if(event.data == YT.PlayerState.ENDED)
+                    {
+                        var videolen = player.getDuration();
+                        var partTime = Math.round(videolen / 4);
+                        var time = Math.round(videolen - (partTime * 3));
+                        if(time > 0)
+                        {
+                            $.sendStatistics('VideoWatchTime', 5743, time);
+                        }
+                        clearTimeout(timeoutObj);
+                    }
+                }
+            }
+
+            function RecordWatchTime(timeSec, count)
+            {
+                timeoutObj = setTimeout(function(){
+                    $.sendStatistics('VideoWatchTime', 5743, timeSec);
+                    RecordWatchTime(timeSec, count + 1);
+                }, timeSec * 1000);
+                if(count > 3)
+                {
+                    clearTimeout(timeoutObj);
+                }
+            }
+
+            function onPlayerReady(event) {
+                event.target.mute();
+                var promise = event.target.playVideo();
+                try
+                {
+                    if (promise !== undefined) {
+                        promise.then(_ => {
+                            // Autoplay started!
+                        }).catch(error => {
+                            // Autoplay was prevented.
+                            // Show a "Play" button so that user can start playback.
+                        });
+                    }
+                }catch(e){}
+                if(device != "WEB")
+                {
+                    $("#play").show();
+                }
+            }
+            var onPause = false;
+            function OpenUrl() {
+                if (!onPause) {
+                    player.pauseVideo();
+                    onPause = true;
+                    window.open('//ad.setn.com/AdsDataCollect/VideoBlockClick/5743');
+                }
+                else {
+                    player.playVideo();
+                    onPause = false;
+                }
+            }
+            $(document).ready(function(){
+                $.sendStatistics('AdsView', 5743);
+                if(isApp == 1){
+                    $("a").each(function(){
+                        $(this).attr("onclick", "admob.opener.openUrl('%%CLICK_URL_ESC%%" + $(this).attr("href") + "', true); return false;");
+                    });
+                }
+                else
+                {
+                    if(device != "WEB")
+                    {
+                        $("#videoImg").show();
+                    }
+                    $("#play").click(function () {
+                        $("#play").hide();
+                        $("#videoImg").hide();
+                        player.playVideo();
+                    });
+                }
+            });
+
+            /*function resize() {
+                parent.document.getElementById("voteIframe").height = document.body.scrollHeight;
+            }*/
+            document.domain = 'setn.com';
+
+        </script>
+</body>
+</html>

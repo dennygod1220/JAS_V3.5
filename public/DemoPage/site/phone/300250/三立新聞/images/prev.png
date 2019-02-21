@@ -1,0 +1,918 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-Hant" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org/">
+<head id="Head1"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="content-language" content="zh-Hant-TW"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="medium" content="news"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="cache-control" content="no-cache"><meta http-equiv="expires" content="0"><meta name="expires" content="tue, 01 Jun 2010 19:45:00 GMT"><meta name="expires" content="0"><meta property="fb:admins" content="100005669711362"><meta property="fb:app_id" content="1385360291698338"><link rel="shortcut icon" href="../favicon.ico"><link href="https://plus.google.com/+SetnewsNet2013/posts" rel="publisher">
+    <!-- Prebid Javascript -->
+    <script src="../js/16934_prod.js" async="true"></script>
+    <!-- Start Alexa Certify Javascript -->
+    <script type="text/javascript">
+        _atrk_opts = { atrk_acct: "dMuYi1a8Dy00yP", domain: "setn.com", dynamic: true };
+        (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+    </script>
+    <noscript>
+        <img src="atrk.gif" style="display: none" height="1" width="1" alt="">
+    </noscript>
+    <!-- End Alexa Certify Javascript -->
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "20617561" });
+        (function () {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="../p2">
+    </noscript>
+    <link href="../css_1.html" rel="stylesheet" type="text/css">
+    <!-- End comScore Tag -->
+    <!-- Matomo *.setn.com -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(["setCookieDomain", "*.setn.com"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//setana.setn.com/analytics/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '6']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <!-- End Matomo Code -->
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function () {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+
+    <!-- appier-->
+    <script type="text/javascript" src="../js/pb.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="../css.html" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="../css/all.css" rel="stylesheet">
+    <style>
+        .async-hide {
+            opacity: 0 !important
+        }
+    </style>
+    <link href="../css/animate.css" rel="stylesheet">
+    
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>404-找不到檔案或目錄</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="expires" content="tue, 01 Jun 2010 19:45:00 GMT">
+    <meta name="expires" content="0">
+
+    <link href="../css/default.css" rel="stylesheet">
+
+
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-37193510-5']);
+        _gaq.push(["_setDomainName", "none"]); //讓ga可以使用localhost測試
+        //_gaq.push(['_trackPageview']);
+
+        _gaq.push(['_trackPageview', '/error404.html?url=' + document.location.pathname + document.location.search + '&ref=' + document.referrer]);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!--<meta http-equiv="refresh" content="2;url=/default.aspx?e=4" />-->
+
+<title>
+
+</title></head>
+<body>
+    <div id="fb-root"></div>
+
+    
+
+    <div class="heder-area-ad">
+        <div class="container">
+
+            
+            <div id="HeaderAD" class="hidden-print">
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+<script src="../js/OneSignalSDK.js" async="async"></script>
+<script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(["init", {
+            appId: "18b0deea-598d-4bba-bef6-a371fc782e36",
+            autoRegister: true,
+            subdomainName: 'setn',
+            httpPermissionRequest: {
+                enable: true,
+                modalTitle: 'SETN三立新聞網',
+                modalMessage: "感謝您的訂閱 , 每天給你最即時、熱門、感興趣的新聞訊息.",
+                modalButtonText: '加入訂閱'
+
+            },
+            notifyButton: {
+                enable: false,
+                text: {
+                    'tip.state.unsubscribed': '訂閱推播',
+                    'tip.state.subscribed': "您已訂閱推播通知",
+                    'tip.state.blocked': "您已停止訂閱推播通知",
+                    'message.prenotify': '點此訂閱推播',
+                    'message.action.subscribed': "感謝您的訂閱！",
+                    'message.action.resubscribed': "您已訂閱推播通知",
+                    'message.action.unsubscribed': "您將不會再收到推播通知",
+                    'dialog.main.title': '管理推播訊息',
+                    'dialog.main.button.subscribe': '訂閱',
+                    'dialog.main.button.unsubscribe': '取消訂閱',
+                    'dialog.blocked.title': '取消封鎖推播',
+                    'dialog.blocked.message': "依下列步驟進行訂閱推播通知:"
+                }
+            },
+            promptOptions: {
+                siteName: 'SETN三立新聞網',
+                actionMessage: "感謝您的訂閱 , 每天給你最即時、熱門、感興趣的新聞訊息.",
+                exampleNotificationTitle: '三立新聞網將傳送推播訊息給您。',
+                exampleNotificationMessage: '此訊息將以此形式出現',
+                exampleNotificationCaption: '您可在任何時間取消訂閱',
+                acceptButtonText: "加入訂閱",
+                cancelButtonText: "取消"
+            },
+            safari_web_id: 'web.onesignal.auto.0f5ba526-5606-4a7b-90fa-69fc66b30a70'
+        }]);
+</script>
+
+    
+<!--new header-->
+<div class="web-allarea">
+    <div class="header-area hidden-print">
+        
+        <div class="privacy-area animated fadeInDown">
+            <img src="logo-title-s.png"><span style="font-weight: 700; color: #04418c; margin-right: 5px;">三立新聞網</span>為了提供更好的閱讀內容，我們使用相關網站技術來改善使用者體驗，也尊重用戶的隱私權，特別提出聲明。<br>
+            <span class="privacy-link"><a href="/privacy.aspx" target="_blank" class="gt" pa="隱私權" pl="隱私權聲明"><i class="fas fa-angle-double-right"></i>了解最新隱私權聲明</a></span>
+            <span class="privacy-bt"><a href="javascript:void(0);" id="btnPrivacy"><i class="far fa-check-circle"></i>知道了</a></span>
+        </div>
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header-right">
+                        <ul>
+                            <li><a href="https://event.setn.com/shareApp/" target="_blank">APP下載</a></li><li><a href="https://acts.setn.com/fbweb/index.html" target="_blank">粉絲團</a></li><li><a href="https://www.settv.com.tw/#!/" target="_blank">三立官網</a></li><li><a href="/Klist.aspx?PageGroupID=1&ProjectID=5961&PageType=6" target="_blank">蔡英文</a></li><li><a href="/Klist.aspx?PageGroupID=1&ProjectID=5809&PageType=6" target="_blank">韓國瑜</a></li><li><a href="/Klist.aspx?PageGroupID=1&ProjectID=5923&PageType=6" target="_blank">華航</a></li>
+                            <li class="search-area">
+                                <input id="keyword" name="textfield" type="text" placeholder="輸入文字" size="15"><a href="javascript:void(0);" onclick="HeadSearch();" class="social-button search"><i class="fas fa-search"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End header area -->
+    
+
+
+    <header id="header" class="top-branding-area" style="background-color:#ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="logo">
+                        <a href="/">
+                            <img src="2018_logo_B.png" alt="SET三立新聞網"></a>
+                    </div>
+                </div>
+                <div class="col-sm-5 hidden-print">
+                    <div class="top-ad01">
+                        
+                        <!--Header區域 480x100-->
+                        <div class="ad-480">
+                            <a href="">
+                                <img src=""></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--Live 區域 -->
+                <div class="col-sm-3 hidden-print">
+                    <div class="header-top-right">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <div class="header-live-area floating">
+
+                                    <div class="header-live-word">2</div>
+                                    <img src="onair-2.png">
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu bounceIn">
+                                
+                                <li><a href="https://live.setn.com/Live/358" target="_blank"><span class="glyphicon glyphicon-play-circle pull-left"></span>【CH54三立新聞】線上直播</a></li>
+                                <li class="divider"></li>
+                                
+                                <li><a href="https://live.setn.com/Live/691" target="_blank"><span class="glyphicon glyphicon-play-circle pull-left"></span>【三立iNEWS】線上直播</a></li>
+                                <li class="divider"></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End site branding area -->
+    <!-- top nav bar-->
+    
+<div class="mainmenu-area hidden-print" id="mainMenu">
+    <div class="container">
+        <div class="row">
+            
+            
+                <!--Top nav left-->
+                <div class="nav navbar-nav" data-pj="">
+                    <ul>
+                        
+                        <li class="mainMenu " data-id="204">
+                            <a href="/ViewAll.aspx" target="_blank">即時</a>
+                            
+
+                        </li>
+                        
+                        <li class="mainMenu " data-id="207">
+                            <a href="/" target="_blank">新聞</a>
+                            
+                            <div class="top-second-nav">
+                                <div class="container">
+                                    <ul class="subMenu">
+                                    
+                                        <li class=" " data-subid="271"><a class="smoothScroll" href="/" target="_blank">首頁</a></li>
+                                        
+                                        <li class=" " data-subid="209"><a class="smoothScroll" href="/Catalog.aspx?PageGroupID=6" target="_blank">政治</a></li>
+                                        
+                                        <li class=" " data-subid="210"><a class="smoothScroll" href="/Catalog.aspx?PageGroupID=41" target="_blank">社會</a></li>
+                                        
+                                        <li class=" " data-subid="298"><a class="smoothScroll" href="/e/" target="_blank">娛樂</a></li>
+                                        
+                                        <li class=" " data-subid="208"><a class="smoothScroll" href="/Catalog.aspx?PageGroupID=4" target="_blank">生活</a></li>
+                                        
+                                        <li class=" " data-subid="319"><a class="smoothScroll" href="/Local.aspx" target="_blank">地方</a></li>
+                                        
+                                        <li class=" " data-subid="212"><a class="smoothScroll" href="/Catalog.aspx?PageGroupID=12" target="_blank">汽車</a></li>
+                                        
+                                        <li class=" " data-subid="211"><a class="smoothScroll" href="/Catalog.aspx?PageGroupID=5" target="_blank">國際</a></li>
+                                        
+                                        <li class=" " data-subid="214"><a class="smoothScroll" href="/Catalog.aspx?PageGroupID=34" target="_blank">運動</a></li>
+                                        
+                                        <li class=" " data-subid="270"><a class="smoothScroll" href="/Catalog.aspx?PageGroupID=2" target="_blank">財經</a></li>
+                                        
+                                        <li class=" " data-subid="326"><a class="smoothScroll" href="/Project.aspx?ProjectID=2295" target="_blank">健康</a></li>
+                                        
+                                        <li class=" " data-subid="314"><a class="smoothScroll" href="/Klist.aspx?PageGroupID=2&ProjectID=66&PageType=6" target="_blank">房產</a></li>
+                                        
+                                        <li class=" " data-subid="216"><a class="smoothScroll" href="/Catalog.aspx?PageGroupID=7" target="_blank">科技</a></li>
+                                        
+                                        <li class=" " data-subid="213"><a class="smoothScroll" href="/Catalog.aspx?PageGroupID=42" target="_blank">新奇</a></li>
+                                        
+                                        <li class=" " data-subid="215"><a class="smoothScroll" href="/Catalog.aspx?PageGroupID=47" target="_blank">寵物</a></li>
+                                        
+                                        <li class=" " data-subid="320"><a class="smoothScroll" href="https://acts.setn.com/event/finance2019/" target="_blank">金融通</a></li>
+                                        
+                                    </ul>
+
+                                </div>
+                            </div>
+                            
+
+                        </li>
+                        
+                        <li class="mainMenu " data-id="205">
+                            <a href="/Videos.aspx" target="_blank">影音</a>
+                            
+                            <div class="top-second-nav">
+                                <div class="container">
+                                    <ul class="subMenu">
+                                    
+                                        <li class=" " data-subid="228"><a class="smoothScroll" href="/videos.aspx">總覽</a></li>
+                                        
+                                        <li class=" " data-subid="227"><a class="smoothScroll" href="/videos.aspx?PageGroupID=6">政治</a></li>
+                                        
+                                        <li class=" " data-subid="229"><a class="smoothScroll" href="/videos.aspx?PageGroupID=8">娛樂</a></li>
+                                        
+                                        <li class=" " data-subid="230"><a class="smoothScroll" href="/videos.aspx?PageGroupID=41">社會</a></li>
+                                        
+                                        <li class=" " data-subid="231"><a class="smoothScroll" href="/videos.aspx?PageGroupID=4">生活</a></li>
+                                        
+                                        <li class=" " data-subid="299"><a class="smoothScroll" href="/videos.aspx?PageGroupID=50">旅遊</a></li>
+                                        
+                                        <li class=" " data-subid="233"><a class="smoothScroll" href="/videos.aspx?PageGroupID=47">寵物</a></li>
+                                        
+                                        <li class=" " data-subid="234"><a class="smoothScroll" href="/videos.aspx?PageGroupID=5">國際</a></li>
+                                        
+                                        <li class=" " data-subid="235"><a class="smoothScroll" href="/videos.aspx?PageGroupID=7">科技</a></li>
+                                        
+                                        <li class=" " data-subid="237"><a class="smoothScroll" href="/videos.aspx?PageGroupID=2">財經</a></li>
+                                        
+                                        <li class=" " data-subid="238"><a class="smoothScroll" href="/videos.aspx?PageGroupID=34">運動</a></li>
+                                        
+                                    </ul>
+
+                                </div>
+                            </div>
+                            
+
+                        </li>
+                        
+                        <li class="mainMenu " data-id="217">
+                            <a href="/Plist.aspx?PageGroupID=1&PageType=6" target="_blank">專題</a>
+                            
+
+                        </li>
+                        
+                        <li class="mainMenu " data-id="219">
+                            <a href="/photocatalog.aspx" target="_blank">圖輯</a>
+                            
+                            <div class="top-second-nav">
+                                <div class="container">
+                                    <ul class="subMenu">
+                                    
+                                        <li class=" " data-subid="239"><a class="smoothScroll" href="/photocatalog.aspx">總覽</a></li>
+                                        
+                                        <li class=" " data-subid="240"><a class="smoothScroll" href="/photocatalog.aspx?ProjectType=3">娛樂</a></li>
+                                        
+                                        <li class=" " data-subid="241"><a class="smoothScroll" href="/photocatalog.aspx?ProjectType=7">正妹</a></li>
+                                        
+                                        <li class=" " data-subid="242"><a class="smoothScroll" href="/photocatalog.aspx?ProjectType=6">戲劇</a></li>
+                                        
+                                        <li class=" " data-subid="243"><a class="smoothScroll" href="/photocatalog.aspx?ProjectType=10">軍事</a></li>
+                                        
+                                        <li class=" " data-subid="244"><a class="smoothScroll" href="/photocatalog.aspx?ProjectType=4">運動</a></li>
+                                        
+                                        <li class=" " data-subid="245"><a class="smoothScroll" href="/photocatalog.aspx?ProjectType=18">寵物</a></li>
+                                        
+                                        <li class=" " data-subid="246"><a class="smoothScroll" href="/photocatalog.aspx?ProjectType=19">國際</a></li>
+                                        
+                                        <li class=" " data-subid="247"><a class="smoothScroll" href="/photocatalog.aspx?ProjectType=1">要聞</a></li>
+                                        
+                                        <li class=" " data-subid="248"><a class="smoothScroll" href="/photocatalog.aspx?ProjectType=5">綜合</a></li>
+                                        
+                                        <li class=" " data-subid="249"><a class="smoothScroll" href="/photocatalog.aspx?ProjectType=11">名人</a></li>
+                                        
+                                    </ul>
+
+                                </div>
+                            </div>
+                            
+
+                        </li>
+                        
+                        <li class="mainMenu " data-id="218">
+                            <a href="/Catalog_Column.aspx" target="_blank">名家</a>
+                            
+
+                        </li>
+                        
+                        <li class="mainMenu " data-id="220">
+                            <a href="//live.setn.com/" target="_blank">直播</a>
+                            
+
+                        </li>
+                        
+                        <li class="mainMenu " data-id="265">
+                            <a href="/activity.aspx" target="_blank">活動</a>
+                            
+
+                        </li>
+                        
+                        <li class="mainMenu " data-id="307">
+                            <a href="https://travel.setn.com/" target="_blank">旅遊</a>
+                            
+
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <!--Top nav right-->
+                <div class="top-rightmenu navbar-nav navbar-right hidden-xs">
+                    <ul class="nav">
+                        <li>
+                            <a href="http://vidol.tv/" target="_blank">
+                                <img style="width: 56px;" src="icon-vidol.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.setddg.com/" target="_blank">
+                                <img style="width: 60px;" src="setddg-logo.png"></a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://watch.setn.com" target="_blank">
+                                <img style="width: 62px;" src="wa-logo.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            
+        </div>
+    </div>
+</div>
+<div class="menuH"></div>
+<script>
+    $(document).ready(function () {
+
+        var headerH = $(".header-area").height() + $(".top-branding-area").height();
+        $(".mainmenu-area").data("offset-top", headerH);
+
+        var _active = $(".mainMenu.active");
+        if (_active.find(".top-second-nav").length > 0) {
+            $(".menuH").css("margin-top", "36px");
+        }
+        //SetSubMenu(_active, true);
+
+        $(".mainMenu").hover(
+          function () {
+              $(".mainMenu").css("background-color", "transparent").find(".top-second-nav").hide();
+
+              $(this).removeAttr("style").find(".top-second-nav").show();
+
+              if ($(this).find(".top-second-nav").length > 0 || $(".mainMenu.active").find(".top-second-nav").length > 0) {
+                  $(".menuH").css("margin-top", "36px");
+              }
+              else {
+                  $(".menuH").removeAttr("style");
+              }
+              //SetSubMenu($(this));
+          }, function () {
+              $(".mainMenu").removeAttr("style").find(".top-second-nav").removeAttr("style");
+              if ($(this).find(".top-second-nav").length > 0 && _active.find(".top-second-nav").length <= 0) {
+                  $(".menuH").removeAttr("style");
+              }
+              //SetSubMenu($(".mainMenu.active"), true);
+          }
+        );
+
+        //maintop-area
+    });
+</script>
+
+    <!--new header end-->
+
+</div>
+
+<script>
+    $(document).ready(function () {
+
+        $("#keyword").keydown(function (e) {
+            var code = e.keyCode || e.which;
+            if (code == 13) {
+                HeadSearch();
+                return false;
+            }
+        });
+    });
+    function HeadSearch() {
+        window.location.href = "search.aspx?q=" + $("#keyword").val() + "&r=0";
+        return false;
+    }
+</script>
+
+
+
+    <form method="post" action="./prev.png?404%3bhttp%3a%2f%2falbsetnweb-1646263270.ap-northeast-1.elb.amazonaws.com%3a80%2fimages%2fprev.png" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="puf2yqA4y+RCxjxAjSCTMaONXadoXEvBrCXOrdhDiD9U6jeOOxieK8Q9ABktlwhQjnhbLbhANoL5Ck0cUO1VRmHIAW5I/wdDbEpx18rA7tA=">
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C3693509">
+        <div class="container-fluid maintop-area hidden-print">
+            <div class="container">
+
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="banner-970x250">
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="row">
+                    
+
+<div class="col-md-12 col-sm-12">
+    <div class="news-flash-area">
+        <div class="breaking_news">快訊</div>
+        <div class="news-flash-list">
+            <div id="owl-news-flash" class="owl-carousel owl-theme">
+                
+                <div class="item">
+                    <a href="/News.aspx?NewsID=501465" pl="新聞快訊">節能大進化！日立空調熱水器超省電
+                        <time class="news-flash-date">10:00</time></a>
+                </div>
+                
+                <div class="item">
+                    <a href="/News.aspx?NewsID=501871" pl="新聞快訊">機艙狂冒白煙　乘客抬頭一看…全嚇傻
+                        <time class="news-flash-date">15:43</time></a>
+                </div>
+                
+                <div class="item">
+                    <a href="/News.aspx?NewsID=501900" pl="新聞快訊">燈節被批「史上最爛」　她：好心疼
+                        <time class="news-flash-date">15:42</time></a>
+                </div>
+                
+                <div class="item">
+                    <a href="/News.aspx?NewsID=501902" pl="新聞快訊">掰了百億千金！吳建豪離婚確定了…
+                        <time class="news-flash-date">15:42</time></a>
+                </div>
+                
+                <div class="item">
+                    <a href="/News.aspx?NewsID=501845" pl="新聞快訊">涉麻醉性侵女病患　色醫師黑歷史曝光
+                        <time class="news-flash-date">15:41</time></a>
+                </div>
+                
+                <div class="item">
+                    <a href="/News.aspx?NewsID=501890" pl="新聞快訊">男持刀隨機砍11人！學生滿臉血逃命
+                        <time class="news-flash-date">15:41</time></a>
+                </div>
+                
+                <div class="item">
+                    <a href="/News.aspx?NewsID=501856" pl="新聞快訊">評韓選總統　韓粉分析曝：真的先不要
+                        <time class="news-flash-date">15:36</time></a>
+                </div>
+                
+                <div class="item">
+                    <a href="/News.aspx?NewsID=501869" pl="新聞快訊">賓士車牌掛「使」字　網曝權貴真相
+                        <time class="news-flash-date">15:32</time></a>
+                </div>
+                
+                <div class="item">
+                    <a href="/News.aspx?NewsID=501876" pl="新聞快訊">韓航董娘辱菲傭逼下跪　駭人音檔曝光
+                        <time class="news-flash-date">15:30</time></a>
+                </div>
+                
+                <div class="item">
+                    <a href="/News.aspx?NewsID=501872" pl="新聞快訊">尪真的偷腥經紀人？女星半夜發文求助
+                        <time class="news-flash-date">15:28</time></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        
+    
+<div style="text-align : center;"><img src="404.png" width="984" height="557" border="0" usemap="#Map">
+  <map name="Map" id="Map">
+    <area shape="rect" coords="205,272,365,344" href="http://www.setn.com/">
+    <area shape="rect" coords="592,264,768,347" href="http://www.setn.com/ViewAll.aspx">
+  </map>
+</div>
+
+        
+
+
+
+    </form>
+
+
+
+    
+    
+
+
+    <script type="text/javascript">
+        var EnableADsBySite = [{"Site":"0","EnableADs":"true"},{"Site":"1","EnableADs":"true"},{"Site":"2","EnableADs":"true"}];
+    </script>
+
+    
+    
+    <div class="rightFloat hidden-print">
+        <div class="rightFloatContent">
+            
+<div class="rides-cs">
+    <div class="floatL">
+        <div class="onlineA">直播✦活動</div>
+        <div class="arrowBlock" style="width: 100%; text-align: center; margin-top: 10px;"><span class="arrow"></span></div>
+    </div>
+    <div id="divFloatToolsView" class="floatR">
+        
+        
+        <div class="imageRotation">
+            <div class="imageBox">
+                <div id="owl-Float" class="FloatBanner owl-carousel  owl-theme">
+
+                    
+                    <div class="item" style="height: 290px;">
+                        <a class="gt" pa="全網" pl="浮水印-上" lb="歡迎訂閱！《94要客訴》頻道" href="https://www.youtube.com/channel/UC4twJx3tfIIdmnC_zsuP45Q" target="_blank">
+                            <img src="140x270_951.jpg"></a>
+                    </div>
+                    
+                    <div class="item" style="height: 290px;">
+                        <a class="gt" pa="全網" pl="浮水印-上" lb="新媒體的Style 擴大徵才" href="https://acts.setn.com/event/setnstyle/" target="_blank">
+                            <img src="0201_setnstyle_140x270.gif"></a>
+                    </div>
+                    
+                    <div class="item" style="height: 290px;">
+                        <a class="gt" pa="全網" pl="浮水印-上" lb="新聞大熱度／2018新聞回顧" href="https://event.setn.com/2018review/" target="_blank">
+                            <img src="0131_2018review_140x270.gif"></a>
+                    </div>
+                    
+                    <div class="item" style="height: 290px;">
+                        <a class="gt" pa="全網" pl="浮水印-上" lb="Vidol_北海道甜蜜計畫" href="https://vidol.tv/programmes/537" target="_blank">
+                            <img src="SETN_140X270_0215.jpg"></a>
+                    </div>
+                    
+                    <div class="item" style="height: 290px;">
+                        <a class="gt" pa="全網" pl="浮水印-上" lb="Vidol_大哥開什麼東西" href="https://vidol.tv/programmes/539" target="_blank">
+                            <img src="0220%C3%A6%C2%B5%C2%AE%C3%A6%C2%B0%C2%B4%C3%A5%C2%8D%C2%B0.jpg"></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="imageRotation">
+            <div class="imageBox">
+                <div id="owl-Float2" class="FloatBanner owl-carousel  owl-theme">
+                    
+                    <div class="item">
+                        <a class="gt" pa="全網" pl="浮水印-下" lb="一起玩遊戲" href="https://www.setn.com/project.aspx?ProjectID=5816" target="_blank">
+                            <img src="0131_5816_140x135.jpg"></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a class="gt" pa="全網" pl="浮水印-下" lb="最新台劇【炮仔聲】即時星聞" href="https://www.setn.com/Project.aspx?ProjectID=5818" target="_blank">
+                            <img src="0117_5867_140x135.jpg"></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a class="gt" pa="全網" pl="浮水印-下" lb="歡迎訂閱！《安安大明星》頻道" href="https://www.youtube.com/channel/UC2hslcZZSHF1u_KW4LPrRPA" target="_blank">
+                            <img src="140x135_561.jpg"></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a class="gt" pa="全網" pl="浮水印-下" lb=" 歡迎訂閱！《女孩要幹嘛》" href="https://www.youtube.com/channel/UCfPmFrdqNLD-HFJpfjBs1Cg" target="_blank">
+                            <img src="140x135_girl.jpg"></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a class="gt" pa="全網" pl="浮水印-下" lb="埔心放肆玩！ 相關報導看這裡" href="https://www.setn.com/project.aspx?ProjectID=5955" target="_blank">
+                            <img src="0218_5955_140x135.jpg"></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a class="gt" pa="全網" pl="浮水印-下" lb="【三立iNEWS】線上直播" href="https://live.setn.com/Live/691" target="_blank">
+                            <img src="0626_691_140x135.jpg"></a>
+                    </div>
+                    
+                    <div class="item">
+                        <a class="gt" pa="全網" pl="浮水印-下" lb="【CH54三立新聞】線上直播" href="https://live.setn.com/Live/358" target="_blank">
+                            <img src="1221_358_140x135.gif"></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    
+<footer class="footer-area">
+    <div class="container-fluid text-center copy-right">
+        <div class="container">
+            Copyright &copy;2019 Sanlih E-Television All Rights Reserved 版權所有 盜用必究 台北市內湖區舊宗路一段159號 02-8792-8888
+        </div>
+    </div>
+    <div class="container hidden-print">
+        <ul class="footer-area-box">
+            <li>
+                <ul>
+                    <li><a href="https://www.settv.com.tw/#!/" title="三立官網" target="_blank">三立官網</a></li>
+                    <li><a href="https://www.settv.com.tw/#!/about" title="關於三立" target="_blank">關於三立</a></li>
+                    <li><a href="/about.aspx" title="關於三立新聞網" target="_blank">關於三立新聞網</a></li>
+                    <li><a href="/Privacy.aspx" title="隱私權聲明" target="_blank">隱私權聲明</a></li>
+                    <li><a href="http://blog.iset.com.tw/news/?cat=1" title="三立新聞自律守則" target="_blank">三立新聞自律守則</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li><a href="mailto:2018setn@gmail.com" title="合作提案窗口">合作提案窗口</a></li>
+                    <li><a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=424c44293e38415833343c653640381b83a3c4529425e4023232323653c2d2827563j50&jobsource=n104bank1" title="關於三立新聞網" target="_blank">企業徵才</a></li>
+                    <li><a href="https://www.settv.com.tw/#!/tvlist" title="頻道位置" target="_blank">頻道位置</a></li>
+                    <li><a href="/TellMe.aspx?DType=3" title="意見反應" target="_blank">意見反應 </a></li>
+                    <li><a href="/TellMe.aspx" title="我要爆料" target="_blank">我要爆料</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="social-icon-footer">
+                    <li>
+                        <a href="http://bit.ly/2wCHgjV" target="_blank"><img src="fb-icon.png"></a>
+                    </li>
+                    <li>
+                        <a href="http://bit.ly/2w8hh3y" target="_blank"><img src="inster-icon.png"></a>
+                    </li>
+                    <li>
+                        <a href="http://bit.ly/2IgxkkJ" target="_blank"><img src="g-icon.png"></a>
+                    </li>
+                    <li>
+                        <a href="http://bit.ly/2KMt36F" target="_blank"><img src="youtube-icon.png"></a>
+                    </li>
+                    <li>
+                        <a href="https://line.me/ti/p/%40setn" target="_blank"><img src="line-icon.png"></a>
+                    </li>
+                </ul>
+                <ul class="app-icon-footer">
+                    <li style="width: 48px;">
+                        <a href="http://bit.ly/2HSpkTw"><img src="setn-app.png"></a>
+                    </li>
+                    <li style="width: 48px;">
+                        <a href="http://bit.ly/2I7RZ7c"><img src="setn02-app.png"></a>
+                    </li>
+                </ul>
+                <ul class="app-icon-footer">
+                    <li style="width: 88px;">
+                        <a href="https://itunes.apple.com/us/app/yu-le-xing-wen/id1089426978?mt=8"><img src="appstore-app.png"></a>
+                    </li>
+                    <li style="width: 88px;">
+                        <a href="https://play.google.com/store/apps/details?id=com.set.app.entertainment"><img src="gplay-app.png"></a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</footer>
+<!--FOOTER-->
+
+
+    <div class="scroll-up hidden-print" style="display: block;" id="gotop">
+        <a href="javascript:void(0);"><i class="fa fa-angle-up"></i></a>
+    </div>
+
+    <div class="modal fade product_view hidden-print" id="video_view">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a href="#" data-dismiss="modal" class="class pull-right"><i class="fa fa-times" aria-hidden="true" style="font-size: 24px;"></i></a>
+                    <img src="logoB_1.png" style="width: 180px;">
+                </div>
+                <div class="modal-body">
+                    <div id="iframeCover" class="">
+                    </div>
+                    <h2></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="../js/default.js"></script>
+
+    
+
+
+
+    <input id="hfPageGroupId" type="hidden" value="0">
+
+    
+
+    <script type="text/javascript">
+
+    
+        function changeVOD(title) {
+            $(".vodTitle").text(title);
+        }
+        function WithoutVOD() {
+            $("#LiveVOD").remove();
+        }
+    </script>
+
+
+    <script src="../js/LogTracer.js"></script>
+
+    <script type="text/javascript">
+        var client_ip = '36.227.114.170';
+        var image_shost = 'https://attach.setn.com/newsimages';
+        $(function () {
+            var img = 'https://attach.setn.com/newsimages/Default/Working-';
+
+            //$('img').bind('error', function () {
+            //    var s = $(this).attr('data-iSize') ? $(this).attr('data-iSize') : 'XS';
+            //    $(this).attr('src', img + s + ".jpg");
+            //});
+
+            $("img.lazy").lazyload({
+                effect: "fadeIn",
+            });
+
+            if (getCookie('p_voteBanner') === '') {
+                $('#roll').show();
+            }
+
+            $('#roll').click(function () {
+                $('#boxcont').animate({ scrollTop: '0px' }, 800);
+            });
+
+        });
+
+        function close_roll() {
+            roll.style.visibility = 'hidden';
+            setCookie('p_voteBanner', '1', 0);
+        }
+
+        function setCookie(cname, cvalue, seconds) {
+            var d = new Date();
+            d.setTime(d.getTime() + (seconds * 1000));
+            var expires = "expires=" + d.toGMTString();
+            if (seconds > 0) {
+                document.cookie = cname + "=" + cvalue + "; " + expires;
+            }
+            else {
+                document.cookie = cname + "=" + cvalue;
+            }
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1);
+                if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
+            }
+            return "";
+        }
+        $(function () {
+            var w = $(".rightFloatContent").width();
+
+            $(".rightFloatTab").click(function () { //滑鼠滑入時
+                if ($(".rightFloat").css('right') == '-' + w + 'px') {
+                    $(this).find("span").removeClass("showFloatTab");
+                    $(this).find("span").addClass("hideFloatTab");
+                    $(".rightFloat").animate({ right: '0px' }, 600, 'swing');
+                }
+                else {
+                    $(this).find("span").removeClass("hideFloatTab");
+                    $(this).find("span").addClass("showFloatTab");
+
+                    $(".rightFloat").animate({ right: '-' + w + 'px' }, 600, 'swing');
+                }
+            });
+
+        });
+
+
+
+    </script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

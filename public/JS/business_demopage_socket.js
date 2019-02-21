@@ -214,6 +214,7 @@
         block_phone_300250(this.device,this.zonesize,this.site,'痞客邦(內文下方)');
         block_phone_300250(this.device,this.zonesize,this.site,'商周');
         block_phone_300250(this.device,this.zonesize,this.site,'妞新聞');
+        block_phone_300250(this.device,this.zonesize,this.site,'三立新聞');
         
         
       },
