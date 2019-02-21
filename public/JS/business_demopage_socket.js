@@ -13,6 +13,12 @@
       $("#cus_zone_block").css('display','none');
     }
   }
+  function block_phone_300250(d,z,s,sitename){
+    if(d == 'phone' && z == '300250' && s == sitename){
+      $("#zone_ch_block").css('display', 'block');
+      $("#cus_zone_block").css('display','none');
+    }
+  }
 
   var app = new Vue({
     // el: "#demopage_choise",
@@ -204,7 +210,10 @@
         block(this.device,this.zonesize,this.site,'樂時尚');
         block(this.device,this.zonesize,this.site,'良醫健康網');
         block(this.device,this.zonesize,this.site,'少女前線');
+        block_phone_300250(this.device,this.zonesize,this.site,'Ettoday');
+        block_phone_300250(this.device,this.zonesize,this.site,'痞客邦(內文下方)');
 
+        
       },
     }
   })
