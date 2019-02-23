@@ -224,6 +224,7 @@
         block_phone_300250(this.device,this.zonesize,this.site,'三立新聞');
         block_phone_300250(this.device,this.zonesize,this.site,'UDN');
         block_phone_320100(this.device,this.zonesize,this.site,'食尚玩家');
+        block_phone_320100(this.device,this.zonesize,this.site,'WalkerLand窩客島');
         
         
       },

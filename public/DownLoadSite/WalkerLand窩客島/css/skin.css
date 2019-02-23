@@ -1,0 +1,44 @@
+html #layui_layer_skinyourskinstylecss{display:none; position: absolute; width:1989px; text-align:center; }
+body .demo-class .layui-layer-title{ margin: 0px auto; text-align:center; background:#ff8a00; color:#fff; font:bold 16px/42px "微軟正黑體", Arial, Helvetica, sans-serif; border: none; padding-left: 75px;}
+body .demo-class .layui-layer-btn{ background: url(../images/step.png)no-repeat -5px -15px; float:left; text-align:center; }
+body .demo-class .layui-layer-btn a{ width: 82px; background:#333; border: 0; text-align:center; margin-left: 15px;  }
+body .demo-class .layui-layer-btn .layui-layer-btn1{ background:#ccc; color:#666; border: 0; margin-left: 15px; text-align:center;}
+
+body .demo-class-member .layui-layer-title{ margin: 0 auto; text-align:center; background:#ff8a00; color:#fff; font:bold 16px/42px "微軟正黑體", Arial, Helvetica, sans-serif; border: none; padding-left: 10px; padding-right: 10px;}
+body .demo-class-member .layui-layer-btn{ text-align:center; background:#ccc; color:#666; border: 0; margin: 0; }
+body .demo-class-member .layui-layer-btn a{ width: 82px; background:#333; border: 0; text-align:center; margin-left: 15px;  }
+
+/** 201603新增Mobile-demo-class-m */
+body .demo-class-m .layui-layer-title{ margin: 0px auto; text-align:center; background:#ff8a00; color:#fff; font:bold 16px/42px "微軟正黑體", Helvetica, sans-serif; border: none; padding-left: 75px;}
+body .demo-class-m .layui-layer-btn{ width: 98.5%; background: url(../images/step.png)no-repeat -5px -15px; float:left; text-align:center; }
+body .demo-class-m .layui-layer-btn a{ width: 26%; background:#333; border: 0; text-align:center; }
+body .demo-class-m .layui-layer-btn .layui-layer-btn1{ width: 34%; background:#ccc; color:#666; border: 0; text-align:center; }
+/*mobile*/
+@media screen and (max-width: 330px) {
+body .demo-class-m .layui-layer-btn a{ font:bold 14px/26px "微軟正黑體", Helvetica, sans-serif; }
+body .demo-class-m .layui-layer-btn .layui-layer-btn1{ font:bold 14px/26px "微軟正黑體", Helvetica, sans-serif;}
+}
+
+.iframe { padding: 5px; font: 12px/1.5 Arial,Helvetica,sans-serif,微軟正黑體; text-align:left; }
+.iframe h5{ font:bold 13px/1.5 Arial,Helvetica,sans-serif,微軟正黑體; color:000 ; text-align:left; }
+.iframe .td{ background: url(../images/step.png) no-repeat; background-position: 0 0; width: 15px; height: 15px; }
+.iframe span{ padding-left: 20px; width: 100px; height: 15px; }
+
+.iframe_member { padding: 5px; text-align: center; }
+.iframe_member h2{ color:#8e7b63; margin:0; font:bold 16px/2em "微軟正黑體", Arial,Helvetica,sans-serif; text-align: center; }
+.iframe_member input[type="text"] { padding: 2px;  font-size: 16px; 　border:1px solid #ccc;　}
+
+/** 201602新增說明iframe2 */
+.iframe2 { padding:0px 5px; }
+
+.iframe2 p{ font:15px/22px Arial,Helvetica,sans-serif,微軟正黑體; color:000 ; text-align:left; }
+.iframe2 b{ font:bold 15px/22px Arial,Helvetica,sans-serif,微軟正黑體; color:000 ; text-align:left; }
+.iframe2 span{ color: #F00 }
+
+
+
+/** MOBILE新增說明iframe */
+.iframe3 { margin: 0 auto; text-align:center; }
+.iframe3 h2{ color:#8e7b63; margin:0; font:bold 1.2em/2em "微軟正黑體", Arial,Helvetica,sans-serif; text-align:center; border-bottom: 0px solid; }
+.iframe3 input[type="text"] { padding: 2px;  1.5em/2em 　border:1px solid #ccc;　}
+

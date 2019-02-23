@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<link rel="shortcut icon" href="walkerland.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="canonical" href="https://www.walkerland.com.tw//error/">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.blockUI.js"></script>
+<title>WalkerLand 窩客島</title>
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<meta name="title" content="WalkerLand 窩客島, 找美食, 看旅遊, 找試吃, 拿優惠.找美食就來 WalkerLand 窩客島">
+<meta name="keywords" content="找美食, 旅遊, 試吃, 優惠券, Taipei Walker">
+<meta name="description" content="WalkerLand 窩客島提供全台美食,旅遊,試吃,優惠券,Taipei Walker 資訊, 也提供全台美食 ,優惠券,Taipei Walker 活動. 豐富的美食,旅遊,優惠券,Taipei Walker 內容. 找美食就來 WalkerLand 窩客島！">
+<link href="css/global_2014.css" rel="stylesheet" type="text/css">
+<link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">var base_url = ""</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-24937715-1', 'auto');
+ga('send', 'pageview');
+</script>
+</head>
+<body lang="zh-TW">
+<script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+//var pbjs = pbjs || {};
+//pbjs.que = pbjs.que || [];
+
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript" src="js/atrk.js"></script>
+<script type="text/javascript">_atrk_opts = { atrk_acct: "olz4h1awA400Wz", domain:"walkerland.com.tw"}; atrk ();</script>
+<noscript><img src="images/atrk_1.gif" style="display:none" height="1" width="1" alt=""></noscript>
+<!-- End Alexa Certify Javascript -->
+
+<!--=================== wrapper ===================-->
+<div id="wrapper">
+    
+<!-- header begin-->
+<div class="header_member">
+    <div class="channel">
+        <div class="channelBox">
+            <a href="/" class="select">窩客島</a>
+            <a href="/japanwalker">JapanWalker</a>
+        </div>
+    </div>
+    <ul>
+        <li class="login"><a href="/member/login?redirect=css/PIE.htc" target="_self">會員登入</a></li><li><a href="/member/signup" target="_self">註冊</a></li><li class="btn_new cre_art"><a title="寫文章" href="/article/createform"></a></li>        <li class="btn_new cre_poi"><a title="新增店家/景點" href="/poi/filter_poi_form" target="_self"></a></li>
+    </ul>
+</div>
+
+<div class="header">
+        <div class="main">
+        <h1><a class="logo" href="/" target="_self"><span>吃飽玩好窩客島</span></a></h1>        <div class="app"></div>
+        <form id="search_form" name="search" method="get" action="/search">
+            <div class="search">
+                <input id="key_word" name="key_word" type="text" value="" placeholder="嗨~今天想要吃什麼？玩什麼？">
+                <a class="area" href="#" name="area">選擇縣市<dfn></dfn></a>
+                <a class="btn" href="#">搜尋<dfn></dfn></a>
+                <div class="area_list" style="display:none;">
+                    <dl>
+                        <dt>北部</dt>
+                        <dd cid="1"><a href="#">基隆市</a></dd>
+                        <dd cid="2"><a href="#">台北市</a></dd>
+                        <dd cid="3"><a href="#">新北市</a></dd>
+                        <dd cid="4"><a href="#">桃園市</a></dd>
+                        <dd cid="5"><a href="#">新竹市</a></dd>
+                        <dd cid="6"><a href="#">新竹縣</a></dd>
+                        <dd cid="7"><a href="#">苗栗縣</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>中部</dt>
+                        <dd cid="8"><a href="#">台中市</a></dd>
+                        <dd cid="9"><a href="#">彰化縣</a></dd>
+                        <dd cid="10"><a href="#">南投縣</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>南部</dt>
+                        <dd cid="11"><a href="#">雲林縣</a></dd>
+                        <dd cid="12"><a href="#">嘉義市</a></dd>
+                        <dd cid="13"><a href="#">嘉義縣</a></dd>
+                        <dd cid="14"><a href="#">台南市</a></dd>
+                        <dd cid="15"><a href="#">高雄市</a></dd>
+                        <dd cid="16"><a href="#">屏東縣</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>東部</dt>
+                        <dd cid="19"><a href="#">宜蘭縣</a></dd>
+                        <dd cid="18"><a href="#">花蓮縣</a></dd>
+                        <dd cid="17"><a href="#">台東縣</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>離島</dt>
+                        <dd cid="20"><a href="#">澎湖縣</a></dd>
+                        <dd cid="21"><a href="#">金門縣</a></dd>
+                        <dd cid="22"><a href="#">連江縣</a></dd>
+                    </dl>
+                </div>
+            </div>
+            <input type="hidden" id="city" name="city" value="">
+            <input type="hidden" id="show" name="show" value="1">
+        </form>
+    </div>
+            <div class="google_ad">
+            <div id="Header">
+                <script type="text/javascript">googletag.cmd.push(function() { googletag.display('Header'); });</script>
+            </div>
+            <ul>
+                <li>
+                    <div id="textAD-A">
+                        <script type="text/javascript">
+                        googletag.cmd.push(function() { googletag.display('textAD-A'); });
+                        </script>
+                    </div>
+                </li>
+                <li>
+                    <div id="textAD-B">
+                        <script type="text/javascript">
+                        googletag.cmd.push(function() { googletag.display('textAD-B'); });
+                        </script>
+                    </div>
+                </li>
+                <li>
+                    <div id="textAD-C">
+                        <script type="text/javascript">
+                        googletag.cmd.push(function() { googletag.display('textAD-C'); });
+                        </script>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!-- header end-->
+
+<!-- nav begin-->
+<div class="nav">
+    <ul class="list">
+        <li class="tab_hom"><a href="/" target="_self">首頁</a></li>
+        <li class="tab_poi"><a href="/poi" target="_self">找美食</a>
+            <ul id="sub_nav">
+                <li><a href="/article/hot?from=home" target="_self">熱門話題</a></li>
+                <li><a href="/article" target="_self">最新好文</a></li>
+            </ul>
+        </li>
+        <li class="tab_cou"><a href="javascript:void(0)" id="cou_nav">找好康</a>
+            <ul id="sub_nav">
+                <li><a href="/try" target="_self">好康搶先試</a></li>
+                <li><a href="/coupon2" target="_self">優惠券</a></li>
+            </ul>
+        </li>
+        <li class="tab_iss"><a href="/issue/list/1" target="_self">特別企劃</a>
+            <ul id="sub_nav">
+                <li><a href="/issue/hot?from=home" target="_self">熱門趨勢</a></li>
+            </ul>
+        </li>
+        <li class="tab_sub"><a href="/subject" target="_self">編輯報導</a>
+            <ul id="sub_nav">
+                <li><a href="/subject/hot" target="_self">TOP 20 編輯報導</a></li>
+                <li><a href="/subject/latest" target="_self">即時報導</a></li>
+                <li><a href="/subject/newopen" target="_self">新開店報導</a></li>
+            </ul>
+        </li>
+        <li class="tab_eli"><a href="/elite/index?tab=1" target="_self">星級窩客</a></li>
+        <li class="tab_vid"><a href="/video" target="_self">影音</a></li>
+        <li class="tab_jpt"><a href="/subject?tab_id=11" target="_self">日本旅遊</a></li>
+        <li class="tab_min">
+        <a href="/mine" target="_self">我的窩</a>        </li>
+        <li class="tab_pur"><a href="https://www.walkerland.com.tw/event/puroland" target="_target">三麗鷗彩虹樂園</a></li>
+    </ul>
+</div>
+<!-- nav end-->
+    <!--=================== content ===================-->
+    <div id="content" class="clearfix">
+            <div id="floor_box">
+            </div>
+            <div id="floor_box">
+            </div>
+    <div id="left_box"><!--左側區塊-->
+        
+<div id="content_error" class="clearfix">
+            <h2 class="color_blue">咦？沒有這一頁喔！</h2>
+        <p>請確認您輸入的網址是否有誤。網址可能已移除、更名或暫時無法使用<br>
+            Unable to resolve the request        </p>
+            <p><a href="" class="link_more">回WalkerLand窩客島首頁</a></p>
+</div>
+    </div>
+    <!--左側區塊 END-->
+
+    <div id="right_box"><!--右側區塊-->
+            </div>
+    <!--右側區塊 END-->
+    <div class="clearfloat"></div>
+    </div>
+    <!--content END-->
+    <div id="footer" class="footer">
+            <a href="/" title="回窩客島首頁"><ins class="logo"></ins></a>
+<div class="sushi">
+    <ul>
+        <li><img src="images/footer_sushi.png" alt="sushi"></li>
+        <li><img src="images/footer_sushi.png" alt="sushi"></li>
+        <li><img src="images/footer_sushi.png" alt="sushi"></li>
+        <li><img src="images/footer_sushi.png" alt="sushi"></li>
+    </ul>
+</div>
+
+<div class="con">
+    <div class="site_map login_sitemap">
+                <ul>
+            <li>
+                <h2><a href="/poi">找美食</a></h2>
+                <h3><a href="/poi">搜尋</a></h3>
+                <h3><a href="/article">最新文章</a></h3>
+                <h3><a href="/issue/list">特別企劃</a></h3>
+                <h3><a href="/article/hot?from=home">熱門話題</a></h3>
+                <h3><a href="/issue/hot?from=home">熱門趨勢</a></h3>
+            </li>
+            <li>
+                <h2><a href="/subject">編輯報導</a></h2>
+                <h3><a href="/subject?tab_id=10">美食旅遊</a></h3>
+                <h3><a href="/subject?tab_id=11">日本旅遊</a></h3>
+                <h3><a href="/subject?tab_id=14">生活消費</a></h3>
+                <h3><a href="/subject/hot">編輯報導排行榜</a></h3>
+                <h3><a href="/subject/newopen">新開店報導</a></h3>
+            </li>
+            <li>
+                <h2><a href="/page/about">關於窩客島</a></h2>
+                <h3><a href="/page/qa">常見問題</a></h3>
+                <h3><a href="/member/manage/service?content=gamerule">服務條款</a></h3>
+                <h3><a href="/member/manage/service?content=policy">隱私權政策</a></h3>
+                <h3><a href="/member/manage/service?content=review">評鑑規範</a></h3>
+                <h3><a href="/member/manage/contactservice">聯絡我們</a></h3>
+                <h3><a href="/poi/filter_poi_form">新增店家／景點</a></h3>
+                <h3><a href="/vip">商家管理平台</a></h3>
+            </li>
+            <li>
+                <h2>找好康</h2>
+                <h3><a href="/try">好康搶先試</a></h3>
+                <h3><a href="/coupon2">優惠券</a></h3>
+            </li>
+            <li>
+                <h2>我的窩</h2>
+                <h3><a href="/mine">我的窩管理</a></h3>
+                <h3><a href="/member/manage/membercenter">會員資料管理</a></h3>
+            </li>
+            <li>
+                <h2><a href="/elite/index?tab=2">星級窩客</a></h2>
+                <h3><a href="/elite/index?tab=1">星級窩客文章</a></h3>
+            </li>
+        </ul>
+    </div>
+
+        <div class="device">
+        <dl>
+            <dt>遊ぶ　食べる　楽しめる「WalkerLand」で！</dt>
+            <dd>
+                <div class="pic"></div>
+                <p>您現在可以輕鬆使用不同裝置連上WalkerLand，隨時掌握最新美食旅遊情報，變身美食旅遊達人！</p>
+                <p>パソコンだけではなく、スマホやタブレットまで「WalkerLand」を見られる！いつでもどこでもグルメ・旅最新情報を手に入れよう！</p>
+            </dd>
+        </dl>
+    </div>
+    </div>
+
+<div class="copyright" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization"><meta itemprop="name" content="Walkerland 窩客島"><meta itemprop="url" content="">
+    <dl>
+        <dt>
+            <a href="https://www.kadokawa.com.tw/" class="kadokawa" title="台灣角川" target="_blank"></a>
+            <a href="https://www.taipeiwalker.com.tw/" class="taipeiwalker" title="TaipeiWalker" target="_blank"></a>
+            <a href="/japanwalker" class="japanwalker" title="JapanWalker" target="_blank"></a>
+            <a href="https://www.walkerland.com.tw/" class="walkerland" title="吃飽玩好窩客島" target="_blank"></a>
+            <a href="https://www.walkercafe.com.tw/" class="walkercafe" title="WalkerCafé 咖啡之道" target="_blank"></a>
+        </dt>
+        <dd>
+            商家廣告刊登服務專線:(02)2747-2433 轉分機313 由專人為您服務<br>
+            版權所有，未經許可，不許轉載 © 2011 KADOKAWA TAIWAN CORPORATION. All Rights Reserved.<br>
+            台灣角川股份有限公司 KADOKAWA TAIWAN CORPORATION.
+        </dd>
+    </dl>
+</div>
+
+    </div>
+    <!--footer END-->
+</div>
+<!--wrapper END-->
+
+<!-- Begin comScore Tag -->
+<script>
+var _comscore = _comscore || [];  _comscore.push({ c1: "2", c2: "17052115" });  (function() {    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";    el.parentNode.insertBefore(s, el);  })();
+</script>
+<noscript>
+<img src="p2">
+</noscript>
+<!-- End comScore Tag -->
+
+<script type="text/javascript" src="js/header_min.js"></script>
+<script type="text/javascript" src="js/jquery.blockUI.min.js"></script>
+<script type="text/javascript" src="js/footer_min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+$(".msg_info").animate({opacity: 1.0}, 5000).fadeOut("slow");
+});
+/*]]>*/
+</script>
+</body>
+</html>

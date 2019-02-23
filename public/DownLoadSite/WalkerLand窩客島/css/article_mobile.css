@@ -1,0 +1,367 @@
+@import url('animate.css');
+
+body { background-color: #333;}
+body, h1, h2, h3, h4, h5, h6 { font: normal 1em/1.2em "Arial", "微軟正黑體"; text-align: left;}
+a, a:hover { color: #776645; text-decoration: none;}
+div *, li, dd, a { word-wrap:break-word; word-break: break-all;}
+img { display: block;}
+
+.mobile_page { width: 100%; background-color: #f4f1eb; margin: 0 auto; position: absolute; top: 0; left: 0; z-index: 2;}
+/*201706*/ .mobile_page {background-color: #fff;}
+
+h1, h2 { width: 97%; font-size: 1.6em; padding: 1% 1.5%;}
+h1 { color: #478200; border-bottom: 1px solid #acc88e;}
+h1 dfn { margin-left: 5px;}
+h2 { color: #5b3219; border-bottom: 2px solid #cfc4b9;}
+h2 dfn { font-size: 0.6em; border-left: 1px solid #ad9889; padding: 0 0.5em; margin-left: 0.5em;}
+/* 20170608 找不到.open_up */
+h2 dfn.open_up { font-size: 0.5em; line-height: 1em; border: 0; padding: 0; margin-top: 1em; filter: alpha(opacity=60); -moz-opacity: 0.60; opacity: 0.60; float: right;}
+h2 dfn.open_up span { width: 12px; height: 12px; background: url(../images/common_pic_issue%402x.png) no-repeat 0 2px; background-size: cover; display: inline-block;}
+h2.style02 { color: #478200;} /*延伸閱讀*/
+h2.style02, h2.style02 dfn { border-color: #acc88e;}
+h3 { font: 1.1em "Arial", "微軟正黑體"; color: #fff; text-align: center;}
+
+/* 20170608 找不到.main_view */
+.main_view { margin-bottom: 5px;}
+.main_view img { width: 100%; height: auto;}
+.unit { margin: 0 1% 20px 1%;}
+.unit a { line-height: 1.2em;}
+
+.clearfix { zoom: 1; /*IE6, IE7*/}
+.clearfix:before, .clearfix:after { content: ''; display: table;}
+.clearfix:after { clear: both;}
+.clear { clear:both; display:block; overflow:hidden;}
+
+
+
+/************************************************************************************
+文章內頁
+*************************************************************************************/
+/* 201706 */
+.art_page { text-align: left; background-color: #fff; padding: 10px;}
+article { line-height: 1.8em; padding: 5px;}
+article img { max-width: 100% !important; height: auto !important; display:inline-block;}
+
+.art_page .modify { font-size: 0.8em;}
+.art_page .modify .icon_fb { width: 100px; height: 20px; margin-right: 5px; float: left;}
+.art_page .modify a.icon { color: #fff; text-decoration: none; background-color: #ada39e; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; box-shadow: 2px 2px 3px #ccc; padding: 0.25em; margin: 0 5px 5px 0; display: inline-block;}
+.art_page .modify .icon:hover, .art_page .author .icon:hover { position: relative; top: 1px; left: 1px;}
+.art_page .modify a.icon { float: right;}
+/* 201706 找不到.sound_icon */
+.art_page .sound_icon { margin: 0 0 10px 0; float: none; overflow: hidden;}
+
+/** 日期 **/
+.art_page .date { font: 0.8em/1.2em "Arial", "微軟正黑體"; color: #666; margin: 0.25em 0; display: inline-block;}
+.art_page .date dfn { width:20px; height: 20px; background: url(../images/common_pic_article_1.png) no-repeat -58px -55px; float: left; display: block;}
+
+/** 好文-社群分享x4 */
+.art_page .social { width: 100%; margin: 10px 0;}
+.art_page .social dl { text-align: center; margin: 0 auto;}
+.art_page .social dt { font:1em/1.6em "Arial", "微軟正黑體"; text-align: center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 4px 5px; margin: 5px 1px; display: inline-block;}
+.art_page .social dt p { text-align:center; padding-left: 10px;}
+.art_page .social dt.social_bg1, .art_page .social dt.social_bg2, .art_page .social dt.social_bg3, .art_page .social dt.social_bg4 { color: #fff; vertical-align: middle;}
+/*
+.art_page .social dt.social_bg1 { width: 65px; background-color: #305891;}
+.art_page .social dt.social_bg2 { width: 65px; background-color: #00c400;}
+*/
+.art_page .social dt.social_bg3 { width: 95px; background-color: #ff6600; border: 1px solid #ff6600;}
+.art_page .social dt.social_bg4 { width: 95px; background: linear-gradient(top,#81d310,#14a703); background: -moz-linear-gradient(top,#81d310,#14a703); background: -webkit-linear-gradient(top,#81d310,#14a703); border: 1px solid #6ca149;}
+.art_page .social dfn.web_info { width: 25px; height: 25px; background: url(../images/article_pic%402x_1.png) no-repeat; background-size: 25px; float:left; display: block;}
+.art_page .social dfn.web_info01 { background-position: 0 0;}
+.art_page .social dfn.web_info02, .art_page .social dfn.web_info04 { background-position: 0 -25px;}
+.art_page .social dfn.web_info03 { background-position: 0 -50px;}
+/*.art_page .social dfn.web_info04 { background-position: 0 -75px;}*/
+
+.art_page .social dt.share_bg { width: 42%; font:bold 1.4em/1.6em "Arial", "微軟正黑體";  color: #918475; text-align: center; vertical-align: middle; background: linear-gradient(top,#f9f9f9,#dddddd); background: -moz-linear-gradient(top,#f9f9f9,#dddddd); background: -webkit-linear-gradient(top,#f9f9f9,#dddddd); -webkit-border-radius: 5px; -moz-border-radius: 5px; border: #ddd 1px solid; border-radius: 5px; padding: 6px 15px;}
+.art_page .social dfn.share_info { width: 30px; height: 30px; background: url(../images/article_pic%402x_1.png) no-repeat; background-size: 30px; margin-top: 2px; float: left; display: block;}
+.art_page .social dfn.share_icon { background-position: 0 -120px;}
+
+/** 情報-社群分享x3 */
+.art_page .social dt.social_bg11, .art_page .social dt.social_bg22, .art_page .social dt.social_bg33 { color: #fff; line-height: 2em; vertical-align: middle; padding: 4px 5px;}
+.art_page .social dt.social_bg11 { width: 75px; background-color: #305891;}
+/* 20170901 bg33修改與bg22一樣 */
+.art_page .social dt.social_bg22, .art_page .social dt.social_bg33 { width: 75px; background-color: #00c400;}
+.art_page .social dt.social_bg33 { width: 100px;}
+.art_page .social dfn.web_info1 { width: 30px; height: 30px; background: url(../images/article_pic%402x.png)no-repeat; background-size: 30px; float: left; display: block;}
+.art_page .social dfn.web_info011 { background-position: 0 0;}
+.art_page .social dfn.web_info022, .art_page .social dfn.web_info033 { background-position: 0 -30px;}
+
+/**author strat**/
+/*
+.art_page .author { background-color: #f2f2f2; padding: 10px 5px; margin: 5px 0; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.art_page .author .main { padding-bottom: 10px;}
+.art_page .author .main .pic { margin-right: 5px; margin-bottom: 5px; float: left;}
+.art_page .author .main .pic img { width: 72px; height: 72px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px;}
+.art_page .author .name { margin-bottom: 0.1em;}
+.art_page .author ul { border-top: 1px dotted #ccc;}
+.art_page .author ul li { font-size: 0.8em; color: #666; border-bottom: 1px dotted #ccc; padding: 0.5em 0;}
+.art_page .author ul li dfn { margin-right: 0.5em;}
+.art_page .author ul li dfn span { color: #000;}
+*/
+
+.art_page .author a, .art_page article a { text-decoration: underline;}
+
+/**我要關注鈕**/
+.art_page .author .main .focus { font-size: 0.8em; opacity: 0.7; filter: Alpha(Opacity=70); display: inline-block;}
+.art_page .author .main .focus span { font-size: 0.8em; margin-left: 2px;}
+.art_page .author .main .focus .icon { color: #fff; text-decoration: none; background-color: #000; padding: 4px 10px 4px 4px; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; box-shadow: 2px 2px 3px #ccc; display: block;}
+.art_page .author .main .focus .icon dfn { width: 20px; height: 20px; background: url(../images/focus%402x.png) no-repeat; background-size: contain; float: left;}
+
+/**已關注**/
+.art_page .author .main .focus .icon2 { color: #999; text-decoration: none; background-color: #000; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; box-shadow: 2px 2px 3px #ccc; padding: 4px 10px 4px 4px; display: block;}
+.art_page .author .main .focus .icon2 dfn { width: 20px; height: 20px; background: url(../images/focus2%402x.png) no-repeat; background-size: contain; float: left;}
+
+
+/** 篇數+PV數 **/
+.art_page .author .personal, .art_page .author .personal2, .art_page .author .personal a, .art_page .author .personal2 a { font: 0.8em/1.2em "Arial", "微軟正黑體"; color: #666;}
+.art_page .author .personal, .art_page .author .personal2 { padding: 0.8em 0 0.4em 0;}
+.art_page .author .personal dt, .art_page .author .personal2 dt { width: 48%; color: #787878; text-align: center; display: inline-block;}
+
+/*201706*/
+/* font size小於13px font-family: "新細明體" 按鈕padding: 2px 5px; */
+.art_page .starwalker { margin-bottom: 5px;}
+.titleData { font-size: 13px; color: #333; padding: 0 5px;}
+.titleData dfn { width: 20px; height: 20px; background: url(../images/common_pic_article.png) no-repeat; vertical-align: middle; margin-right: 2px; float: left;}
+.art_page .titleData .date { font: inherit; font-size: 13px; color: #333; margin: 0;}
+.titleData .view { float: right;}
+.titleData .date dfn {background-position: -56px -55px;}
+.titleData .view dfn { background-position: -118px -55px;}
+
+.art_page .social { font-family: "新細明體"; font-size:13px; text-align: center; margin: 10px 0;}
+.art_page .social li { border-radius: 5px; padding: 2px 5px; margin: 0 3px; display: inline-block;}
+.art_page .social li a { color: #fff;}
+.art_page .social .social_bg3 { background-color: #ff6600;}
+.art_page .social .social_bg4 { background: #3cbf1c;}
+.art_page .social dfn.web_info { width: 16px; height: 16px; background: url(../images/article_pic%402x_1.png) no-repeat; background-size: 16px; vertical-align: middle; margin-right:3px; float: none; display: inline-block;}
+.art_page .social dfn.web_info03 { background-position: 0 -32px;}
+.art_page .social dfn.web_info04 { background-position: 0 -16px;}
+
+.author { background-color: #f4f1eb; padding: 8px 10px; margin-bottom: 10px;}
+.author .main .pic { margin-bottom: 5px; margin-right: 5px; float: left;}
+.author .main .pic img { width: 72px; height: 72px; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%;}
+.author .main .name { margin-left: 85px;}
+.author .followWalker li {float: left;}
+.author .followWalker a { font-family: "新細明體"; font-size: 13px; padding: 2px; margin-right: 10px;}
+.author .followWalker .focus a { color:#f08c04;}
+.author .followWalker .authorFb a { color:#325a92;}
+.author .followWalker .authorIg a { color:#d93175;}
+.author .followWalker a dfn { width: 16px; height: 16px; background: url(../images/article_pic%402x_1.png) no-repeat; vertical-align: middle; margin-right: 5px; display: inline-block;}
+.author .followWalker .focus dfn { background-position: 0 -394px;}
+.author .followWalker .authorFb dfn { background-position: -17px -394px;}
+.author .followWalker .authorIg dfn { background-position: -34px -394px;}
+.author .authorRate { font-size: 0.8em; color: #666; border-top: 1px dotted #ccc; border-bottom: 1px dotted #ccc; margin-top: 5px;}
+.author .authorRate li { padding: 5px 0;}
+.author .authorRate li dfn { margin-right: 0.5em;}
+.author .authorRate li dfn span { color: #000;}
+/*201706*/
+
+.art_page .author .personal dl dfn, .art_page .author .personal2 dl dfn { width: 20px; height: 20px; background: url(../images/common_pic_article_1.png) no-repeat; vertical-align: middle; margin-right: 4px; display: inline-block;}
+
+
+.art_page .author .personal .post dfn, .art_page .author .personal2 .post dfn { background-position: -78px -55px;}
+.art_page .author .personal .view dfn, .art_page .author .personal2 .view dfn { background-position: -118px -55px;}
+
+/* 201706 增加{回報歇業/錯誤}按鈕 */
+.report_error, .report_error:hover, .art_page .author .personal .report_error { max-width: 110px; font: normal 13px/1.5em "新細明體"; color: #fff; text-align: center; text-decoration: none; background-color: #a33838; border-radius: 3px; padding: 2px 5px; margin: 0 auto; display: block;}
+.report_error div { width: 16px; height: 16px; vertical-align: middle; background: url(../images/common_pic_poi.png) no-repeat -85px -175px; float: left;}
+.art_page .author .personal dl { min-width: 210px; float: left;}
+.art_page .author .personal .report_error { float: right;}
+/* 201706 增加{回報歇業/錯誤}按鈕 */
+
+.art_page .author .personal2 { border-top: 1px dotted #ccc;}
+/**author end**/
+
+
+/* 201702文末新增聯絡mail */
+.contactUs { text-align: left; background-color: #f5f5f5; padding: 0.8em; display: block;}
+.contactUs a { display: block;}
+.contactUs h5 { font:bold 16px/20px "微軟正黑體", "Arial", "Helvetica", sans-serif; color: #666; padding-bottom: 0.5em; margin: 0;}
+.contactUs p { font:normal 16px/20px "微軟正黑體", "Arial", "Helvetica", sans-serif; color: #666; padding: 0.15em 0;}
+.contactUs, .contactUs a, .contactUs:hover, .contactUs h5 a, .contactUs p a { text-decoration: none; border: 0;}
+
+/* youtube自適應 */
+.youtubecontent { height: 0; position: relative; overflow: hidden;}
+.youtubecontent { padding-bottom: 56.25%;}
+.youtubecontent iframe, .youtubecontent object, .youtubecontent embed { width: 100%; height: 100%; position: absolute; top: 0; left: 0;}
+
+
+
+/************************************************************************************
+店家資訊
+*************************************************************************************/
+
+/** 共用圓角外框 **/
+.infoBox { background-color: #fff; margin: 10px 5px;}
+.infoBox .h3Box {
+    background-color: #8d7454;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 8px 0 5px 0;
+}
+.infoBox .h3Box span { color: #fff;}
+
+/* 201810 增加相關店家 */
+.store { text-align: left; padding: 10px;}
+.store .poiInfo { background-color: #fff; margin-bottom: 10px;}
+.store .poiInfo img { width: 120px; height: 120px; margin-right: 5px; float: left;}
+.store .poiInfo p { font:bold 1em/1.3em "微軟正黑體", "Arial"; color: #5b3219;}
+.store dl dt { font: 0.8em/2em "微軟正黑體", "Arial"; color: #776645; border-top: 1px dotted #ccc; padding: 12px;}
+.store dl dfn { width: 26px; height: 26px; background: url(../images/mine_pic%402x.png) no-repeat; background-size: cover; margin-right: 5px; float: left;}
+.store dl .add dfn { background-position: 0 -468px;}
+.store dl .tel dfn { background-position: 0 -494px;}
+.store2 { position: relative; text-align: left; padding: 10px;}
+.store2:nth-child(n+3){ border-top: 1px dotted #ccc; padding-top: 20px;}
+.store2 .poiInfo { background-color: #fff; margin-bottom: 10px;}
+.store2 .poiInfo img { width: 80px; height: 80px; margin-right: 5px; float: left;}
+.store2 .poiInfo p { font:bold 1em/1.3em "微軟正黑體", "Arial"; color: #5b3219;}
+.store2 .poiInfo .seemore { position: absolute; right: 10px; bottom: 20px;}
+.store2 .poiInfo .seemore, .store2 .poiInfo .seemore a, .store2 .poiInfo .seemore:hover{ max-width: 110px; font: normal 13px/1.5em "新細明體"; color: #fff; text-align: center; text-decoration: none; background-color: #a33838; border-radius: 3px; padding: 2px 5px; margin: 0 auto; display: block;}
+
+.seemore, .seemore:hover{ max-width: 110px; font: normal 13px/1.5em "新細明體"; color: #fff; text-align: center; text-decoration: none; background-color: #a33838; border-radius: 3px; padding: 2px 5px; margin: 0 auto; display: block;}
+.seemore div { width: 16px; height: 16px; padding-right: 3px; vertical-align: middle; background: url(../images/common_pic_poi.png) no-repeat -130px -175px; float: left;}
+.report_error div { width: 16px; height: 16px; vertical-align: middle; background: url(../images/common_pic_poi.png) no-repeat -85px -175px; float: left;}
+
+
+/* 20170608 找不到.further */
+/** 左右則 */
+.art_page .further { overflow: hidden;}
+.art_page .further em { width: 48.5%; color: #fff; line-height: 1.8em; background-color: #555; border-bottom: 1px dotted #aaa; padding: 10px 5px; display: block;}
+.art_page .further .prev { float: left;}
+.art_page .further .next { text-align: right; float: right;}
+.art_page .further em .arrow { width: 25px; height: 25px; font-size: 0; background: url(../images/common_pic_article_1.png) no-repeat; display: inline-block;}
+.art_page .further .prev .arrow { background-position: 0 -20px; margin-right: 5px; float: left;}
+.art_page .further .next .arrow { background-position: -30px -20px; margin-left: 5px; float: right;}
+.art_page .further .next span { float: right;}
+.art_page .pagenumber { border-bottom: 1px solid #e2e2e2; padding: 10px 0 20px 0;}
+
+
+
+/************************************************************************************
+我要留言
+*************************************************************************************/
+/* 20170608 找不到.messageBox */
+.messageBox { text-align: center; padding: 10px 5px; margin: 0 auto;}
+.post { color: #666;}
+.post h6 { width: 97%; font: normal 0.9em "Arial"; padding: 0 1.5%;}
+.post textarea { width: 99%; height: 100px; color: #999; white-space: pre-wrap; word-wrap: break-word; border: solid 1px #e1ddd3; outline:0; resize:none; overflow: hidden; display: block;}
+.post input { font: normal 1em "Arial"; color: #fff; background-color: #81614d; border: 0; border-radius: 0.5em; padding: 0.5em 1.2em; margin: 5px 0; float: right; display: block;}
+.post input.nologin { background-color: #d9d9d9;}
+.post input.report { background-color: #999; border-radius: 0; padding: 0.2em 0.5em; margin: 2px 0;}
+.post .form { margin: 0 0 10px 0; overflow: hidden;}
+.post .form dl dfn, .post .form dfn { font: normal 1em/3em "微軟正黑體", "Arial"; color: #ff4200; margin: 0 1em; float:right;}
+.post .form dl dt { display: none;}
+.post .pic { width: 60px; height: 60px; padding: 10px; margin: 0; float: left; display: block;}
+.post .pic img { width: 60px; height:60px; -moz-border-radius: 300px; -webkit-border-radius: 300px; border-radius: 300px; display: block;}
+.post dl { width: 70%; text-align: left; padding: 10px 0; margin: 0; float: left; overflow: hidden;}
+.post dl dd { width: 100%; text-align: left;}
+.post .message .pic { width: 50px; height: 50px; padding: 5px; margin: 0; position: absolute; display: block;}
+.post .message .pic img { width: 50px; height:50px; margin-right: 5px; -moz-border-radius: 300px; -webkit-border-radius: 300px; border-radius: 300px; display: block;}
+.post .message { margin: 0 0 10px 0; overflow: hidden;}
+.post .message dl { font: normal 0.8em "微軟正黑體", "Arial"; padding: 2%; margin-left: 60px;}
+.post .message dl dt { margin-bottom: 0.7em;}
+.post .message dl dt dfn { display: block;}
+.post .message dl dt dfn.name { font: bold 1.3em/2em "微軟正黑體", "Arial"; margin: 0 10px 0 0;}
+.post .message dl dt dfn.date { font: bold 0.9em/1em "微軟正黑體", "Arial"; color: #999;}
+.post .message dl dd { margin-bottom: 0.7em;}
+/* 20170608 找不到.replyform */
+.post .message .replyform .reply { font: normal 1.25em "微軟正黑體", "Arial"; color: #fff; background-color: #81614d; border: 0; border-radius: 0.5em; padding: 0.5em 1.2em; margin: 5px 0; float: left; display: block; -webkit-appearance: none;}
+.post .message .reply { background-color: #f1f1f1; margin: 0 2% 0 50px; overflow: hidden;}
+
+
+
+/************************************************************************************
+窩客島社群區塊
+*************************************************************************************/
+
+.life_box { text-align: center; padding: 10px 0; margin: 0 auto;}
+.life_box .area { text-align: center; padding-bottom: 15px; margin: 0 auto;}
+.life_box .area p { font:bold 16px/20px "微軟正黑體", "Arial", "Helvetica", sans-serif; color:#666; text-align: center; }
+.life_box .area .iframebox { height: 75px; text-align: center; overflow: hidden; display: block;}
+
+
+
+/************************************************************************************
+更多文章
+*************************************************************************************/
+
+/*= wizard css =*/
+.payment-wizard { width: 100%; background-color: #fff; margin-bottom: 15px;}
+.payment-wizard li.active { position: relative; z-index: 1;}
+.wizard-content { width: 100%; display: none;}
+li:first-child .wizard-content { display: block;}
+.btn-green{ width: 100%; font:bold 1.2em "Arial","微軟正黑體"; color: #fff; text-transform: uppercase; background-color: #68b012; border: 1px solid #438308; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 0.3em 0; z-index: 1; cursor: pointer;}
+/*= wizard end =*/
+
+/*=  三則文章列表 =*/
+.walker_list { text-align: left; padding:0 10px; margin: 0 auto;}
+.walker_list dl { font-size: 1.2em; border-bottom: 1px dotted #c0c0c0; padding: 0.7em 0 0.5em 0; overflow: hidden;}
+.walker_list dl img { width: 150px; height: auto; margin-right: 5px; float: left;}
+.walker_list dl dt { max-height: 2.4em; color: #333; line-height: 1.2em; margin-bottom: 0.25em; overflow: hidden;}
+.walker_list dl dd { font-size: 0.7em; color: #7e7e7e;}
+
+
+
+/************************************************************************************
+tablet
+*************************************************************************************/
+
+@media screen and (max-width : 769px) {
+    .detail .author .words { width: 100%;}
+    .detail .author .words .meals { max-height: 6.5em; overflow: hidden;}
+    .info_ad .info { width: 98%;}
+    /** 情報-網友留言 **/
+    .fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe { width: 100% !important;}
+    .art_page .further em { width: 99%; height: 22px; overflow: hidden;}
+    .walker_list dl img { width: 70px;}
+
+    /* 20170608 增加{回報歇業/錯誤}按鈕 */
+    .art_page .author .personal dl { width: 66%; min-width: initial;}
+    /* 20170608 增加{回報歇業/錯誤}按鈕 */
+}
+
+
+
+/************************************************************************************
+mobile
+*************************************************************************************/
+
+@media screen and (max-width: 480px) {
+    .google_ad .leaderboard { display: none;}
+    .art_page .author .main .pic img { width: 80px; height: 80px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px;}
+    .art_page .social dt { font:1em/1.6em "Arial","微軟正黑體"; text-align:center; padding: 3px; margin: 5px 0;}
+    .post dl { width: 75%;}
+}
+
+@media screen and (max-width: 330px) {
+    .normal_list dl .pic img { width: 100px; height: 100px;}
+    .google_ad .leaderboard { display: none;}
+    .normal_list dl dt { width: 60%; float :right;}
+    .art_page .author .main .pic img { width: 72px; height: 72px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px;}
+    .post dl { width: 70%;}
+    /** 好文-社群分享x4 */
+    .art_page .author .pic img { width: 72px; height: 72px;}
+    .art_page .social dt { font:1em/1.3em "Arial","微軟正黑體"; padding: 3px; margin: 5px 0;}
+    .art_page .social dt.social_bg1 { width: 56px;}
+    .art_page .social dt.social_bg2 { width: 56px;}
+    .art_page .social dt.social_bg3 { width: 87px;}
+    .art_page .social dt.social_bg4 { width: 87px;}
+    .art_page .social dfn.web_info { width: 20px; height: 20px; background-size: 20px;}
+    .art_page .social dfn.web_info01 { background-position: 0 0;}
+    /* 20170901 修改icon */
+    .art_page .social dfn.web_info02, .art_page .social dfn.web_info04 { background-position: 0 -20px;}
+    .art_page .social dfn.web_info03 { background-position: 0 -40px;}
+    /* .art_page .social dfn.web_info04 { background-position: 0 -60px;} */
+
+    /** 情報-社群分享x3 */
+    .art_page .social dt.social_bg11, .art_page .social dt.social_bg22 { width: 65px; padding: 4px 8px;}
+
+    /* 20170608 增加{回報歇業/錯誤}按鈕 */
+    .art_page .author .personal { text-align: center;}
+    .art_page .author .personal dl { width: initial; min-width: initial; float: none;}
+    .art_page .author .personal .report_error { max-width:110px; margin:10px auto 0; float: none; display: block;}
+    /* 20170608 增加{回報歇業/錯誤}按鈕 */
+}
