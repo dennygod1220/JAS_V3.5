@@ -1,0 +1,373 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="zh-TW" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="zh-TW" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="zh-TW" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="zh-TW" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="zh-TW" itemscope="" itemtype="https://schema.org/Blog"> <!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta property="og:title" content="男丁格爾's 脫殼玩">
+<meta property="og:type" content="blog">
+<meta property="og:url" content="http://abgne.tw">
+<meta property="og:site_name" content="男丁格爾's 脫殼玩">
+<meta property="og:description" content="分享各種 jQuery 外掛的使用及 jQuery 跑馬燈、廣告輪播及選單等實用的 jQ 範例。">
+<meta itemprop="name" content="男丁格爾's 脫殼玩">
+<meta itemprop="description" content="分享各種 jQuery 外掛的使用及 jQuery 跑馬燈、廣告輪播及選單等實用的 jQ 範例。">
+<meta name="google-site-verification" content="Sz2gSSArMuL7SK8p4Ny89cJcmmPgo-8RcEg1ymVnyUU">
+<meta name="description" content="分享各種 jQuery 外掛的使用及 jQuery 跑馬燈、廣告輪播及選單等實用的 jQ 範例。另外分享 Android 程式技巧及 OpenCart 購物車修改技巧分享。">
+<meta name="keywords" content="jQuery 範例教學,jQuery Plugins,jQuery 外掛,jQuery Menu,jQuery 選單,jQuery Tabs,jQuery 頁籤,jQuery Slideshow,jQuery 廣告輪播,jQuery 跑馬燈">
+<meta name="DC.Publisher" content="男丁格爾">
+<meta name="DC.Description" content="分享各種 jQuery 外掛的使用及 jQuery 跑馬燈、廣告輪播及選單等實用的 jQ 範例。另外分享 Android 程式技巧及 OpenCart 購物車修改技巧分享。">
+<meta name="DC.Type" content="blog">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>沒有符合條件的頁面。 | 男丁格爾's 脫殼玩</title>
+<link rel="dns-prefetch" href="//abgne.tw">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="shortcut icon" type="image/x-icon" href="../favicon_1.ico">
+<link rel="pingback" href="http://abgne.tw/xmlrpc.php">
+<meta name="a" content="2pw4tig9ixcvo9b">
+<!--[if lt IE 9]>
+	<script src="http://abgne.tw/wp-content/themes/abgne.tw_4.0/js/IE9.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" media="all" href="../css/codemirror.css">
+<link rel="stylesheet" type="text/css" media="all" href="../css/style_2.css">
+<link rel="dns-prefetch" href="//s.w.org">
+<link rel="alternate" type="application/rss+xml" title="訂閱 男丁格爾&#039;s 脫殼玩 &raquo;" href="https://abgne.tw/feed">
+<link rel="alternate" type="application/rss+xml" title="訂閱 男丁格爾&#039;s 脫殼玩 &raquo; 迴響" href="https://abgne.tw/comments/feed">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/abgne.tw\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.8"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="wp-pagenavi-css" href="../css/pagenavi-css.css" type="text/css" media="all">
+<link rel="https://api.w.org/" href="https://abgne.tw/wp-json/">
+<link rel="shortcut icon" href="../favicon_2.ico">
+	<script async src="../js/adsbygoogle.js"></script>
+	<script>
+		(adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: "ca-pub-5791881948097647",
+			enable_page_level_ads: true
+		});
+	</script>
+</head>
+
+<body class="error404">
+	<div id="header-top-wrapper">
+		<nav class="container-stlye">
+		<ul id="menu-top" class="menu"><li><a href="https://abgne.tw/register"><span class="bold">是新朋友嗎？</span> 請註冊</a> | <a href="https://abgne.tw/login"><span class="bold">登入</span></a></li><li id="menu-item-5232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5232"><a href="https://abgne.tw/level_compare">會員等級說明</a></li>
+</ul>		<ul id="social-top" class="menu">
+			<li><div class="fb-like" data-send="false" data-layout="button_count" data-show-faces="false" data-href="http://abgne.tw"></div></li>
+		</ul>
+		</nav>
+	</div>
+
+	<header id="header" class="container-stlye clearfloat">
+				<div id="logo">
+			<a href="https://abgne.tw/" title="男丁格爾&#039;s 脫殼玩">
+				<h2>男丁格爾&#039;s 脫殼玩</h2>
+			</a>
+		</div>
+		<div id="header-banner">
+						<script async src="../js/adsbygoogle.js"></script>
+			<!-- abgne.tw-header -->
+			<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-5791881948097647" data-ad-slot="9187067682"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+					</div>
+
+	</header>
+
+	<div id="nav-wrapper" class="clearfloat">
+		<nav class="container-stlye">
+			<ul id="menu-main" class="menu"><li id="menu-item-5210" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5210"><a href="http://abgne.tw/">首頁</a>
+<ul class="sub-menu">
+	<li id="menu-item-5211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5211"><a href="https://abgne.tw/jquery-apply-list">jQuery 應用範例列表</a></li>
+	<li id="menu-item-7844" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7844"><a href="https://abgne.tw/category/css/apply-css3">CSS3 應用</a></li>
+	<li id="menu-item-5613" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5613"><a href="https://abgne.tw/downloads-list">檔案列表</a></li>
+	<li id="menu-item-5309" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5309"><a href="https://abgne.tw/category/my-programes">我的程式</a></li>
+	<li id="menu-item-8103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8103"><a href="http://www.sugarhosts.com/members/aff.php?aff=1901">超激安糖果主機</a></li>
+</ul>
+</li>
+<li id="menu-item-5212" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-5212"><a href="https://abgne.tw/category/jquery">jQuery</a>
+<ul class="sub-menu">
+	<li id="menu-item-5214" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5214"><a href="https://abgne.tw/category/jquery/apply-jquery">jQuery 應用</a></li>
+	<li id="menu-item-5213" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5213"><a href="https://abgne.tw/category/jquery/jquery-plugins">jQuery 外掛</a></li>
+	<li id="menu-item-5215" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5215"><a href="https://abgne.tw/category/jquery/jquery-tips">jQuery 技巧</a></li>
+	<li id="menu-item-5668" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5668"><a href="https://abgne.tw/category/jquery/jquery-stack-overflow">jQuery 問題分享</a></li>
+	<li id="menu-item-5216" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5216"><a href="https://abgne.tw/category/jquery/jquery-resources">jQuery 資源</a></li>
+	<li id="menu-item-8104" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8104"><a href="http://www.sugarhosts.com/members/aff.php?aff=1901">超激安糖果主機</a></li>
+</ul>
+</li>
+<li id="menu-item-7015" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-7015"><a href="https://abgne.tw/category/angularjs">AngularJS</a>
+<ul class="sub-menu">
+	<li id="menu-item-7016" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7016"><a href="https://abgne.tw/category/angularjs/angularjs-getting-stared">AngularJS 入門教學</a></li>
+	<li id="menu-item-8105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8105"><a href="http://www.sugarhosts.com/members/aff.php?aff=1901">超激安糖果主機</a></li>
+</ul>
+</li>
+<li id="menu-item-6753" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-6753"><a href="https://abgne.tw/category/d3">D3</a>
+<ul class="sub-menu">
+	<li id="menu-item-6754" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6754"><a href="https://abgne.tw/category/d3/d3-getting-stared">D3 入門教學</a></li>
+	<li id="menu-item-6755" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6755"><a href="https://abgne.tw/category/d3/apply-d3">D3 應用</a></li>
+	<li id="menu-item-6756" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6756"><a href="https://abgne.tw/category/d3/d3-resources">D3 資源</a></li>
+</ul>
+</li>
+<li id="menu-item-5924" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-5924"><a href="https://abgne.tw/category/javascript">JavaScript</a>
+<ul class="sub-menu">
+	<li id="menu-item-5925" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5925"><a href="https://abgne.tw/category/javascript/js-lib">JavaScript Library</a></li>
+	<li id="menu-item-5926" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5926"><a href="https://abgne.tw/category/javascript/apply-javascript">JavaScript 應用</a></li>
+	<li id="menu-item-5927" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5927"><a href="https://abgne.tw/category/javascript/javascript-resource">JavaScript 資源</a></li>
+</ul>
+</li>
+<li id="menu-item-5222" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-5222"><a href="https://abgne.tw/category/css">CSS</a>
+<ul class="sub-menu">
+	<li id="menu-item-5225" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5225"><a href="https://abgne.tw/category/css/css3-lab">CSS3 研究室</a></li>
+	<li id="menu-item-7824" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7824"><a href="https://abgne.tw/category/css/apply-css3">CSS3 應用</a></li>
+	<li id="menu-item-5223" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5223"><a href="https://abgne.tw/category/css/apply-css">CSS 應用</a></li>
+	<li id="menu-item-5224" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5224"><a href="https://abgne.tw/category/css/css-resource">CSS 資源</a></li>
+	<li id="menu-item-8106" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8106"><a href="http://www.sugarhosts.com/members/aff.php?aff=1901">超激安糖果主機</a></li>
+</ul>
+</li>
+<li id="menu-item-6757" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-6757"><a href="https://abgne.tw/category/svg">SVG</a>
+<ul class="sub-menu">
+	<li id="menu-item-6758" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6758"><a href="https://abgne.tw/category/svg/svg-getting-started">SVG 入門教學</a></li>
+</ul>
+</li>
+<li id="menu-item-5217" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-5217"><a href="https://abgne.tw/category/android">Android</a>
+<ul class="sub-menu">
+	<li id="menu-item-5218" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5218"><a href="https://abgne.tw/category/android/android-app">Android APP</a></li>
+	<li id="menu-item-5219" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5219"><a href="https://abgne.tw/category/android/android-tips">Android 技巧</a></li>
+	<li id="menu-item-5220" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5220"><a href="https://abgne.tw/category/android/android-code-snippets">Android 程式片段</a></li>
+	<li id="menu-item-5221" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5221"><a href="https://abgne.tw/category/android/android-resource">Android 資源</a></li>
+</ul>
+</li>
+<li id="menu-item-5226" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-5226"><a href="https://abgne.tw/category/opencart">OpenCart</a>
+<ul class="sub-menu">
+	<li id="menu-item-5227" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5227"><a href="https://abgne.tw/category/opencart/opencart-tips">OpenCart 技巧</a></li>
+</ul>
+</li>
+<li id="menu-item-5228" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-5228"><a href="https://abgne.tw/category/wordpress">WordPress</a>
+<ul class="sub-menu">
+	<li id="menu-item-5229" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5229"><a href="https://abgne.tw/category/wordpress/wordpress-plugins">WordPress 外掛</a></li>
+</ul>
+</li>
+<li id="menu-item-6334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6334"><a href="https://abgne.tw/contact-me">與我聯絡</a></li>
+</ul>		</nav>
+	</div>
+	
+	<div id="sub-nav-wrapper" class="clearfloat">
+		<nav class="container-stlye clearfloat">
+					</nav>
+	</div>
+	
+	
+	<div id="wrapper" class="container-stlye clearfloat">
+		<section id="main">
+			<div id="items-wrapper">
+				<article id="post-0" class="post error404 not-found clearfloat">
+					<header class="entry-header">
+						<h1 class="entry-title">喔喔~我 Hold 不住了!!</h1>
+					</header>
+
+					<div class="entry-content">
+						<p>看來我們無法幫您找到您要的東西。也許搜尋或下列鏈結之一可以幫到您。</p>
+
+						<form method="get" id="searchform" action="https://abgne.tw/">
+							<label for="s" class="assistive-text">搜尋</label>
+							<input type="text" class="field" name="s" id="s" autofocus="true" autocomplete="off" speech="" x-webkit-speech="" x-webkit-grammar="builtin:translate" placeholder="搜尋">
+							<input type="submit" class="submit" name="submit" id="searchsubmit" value="搜尋">
+						</form>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<div id="sidebar" class="widget-area" role="complementary">
+			<div class="widget widget_search">
+					<form method="get" id="searchform" action="https://abgne.tw/">
+		<label for="s" class="assistive-text">搜尋</label>
+		<input type="text" class="field" name="s" id="s" autocomplete="off" speech="" x-webkit-speech="" x-webkit-grammar="builtin:translate" placeholder="搜尋">
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="搜尋">
+	</form>			</div>
+
+			<aside class="widget border-widget">
+				<h4 class="widget-title">本頁 QR Code</h4>
+				<!-- http://yougapi.com/products/wp/demo/qr-codes/ -->
+				<div class="qr-code" style="background: url(../chart) no-repeat -25px -25px;"></div>
+			</aside>
+
+			<aside class="widget border-widget">
+				<h4 class="widget-title">標籤雲</h4>
+				<div class="tagcloud widget-content">
+					<a href="https://abgne.tw/tag/net" class="tag-cloud-link tag-link-23 tag-link-position-1" style="color:#75e6d2;font-size: 10.659217877095pt;" aria-label=".NET (10 個項目);">.NET</a>
+<a href="https://abgne.tw/tag/android" class="tag-cloud-link tag-link-227 tag-link-position-2" style="color:#7f5c7a;font-size: 13.162011173184pt;" aria-label="Android (22 個項目);">Android</a>
+<a href="https://abgne.tw/tag/angularjs" class="tag-cloud-link tag-link-232 tag-link-position-3" style="color:#baf7f8;font-size: 14.491620111732pt;" aria-label="AngularJS (33 個項目);">AngularJS</a>
+<a href="https://abgne.tw/tag/animate" class="tag-cloud-link tag-link-131 tag-link-position-4" style="color:#7b62;font-size: 10.659217877095pt;" aria-label="Animate (10 個項目);">Animate</a>
+<a href="https://abgne.tw/tag/animation" class="tag-cloud-link tag-link-74 tag-link-position-5" style="color:#119791;font-size: 16.68156424581pt;" aria-label="Animation (63 個項目);">Animation</a>
+<a href="https://abgne.tw/tag/csharp" class="tag-cloud-link tag-link-16 tag-link-position-6" style="color:#dbba06;font-size: 16.525139664804pt;" aria-label="C# (61 個項目);">C#</a>
+<a href="https://abgne.tw/tag/cheat-sheet" class="tag-cloud-link tag-link-13 tag-link-position-7" style="color:#a205;font-size: 9.1731843575419pt;" aria-label="Cheat Sheet (6 個項目);">Cheat Sheet</a>
+<a href="https://abgne.tw/tag/code" class="tag-cloud-link tag-link-48 tag-link-position-8" style="color:#7c3086;font-size: 11.91061452514pt;" aria-label="code (15 個項目);">code</a>
+<a href="https://abgne.tw/tag/css" class="tag-cloud-link tag-link-220 tag-link-position-9" style="color:#d41ca5;font-size: 13.31843575419pt;" aria-label="CSS (23 個項目);">CSS</a>
+<a href="https://abgne.tw/tag/css3" class="tag-cloud-link tag-link-135 tag-link-position-10" style="color:#d3bc0f;font-size: 13.709497206704pt;" aria-label="CSS3 (26 個項目);">CSS3</a>
+<a href="https://abgne.tw/tag/d3" class="tag-cloud-link tag-link-231 tag-link-position-11" style="color:#41276;font-size: 10.346368715084pt;" aria-label="D3 (9 個項目);">D3</a>
+<a href="https://abgne.tw/tag/d3-js" class="tag-cloud-link tag-link-182 tag-link-position-12" style="color:#57db57;font-size: 10.346368715084pt;" aria-label="D3.js (9 個項目);">D3.js</a>
+<a href="https://abgne.tw/tag/dragdrop" class="tag-cloud-link tag-link-72 tag-link-position-13" style="color:#64d4e6;font-size: 9.1731843575419pt;" aria-label="Dragdrop (6 個項目);">Dragdrop</a>
+<a href="https://abgne.tw/tag/effects" class="tag-cloud-link tag-link-66 tag-link-position-14" style="color:#1a0d9b;font-size: 16.68156424581pt;" aria-label="Effects (64 個項目);">Effects</a>
+<a href="https://abgne.tw/tag/emmet" class="tag-cloud-link tag-link-235 tag-link-position-15" style="color:#8cd095;font-size: 8.6256983240223pt;" aria-label="Emmet (5 個項目);">Emmet</a>
+<a href="https://abgne.tw/tag/ext-js" class="tag-cloud-link tag-link-225 tag-link-position-16" style="color:#33fafa;font-size: 9.1731843575419pt;" aria-label="Ext JS (6 個項目);">Ext JS</a>
+<a href="https://abgne.tw/tag/facebook" class="tag-cloud-link tag-link-82 tag-link-position-17" style="color:#946411;font-size: 10.346368715084pt;" aria-label="Facebook (9 個項目);">Facebook</a>
+<a href="https://abgne.tw/tag/forms" class="tag-cloud-link tag-link-65 tag-link-position-18" style="color:#2dd1a3;font-size: 15.586592178771pt;" aria-label="Forms (46 個項目);">Forms</a>
+<a href="https://abgne.tw/tag/gallery" class="tag-cloud-link tag-link-81 tag-link-position-19" style="color:#1aa7fc;font-size: 10.972067039106pt;" aria-label="Gallery (11 個項目);">Gallery</a>
+<a href="https://abgne.tw/tag/google" class="tag-cloud-link tag-link-92 tag-link-position-20" style="color:#ef6d09;font-size: 15.039106145251pt;" aria-label="Google (39 個項目);">Google</a>
+<a href="https://abgne.tw/tag/how-to" class="tag-cloud-link tag-link-96 tag-link-position-21" style="color:#de0d2a;font-size: 9.9553072625698pt;" aria-label="How To (8 個項目);">How To</a>
+<a href="https://abgne.tw/tag/html5" class="tag-cloud-link tag-link-136 tag-link-position-22" style="color:#f6dba9;font-size: 9.1731843575419pt;" aria-label="HTML5 (6 個項目);">HTML5</a>
+<a href="https://abgne.tw/tag/java" class="tag-cloud-link tag-link-221 tag-link-position-23" style="color:#a9a06a;font-size: 13.005586592179pt;" aria-label="Java (21 個項目);">Java</a>
+<a href="https://abgne.tw/tag/javascript" class="tag-cloud-link tag-link-219 tag-link-position-24" style="color:#52ce79;font-size: 18.715083798883pt;" aria-label="JavaScript (117 個項目);">JavaScript</a>
+<a href="https://abgne.tw/tag/jquery" class="tag-cloud-link tag-link-218 tag-link-position-25" style="color:#e0a47d;font-size: 22pt;" aria-label="jQuery (309 個項目);">jQuery</a>
+<a href="https://abgne.tw/tag/jquery-ad" class="tag-cloud-link tag-link-98 tag-link-position-26" style="color:#7c8a1c;font-size: 12.145251396648pt;" aria-label="jQuery 廣告 (16 個項目);">jQuery 廣告</a>
+<a href="https://abgne.tw/tag/jquery-gallery" class="tag-cloud-link tag-link-102 tag-link-position-27" style="color:#c08328;font-size: 11.754189944134pt;" aria-label="jQuery 畫廊 (14 個項目);">jQuery 畫廊</a>
+<a href="https://abgne.tw/tag/jquery-menu" class="tag-cloud-link tag-link-97 tag-link-position-28" style="color:#ad6d46;font-size: 9.9553072625698pt;" aria-label="jQuery 選單 (8 個項目);">jQuery 選單</a>
+<a href="https://abgne.tw/tag/library" class="tag-cloud-link tag-link-158 tag-link-position-29" style="color:#bf1f1f;font-size: 10.972067039106pt;" aria-label="Library (11 個項目);">Library</a>
+<a href="https://abgne.tw/tag/menu" class="tag-cloud-link tag-link-69 tag-link-position-30" style="color:#a0610f;font-size: 8.6256983240223pt;" aria-label="Menu (5 個項目);">Menu</a>
+<a href="https://abgne.tw/tag/menus" class="tag-cloud-link tag-link-75 tag-link-position-31" style="color:#675343;font-size: 11.206703910615pt;" aria-label="Menus (12 個項目);">Menus</a>
+<a href="https://abgne.tw/tag/my" class="tag-cloud-link tag-link-22 tag-link-position-32" style="color:#90eed7;font-size: 12.849162011173pt;" aria-label="My (20 個項目);">My</a>
+<a href="https://abgne.tw/tag/plugins" class="tag-cloud-link tag-link-7 tag-link-position-33" style="color:#c77a3a;font-size: 20.59217877095pt;" aria-label="Plugins (202 個項目);">Plugins</a>
+<a href="https://abgne.tw/tag/realbasic" class="tag-cloud-link tag-link-17 tag-link-position-34" style="color:#4764ca;font-size: 15.977653631285pt;" aria-label="REALBasic (51 個項目);">REALBasic</a>
+<a href="https://abgne.tw/tag/stack-overflow" class="tag-cloud-link tag-link-150 tag-link-position-35" style="color:#27a298;font-size: 8.6256983240223pt;" aria-label="Stack Overflow (5 個項目);">Stack Overflow</a>
+<a href="https://abgne.tw/tag/svg" class="tag-cloud-link tag-link-230 tag-link-position-36" style="color:#92c82d;font-size: 12.145251396648pt;" aria-label="SVG (16 個項目);">SVG</a>
+<a href="https://abgne.tw/tag/tables" class="tag-cloud-link tag-link-113 tag-link-position-37" style="color:#fd2ba1;font-size: 9.9553072625698pt;" aria-label="Tables (8 個項目);">Tables</a>
+<a href="https://abgne.tw/tag/tips" class="tag-cloud-link tag-link-25 tag-link-position-38" style="color:#4e9a92;font-size: 13.31843575419pt;" aria-label="Tips (23 個項目);">Tips</a>
+<a href="https://abgne.tw/tag/visual-basic" class="tag-cloud-link tag-link-18 tag-link-position-39" style="color:#206270;font-size: 15.977653631285pt;" aria-label="VB (51 個項目);">VB</a>
+<a href="https://abgne.tw/tag/vb-net" class="tag-cloud-link tag-link-19 tag-link-position-40" style="color:#f3b42a;font-size: 15.977653631285pt;" aria-label="VB.NET (51 個項目);">VB.NET</a>
+<a href="https://abgne.tw/tag/windows-api" class="tag-cloud-link tag-link-20 tag-link-position-41" style="color:#e22c76;font-size: 15.977653631285pt;" aria-label="Windows API (51 個項目);">Windows API</a>
+<a href="https://abgne.tw/tag/yahoo" class="tag-cloud-link tag-link-101 tag-link-position-42" style="color:#eed638;font-size: 9.1731843575419pt;" aria-label="Yahoo (6 個項目);">Yahoo</a>
+<a href="https://abgne.tw/tag/ad" class="tag-cloud-link tag-link-12 tag-link-position-43" style="color:#2fe117;font-size: 12.692737430168pt;" aria-label="廣告 (19 個項目);">廣告</a>
+<a href="https://abgne.tw/tag/mouse" class="tag-cloud-link tag-link-9 tag-link-position-44" style="color:#52c876;font-size: 8pt;" aria-label="滑鼠 (4 個項目);">滑鼠</a>
+<a href="https://abgne.tw/tag/farmegame-tw" class="tag-cloud-link tag-link-83 tag-link-position-45" style="color:#e83c9e;font-size: 8.6256983240223pt;" aria-label="開心農場 (5 個項目);">開心農場</a>				</div>
+			</aside>
+
+			<aside class="widget border-widget widget-1-2 left ">
+				<h4 class="widget-title">友站</h4>
+				<ul>
+					<li class="last"><a href="https://www.minwt.com/" target="_blank">梅問題教學網</a></li>
+				</ul>
+			</aside>
+
+			<aside class="widget border-widget widget-1-2 right">
+				<h4 class="widget-title">參考</h4>
+				<ul>
+					<li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
+					<li class="last"><a href="http://www.css3.info/" target="_blank">CSS3.info</a></li>
+				</ul>
+			</aside>
+
+
+			<aside class="widget clearfloat">
+				<div class="licence">
+					<a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/tw/"><img alt="創用 CC 授權條款" style="border-width:0" src="88x31.png"></a>
+					<br>本著作係採用<a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/tw/">創用 CC 姓名標示-非商業性 3.0 台灣 授權條款</a>授權.
+				</div>
+			</aside>
+
+		</div>
+
+	</div>	<footer id="colophon" class="clearfloat" role="contentinfo">
+				<div id="footer-wrapper">
+			<div id="footer" class="container-stlye">
+								<div id="first" class="widget-area" role="complementary">
+										<aside class="widget">
+						<h4 class="widget-title">最新文章</h4>
+						<ul>
+							<li><a href="https://abgne.tw/web/emmet-tutorial-series-exploring-custom-attributes.html" rel="bookmark" title="Emmet 教學 - 自訂屬性">Emmet 教學 - 自訂屬性</a></li><li><a href="https://abgne.tw/web/emmet-tutorial-series-replication-elements-and-numbering.html" rel="bookmark" title="Emmet 教學 - 複製元素及編號">Emmet 教學 - 複製元素及編號</a></li><li><a href="https://abgne.tw/web/gulp/gulp-tuts-compress-js-css.html" rel="bookmark" title="Gulp 入門教學 - 壓縮 JavaScript 與 CSS">Gulp 入門教學 - 壓縮 JavaScript 與 CSS</a></li><li><a href="https://abgne.tw/web/gulp/gulp-tuts-install-gulp-js.html" rel="bookmark" title="Gulp 入門教學 - 安裝 Gulp.js">Gulp 入門教學 - 安裝 Gulp.js</a></li><li><a href="https://abgne.tw/web/emmet-tutorial-series-text-expansions-html.html" rel="bookmark" title="Emmet 教學 - 顯示文字">Emmet 教學 - 顯示文字</a></li><li><a href="https://abgne.tw/web/emmet-tutorial-series-child-sibling-parent-group.html" rel="bookmark" title="Emmet 教學 - 階層及群組">Emmet 教學 - 階層及群組</a></li><li><a href="https://abgne.tw/web/emmet-tutorial-series-basic.html" rel="bookmark" title="Emmet 教學 - 基本用法">Emmet 教學 - 基本用法</a></li><li><a href="https://abgne.tw/phaser/phaser-example/load-an-image.html" rel="bookmark" title="Phaser 官方範例 - load an image">Phaser 官方範例 - load an image</a></li><li><a href="https://abgne.tw/css/css3-lab/css3-text-shadow.html" rel="bookmark" title="[CSS3]text-shadow 文字陰影">[CSS3]text-shadow 文字陰影</a></li><li><a href="https://abgne.tw/css/apply-css3/css3-flickr-loading-spinner.html" rel="bookmark" title="[CSS3]用 CSS3 做載入動畫 - 仿 Flickr 載入動畫">[CSS3]用 CSS3 做載入動畫 - 仿 Flickr 載入動畫</a></li>						</ul>
+					</aside>
+				</div>
+				
+
+
+								<div id="second" class="widget-area" role="complementary">
+										<aside class="widget">
+						<h4 class="widget-title">熱門文章</h4>
+						<ul>
+							<li><a href="https://abgne.tw/my-programes/facebook-happybrowser.html" title="開心農場瀏覽器 0.7.0.3">開心農場瀏覽器 0.7.0.3 (1,362,057)</a></li><li><a href="https://abgne.tw/jquery/apply-jquery/jquery-web-tabs.html" title="[jQ]利用 jQuery 來製作網頁頁籤(Tab)">[jQ]利用 jQuery 來製作網頁頁籤(Tab) (279,664)</a></li><li><a href="https://abgne.tw/jquery/apply-jquery/jquery-left-and-right-horizontal-ad.html" title="[jQ]用 jQuery 做廣告 – 左右水平廣告輪播">[jQ]用 jQuery 做廣告 – 左右水平廣告輪播 (154,896)</a></li><li><a href="https://abgne.tw/jquery/apply-jquery/jquery-scroll-to-page-top.html" title="[jQ]用 jQuery 控制網頁捲軸移動">[jQ]用 jQuery 控制網頁捲軸移動 (147,832)</a></li><li><a href="https://abgne.tw/computer-tips/charles-farmgame_fire_seed.html" title="利用 Charles 來燒蘿蔔、彩豆">利用 Charles 來燒蘿蔔、彩豆 (146,715)</a></li><li><a href="https://abgne.tw/my-programes/facebook-happyfishbowl.html" title="開心水族箱瀏覽器 0.3">開心水族箱瀏覽器 0.3 (138,961)</a></li><li><a href="https://abgne.tw/jquery/apply-jquery/jquery-horizontal-subnav-menu.html" title="[jQ]用 jQuery 做選單 – 水平雙層子選單">[jQ]用 jQuery 做選單 – 水平雙層子選單 (129,633)</a></li><li><a href="https://abgne.tw/jquery/apply-jquery/jquery-fade-in-out-image.html" title="[jQ]用 jQuery 做廣告 – 淡入淡出式的切換影像">[jQ]用 jQuery 做廣告 – 淡入淡出式的切換影像 (119,166)</a></li><li><a href="https://abgne.tw/jquery/apply-jquery/jquery-yahoo-scroll-message-marquee.html" title="[jQ]用 jQuery 做跑馬燈 – 仿 Yahoo 滾動式訊息跑馬燈">[jQ]用 jQuery 做跑馬燈 – 仿 Yahoo 滾動式訊息跑馬燈 (85,420)</a></li><li><a href="https://abgne.tw/jquery/apply-jquery/jquery-window-scroll-ad.html" title="[jQ]用 jQuery 做廣告 – 網頁捲軸滾動式廣告">[jQ]用 jQuery 做廣告 – 網頁捲軸滾動式廣告 (82,301)</a></li>						</ul>
+					</aside>
+				</div>
+				
+
+
+								<div id="third" class="widget-area" role="complementary">
+										<aside class="widget">
+						<h4 class="widget-title">最新迴響</h4>
+						<ul>
+							<li> <a href="https://abgne.tw/jquery/jquery-plugins/jcalculator.html#comment-10295" title="觀看 男丁格爾 的留言">男丁格爾</a>: Good Job!
+
+buttonPressed 的參數就如同你...</li><li> <a href="https://abgne.tw/jquery/jquery-plugins/jcalculator.html#comment-10294" title="觀看 Lin Link 的留言">Lin Link</a>: 你好, 我發現buttonPressed的參數無法使...</li><li> <a href="https://abgne.tw/jquery/apply-jquery/jquery-yahoo-carousel-animate-ad.html#comment-10167" title="觀看 sky830kimo 的留言">sky830kimo</a>: 老師你好：
+之前有人問到一次跳一...</li><li> <a href="https://abgne.tw/jquery/apply-jquery/jquery-fade-in-out-image.html#comment-10156" title="觀看 男丁格爾 的留言">男丁格爾</a>: 把你網頁中 css 的引用位置放到比 js ...</li><li> <a href="https://abgne.tw/jquery/apply-jquery/jquery-fade-in-out-image.html#comment-10155" title="觀看 nu ka 的留言">nu ka</a>: 老師 我有個jquery 幻燈片的問題  我是...</li><li> <a href="https://abgne.tw/jquery/apply-jquery/jquery-colorful-elastic-subnav-menu.html#comment-10124" title="觀看 sendy2601 的留言">sendy2601</a>: 老師您好:
+我是剛剛註冊進來的會員...</li><li> <a href="https://abgne.tw/jquery/apply-jquery/jquery-htc-menu.html#comment-10114" title="觀看 郭 昊承 的留言">郭 昊承</a>: 老師,
+請問當載入頁面尚未點選時改...</li><li> <a href="https://abgne.tw/jquery/apply-jquery/jquery-horizontal-slide-tabs.html#comment-10111" title="觀看 stely26 的留言">stely26</a>: 老師您好：
+
+如果想要在手機版上呈...</li><li> <a href="https://abgne.tw/jquery/apply-jquery/jquery-yahoo-carousel-animate-ad.html#comment-10088" title="觀看 男丁格爾 的留言">男丁格爾</a>: 寬度的部份要改用 % ...</li><li> <a href="https://abgne.tw/jquery/apply-jquery/jquery-yahoo-carousel-animate-ad.html#comment-10086" title="觀看 Ya Shen 的留言">Ya Shen</a>: 男丁老師，您好：
+請問如果我想在...</li>						</ul>
+					</aside>
+				</div>
+							</div>
+		</div>
+		<div id="footer-bottom-wrapper">
+			<div id="footer-bottom" class="container-stlye">
+				<span id="totop" class="totop"><a href="#">Scroll to Top</a></span>
+				<address class="left">CopyRight © 2005-2019 男丁格爾&#039;s 脫殼玩 All Rights Reserved.</address>
+				<span class="right"><a href="https://wordpress.org" target="_blank">Powered by WordPress</a></span>
+			</div>
+		</div>
+	</footer>
+	<!--Embed from Zendesk Chat Chat Wordpress Plugin v1.4.11-->
+  <!--Start of Zopim Live Chat Script-->
+  <script type="text/javascript">
+  window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+  d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+  _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+  $.src='//v2.zopim.com/?3IEclyvuJeEG0DuueHaAPiOqylVuz9gv';z.t=+new Date;$.
+  type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+  </script><script>$zopim( function() {
+})</script><!--End of Zendesk Chat Script--><script type="text/javascript" src="../js/wp-embed.min.js"></script>
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-10470597-3']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+	<script src="../js/jquery.min_1.js"></script> 
+	<script>!window.jQuery && document.write('<script src="http://abgne.tw/wp-content/themes/abgne.tw_4.0/scripts/jquery.js"><\/script>');</script>
+	<script src="../js/codemirror.js"></script>
+	<script src="../js/xml.js"></script>
+	<script src="../js/javascript.js"></script>
+	<script src="../js/css.js"></script>
+	<script src="../js/htmlmixed.js"></script>
+	<script src="../js/abgne.tw_4.0.min.js"></script>
+	<script src="../js/plusone.js">
+	  {lang: 'zh-TW'}
+	</script>
+	<div id="fb-root"></div>
+	<script src="../js/all.js#xfbml=1"></script>
+	</body>
+</html>

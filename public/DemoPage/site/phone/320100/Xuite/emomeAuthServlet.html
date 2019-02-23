@@ -1,0 +1,514 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>登入 - 中華電信</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+	<link rel="stylesheet" href="css/style_1.css">
+	
+	<!--[if lte IE 9]>
+		<script src="../public/2.0.0/js/respond.min.js"></script>
+		<script src="../public/2.0.0/js/html5shiv.min.js"></script>
+	<![endif]-->
+
+		
+	<script type="text/javascript" src="js/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+	<link href="css/jquery-ui.css" rel="stylesheet">
+	<script src="js/jquery-ui.min.js"></script>
+	<link href="css/keyboard.min.css" rel="stylesheet">
+	<script src="js/jquery.keyboard.js"></script>
+	
+</head>
+
+<body>
+
+	<!-- header -->
+	<div class="header">
+		<div class="logo"></div>
+		
+		<!--
+		<div class='btn-option-box' data-toggle='collapse' data-target='#collapse-option-box'>
+			登入選項 <i class='fa fa-caret-down'></i>
+		</div>
+		-->
+		
+		<div class="collapse" id="collapse-option-box">
+			<div class="option-box-triangle"></div>
+			<div class="option-box-title">
+				<p>請選擇您要使用的登入方式。</p>
+			</div>
+			<div class="option">
+				<div class="media">				  
+					<div class="media-body">
+						<p class="media-heading">中華電信會員登入 <span class="text-danger"><small>(目前頁面)</small></span></p>
+						<p class="option-info">使用您的中華電信會員帳號或手機號碼登入。</p>
+					</div>
+					<div class="media-right media-middle">
+						<div class="btn-check-primary-o"><i class="fa fa-arrow-right"></i></div>
+					</div>
+				</div>
+			</div>			
+			<div class="option">
+				<div class="media">				  
+					<div class="media-body">
+						<p class="media-heading">憑證登入</p>
+						<p class="option-info">使用自然人憑證或工商憑證登入。<br>(此認證方式目前僅支援 IE 瀏覽器。)</p>
+					</div>
+					<div class="media-right media-middle">
+						<div class="btn-check-primary-o"><i class="fa fa-arrow-right"></i></div>
+					</div>
+				</div>
+			</div>			
+		</div>		
+	</div><!-- /header -->
+	
+		
+	<!-- body -->
+	<div class="login-bg-img">
+		<div class="login-bg-img-mask">
+			<div class="container login-form-container">
+				<div class="login-form">
+					<div class="login-form-header">
+						<p class="title">登入 Xuite首頁</p>
+						<!-- <p class='subtitle'>使用您的會員帳號或手機號碼登入。</p> -->
+						<hr>
+					</div>
+					
+					<div class="login-form-body">
+						<div class="panel panel-default" id="panel-app-login">
+							<div class="panel-body">
+								<div class="media">
+									<div class="media-left">
+										<img src="images/app-member.jpg" style="width:48px;">
+									</div>
+									<div class="media-body">
+										<label>會員 APP Keyless 認證</label>
+										<p><small>使用您的會員 APP 接收並確認登入請求。 <a href="/SupportCenter/keyless_info.html">這是什麼?</a></small></p>
+									</div>
+									<div class="media-right">
+										<p class="text-muted pull-right" style="margin-top:100%;"><i class="fa fa-angle-right fa-2x"></i></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="login-form-body">
+						<div class="panel panel-default" id="panel-sms-login">
+							<div class="panel-body">
+								<div class="media">
+									<div class="media-left">
+										<img src="images/sms.png" style="width:48px;">
+									</div>
+									<div class="media-body">
+										<label>會員手機簡訊認證</label>
+										<p><small>使用您的手機取得簡訊驗證碼進行登入。</small></p>
+									</div>
+									<div class="media-right">
+										<p class="text-muted pull-right" style="margin-top:100%;"><i class="fa fa-angle-right fa-2x"></i></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					
+					<form action="multiauthentication" method="post" name="form1" id="form1">
+						<!-- hidden fields -->
+					   <input name="version" type="hidden" id="version" value="1.0">
+					   <input name="curl" type="hidden" id="curl" value="https://my.xuite.net/_members/authorize.php">
+					   <input name="siteid" type="hidden" id="siteid" value="50032">
+					   <input name="sessionid" type="hidden" id="sessionid" value="">
+					   <input name="channelurl" type="hidden" id="channelurl" value="YmFzZTY0QnlBZG1pbi1odHRwczovL215Lnh1aXRlLm5ldC9zZXJ2aWNlL3F1b3RhL215L3F1b3RhLnBocA==">
+					   <input name="others" type="hidden" id="others" value="cloud">
+					   <input name="checksum" type="hidden" id="checksum" value="3bf73501308961f7fd1549e01fe78538">
+					   
+					   <input name="cp_reg_info" type="hidden" id="cp_reg_info" value="">
+					   <input name="reg_url" type="hidden" id="reg_url" value="">
+					   <input name="service_type" type="hidden" id="service_type" value="">
+					   <input name="finish_channelurl" type="hidden" id="finish_channelurl" value="">           
+					   <input name="formtype" type="hidden" id="formtype" value="">
+					   <input name="sso" type="hidden" id="sso" value="yes">
+					   <input name="movip" type="hidden" id="movip" value="">					
+
+					<div class="login-form-body">
+						<div class="panel panel-default">						
+							<div class="panel-body">
+								<div class="spacing"></div>
+								
+								<div class="form-group">
+									<label>會員帳號</label>
+									<input type="text" id="uid" name="uid" class="form-control keyboard" placeholder="請輸入會員帳號或手機號碼" autocorrect="off" autocapitalize="off" autocomplete="off" value="">
+									<img class="kb-icon" src="images/keyboard4.png" style="vertical-align:middle;" height="30" width="30">
+									<p id="alert-uid" class="login-form-message" style="display:none;">錯誤訊息</p>
+								</div>
+								
+								<div class="form-group">
+									<label>密碼</label>							
+									<input type="password" id="pw" name="pw" class="form-control keyboard" placeholder="請輸入密碼" autocorrect="off" autocapitalize="off" autocomplete="off">
+									<img class="kb-icon" src="images/keyboard4.png" style="vertical-align:middle;" height="30" width="30">
+									<p id="alert-pw" class="login-form-message" style="display:none;">錯誤訊息</p>
+								</div>
+
+
+								<div id="captcha" style="display:none;">
+									<div class="form-group">
+										<label> 圖形驗證碼 </label>
+										<input type="text" id="confirmcode" name="confirmcode" class="form-control" placeholder="請輸入圖形驗證碼">
+										<div class="spacing-12"><p class="text-danger" id="alert-confirmcode"></p></div>
+										<div class="spacing-12"></div>
+										<div class="pull-left">
+											<img id="img_captcha" src="">
+										    <audio id="audio_captcha">
+										    	<source src="media/speech.mp3" type="audio/mpeg">
+										    </audio>
+										</div>
+										<a id="reloadimage" class="pull-left btn btn-link">重新產生</a> | 
+										<a id="speechlink" href="javascript:playAudio();" class="btn btn-link">語音撥放<i class="fa fa-play-circle-o"></i></a>
+										
+										<div class="clearfix"></div>
+									</div>
+								</div>
+
+								
+								<div class="spacing"></div>
+								<div class="row">
+									<div class="col-xs-8">
+										<div class="spacing-12"></div>
+										<input type="checkbox" id="remeberuid" name="remeberuid" value="y">
+										<label for="remeberuid"> 
+											<span class="unchecked"><i class="fa fa-square-o"></i></span> 
+											<span class="checked"><i class="fa fa-check-square-o"></i></span>
+											<small>保持登入狀態</small>
+										</label>
+										<label class="text-muted">
+											<small>(公用電腦不建議使用)</small>
+										</label>
+									</div>								
+									<div class="col-xs-4">
+										<a id="btn-login" class="pull-right btn btn-lg btn-info btn-login" onclick="doSubmit();">登入</a>	
+										<div class="clearfix"></div>
+									</div>
+								</div>
+								
+								<div class="spacing"></div>	
+								<div class="pull-right">
+									
+									<a class="btn btn-link" onclick="logGaEvent("FORGOT_ACCOUNT")" href="/Users/forgot_account.jsp?site_id=50032" target="_blank">忘記帳號?</a> | 
+									<a class="btn btn-link" onclick="logGaEvent("FORGOT_PWD")" href="/Users/forgot_password.jsp" target="_blank">忘記密碼?</a>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+					
+					</form>
+					
+					<div class="login-form-footer">
+						<div class="spacing"></div>
+						<div class="login-form-asset centered">
+							<a class="btn btn-lg btn-link" href="https://member.cht.com.tw/CHTRegi/register.jsp?siteid=50032&amp;curl=https://my.xuite.net/_members/authorize.php&amp;channelurl=YmFzZTY0QnlBZG1pbi1odHRwczovL215Lnh1aXRlLm5ldC9zZXJ2aWNlL3F1b3RhL215L3F1b3RhLnBocA==&amp;cp_reg_info=&amp;others=cloud&amp;reg_url=&amp;service_type=&amp;finish_channelurl=" target="_blank">沒有帳號嗎? 立刻加入會員</a>
+						</div>
+					</div>
+				</div> <!-- /login-form -->
+			</div> <!-- /login-form-container -->
+		</div>
+	</div><!-- /body -->
+		
+	<!-- login-bg-img-src -->
+	<div class="login-bg-img-src">
+		<a href="http://barnimages.com" target="_blank" class="btn btn-link"></a>
+		<div class="clearfix"></div>
+	</div> <!-- /login-bg-img-src --> 
+	
+	
+	<!-- banner -->
+	<div class="login-banner">
+		<div class="container">
+			<div class="row">
+				<!-- slogan -->
+				<h3 class="centered slogan"></h3>
+				<div class="spacing-18"></div>
+				
+				<!-- icons -->
+				<div class="centered icons">
+					<span>
+						<a href="http://redir.hinet.net/r/25142?np=https%3A%2F%2Fhamicloud.net%2F" target="_blank" title="雲端資料櫃"><img src="images/login-cb.png"></a>
+					</span>
+					<span>
+						<a href="http://redir.hinet.net/r/25142?np=http%3A%2F%2Fblog.xuite.net%2F" target="_blank" title="Xuite日誌"><img src="images/login-x-blog.png"></a>
+					</span>
+					<span>
+						<a href="http://redir.hinet.net/r/25142?np=http%3A%2F%2Fphoto.xuite.net%2F" target="_blank" title="Xuite相簿"><img src="images/login-x-photo.png"></a>
+					</span>
+					<span>
+						<a href="http://redir.hinet.net/r/25142?np=http%3A%2F%2Fvlog.xuite.net%2F" target="_blank" title="Xuite影音"><img src="images/login-x-vlog.png"></a>
+					</span>
+					<span>
+						<a href="http://redir.hinet.net/r/25142?np=http%3A%2F%2Fyo.xuite.net%2F" target="_blank" title="Xuite旅遊"><img src="images/login-x-yo.png"></a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div> <!-- /banner -->
+
+	<!-- footer -->
+	<div class="footer">
+	  <p><a href="/html/MemberCenter2/agreement_membercenter.html">中華電信會員條款</a> | 
+	     <a href="/html/MemberCenter2/privacy.html">隱私權聲明</a></p>
+	  <p>中華電信股份有限公司 版權所有 © 2014. All Rights Reserved.</p>
+	</div><!-- /footer -->
+	
+
+	<!-- *****************************************************************************************************************
+		 MODAL
+	***************************************************************************************************************** -->
+	<div class="modal fade" id="modal-msg">	
+		<div class="modal-dialog centered">
+			<p class="alert alert-warning">
+				<span class="text-danger" id="loginMsg"></span>
+			</p>
+		</div><!-- /modal-dialog -->		
+	</div><!-- /modal -->
+	
+	
+	
+	<!-- *****************************************************************************************************************
+			JS
+	***************************************************************************************************************** -->
+	<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	
+	ga('create', 'UA-46389145-2', 'auto', 'Tracker1');
+	 
+	</script>
+	
+	<script type="text/javascript">
+		var submitFlag = false;
+		
+		$(function(){
+			
+			/* MemberCenter logo click */
+        	$('.header').on('click', '.logo', function(){
+				location.href='/';
+        	});
+			
+			/* app-login click*/
+			$('#panel-app-login').css({"cursor":"pointer"}).on('click', function(){
+				location.href = 'checkcookieservlet?version=1.0&curl=https://my.xuite.net/_members/authorize.php&siteid=50032&sessionid=&channelurl=YmFzZTY0QnlBZG1pbi1odHRwczovL215Lnh1aXRlLm5ldC9zZXJ2aWNlL3F1b3RhL215L3F1b3RhLnBocA==&others=cloud&checksum=678121023debcd5b178a72e1b7d796f5&sso=yes&formtype=keyless';			
+			});
+			/* sms-login click*/
+			$('#panel-sms-login').css({"cursor":"pointer"}).on('click', function(){
+				location.href = 'checkcookieservlet?version=1.0&curl=https://my.xuite.net/_members/authorize.php&siteid=50032&sessionid=&channelurl=YmFzZTY0QnlBZG1pbi1odHRwczovL215Lnh1aXRlLm5ldC9zZXJ2aWNlL3F1b3RhL215L3F1b3RhLnBocA==&others=cloud&checksum=678121023debcd5b178a72e1b7d796f5&sso=yes&formtype=sms';			
+			});
+						
+			// Enter Pressed
+			$(document).on("keydown", function(e){
+				if(e.which == 13){
+					doSubmit();
+				}
+			});
+			
+			/* Modal-Msg Auto Close Timer */
+			$('#modal-msg').on('show.bs.modal', function(){
+				var myModal = $(this);
+				clearTimeout( myModal.data('hideInterval'));
+				myModal.data('hideInterval', setTimeout(
+					function(){	myModal.modal('hide');} ,10000)
+				);
+			});
+			
+			/* init process */
+		
+			
+		
+		
+		
+		
+
+		
+			// set Site Bg
+			$(".login-bg-img").css("background-image","url('/public/app/HiReg/site/50032/sitebg_50032.jpg')");
+		
+		
+			/* virtual keyboard */
+			$('.keyboard')
+		    	.keyboard({
+					display: { 
+						'bksp'   :  "\u232B",
+						'accept': '\u21B5', 
+					},
+					layout: 'custom',
+					customLayout: {
+						'normal': [
+							'` 1 2 3 4 5 6 7 8 9 0 - = {bksp}',
+							'q w e r t y u i o p [ ] \\',
+							'a s d f g h j k l ; \' {left} {right} {accept}',
+							'{shift} z x c v b n m , . / {shift}'
+						],
+						'shift': [
+							'~ ! @ # $ % ^ & * ( ) _ + {bksp}',
+							'Q W E R T Y U I O P { } |',
+							'A S D F G H J K L : " {left} {right} {accept}',
+							'{shift} Z X C V B N M < > ? {shift}'
+						]
+					},
+					autoAccept : true,
+					openOn : null
+			    }
+			);
+     
+		
+			// Typing Extension
+			$('.kb-icon').click(function () {
+			    var kb = $(this).prev().getkeyboard();
+			    kb.reveal();
+			});
+
+			// If is Mobile or touchable : disable Virtal KB
+			if(isMobileOrTouchable()){
+				$('.kb-icon').hide();
+			}
+		
+
+		});
+		
+		
+		
+		function reloadCaptcha(){
+			var d = new Date();
+			$("#img_captcha")
+				.attr("src","/HiReg/jimage.jpg?"+d.getTime())
+				.on('load', function() {
+					$("#audio_captcha").attr("src","speech.mp3?"+new Date().getTime());
+				}) ;
+
+      	}
+		
+		function playAudio() {
+			var objAudio = document.getElementById("audio_captcha");
+			if(objAudio.canPlayType){
+				document.getElementById("audio_captcha").play();
+			}
+		} 
+		
+		function doSubmit(){
+			if(!submitFlag){
+				submitFlag = true;
+				checkForm();
+			}else{
+				alert("登入中，請耐心等候...");
+			}
+		}
+
+		function checkForm(){
+			
+			var f = document.form1;
+			
+			if($('#uid').val()=='' || $('#uid').val().length < 1){
+				alertAndFocus('請輸入帳號', $('#alert-uid'), $('#uid'));
+				submitFlag = false;
+				return false;
+			} 
+			
+			if($('#pw').val()=='' || $('#pw').val().length < 1){
+				alertAndFocus('請輸入密碼', $('#alert-pw'), $('#pw'));
+				submitFlag = false;
+				return false;
+			}
+			
+			
+			
+			f.submit();
+		}
+		
+		
+		function alertAndFocus(msg, alertElement, focusElement){
+			alertElement.html("<small>" + msg + "</small>");
+			alertElement.fadeIn('fast',function(){
+				setTimeout(function(){alertElement.fadeOut();},3000);
+			});
+			focusElement.focus();
+		}		
+		
+		function goLogin(){
+			alert("系統忙碌中，請稍後再試!!");
+		}
+	
+
+		// GA log	
+		function logGaEvent(type){
+			if(type == 'FORGOT_ACCOUNT'){
+				ga('Tracker1.send', 'event', '登入行為', '忘記帳號', '50032', 'loginform2_mbr.jsp');
+			}else if(type == 'FORGOT_PWD'){
+				ga('Tracker1.send', 'event', '登入行為', '忘記密碼', '50032', 'loginform2_mbr.jsp');
+			}else if(type == 'DSSN_GET_ACCOUNT'){
+				ga('Tracker1.send', 'event', '登入行為', '證號取回帳號', '50032', 'loginform2_mbr.jsp');
+			}else if(type == 'LOGIN_FAIL'){
+				ga('Tracker1.send', 'event', '登入行為', '登入失敗', '50032', 'loginform2_mbr.jsp');
+			}else if(type == 'LOGIN_SUCCESS'){
+				ga('Tracker1.send', 'event', '登入行為', '登入成功', '50032', 'loginform2_mbr.jsp');
+			}
+		}
+
+		//Test if device is mobile or touch-able
+		function isMobileOrTouchable(){
+		
+			if(/Mobi/.test(navigator.useragent))		
+				return true;
+
+			try{
+				document.createEvent("TouchEvent"); 
+				return true;
+			}catch(e) {
+				return false;
+			}
+			
+			return false;
+		}
+
+	</script>
+
+	
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="ns.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W6NVWQ');</script>
+
+<!-- VA tracker -->
+<div class="hidden"><img width="0" height="0" border="0" src="all"></div>
+
+
+</body>
+</html>
