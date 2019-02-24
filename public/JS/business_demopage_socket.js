@@ -224,6 +224,7 @@
         block(this.device,this.zonesize,this.site,'良醫健康網');
         block(this.device,this.zonesize,this.site,'少女前線');
         block_phone_300250(this.device,this.zonesize,this.site,'Ettoday');
+        block_phone_300250(this.device,this.zonesize,this.site,'WalkerLand窩客島');
         block_phone_300250(this.device,this.zonesize,this.site,'痞客邦(內文下方)');
         block_phone_300250(this.device,this.zonesize,this.site,'商周');
         block_phone_300250(this.device,this.zonesize,this.site,'妞新聞');

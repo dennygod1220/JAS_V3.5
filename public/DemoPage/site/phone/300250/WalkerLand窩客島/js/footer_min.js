@@ -1,0 +1,1 @@
+$(function(){var a;sushi_position=0;timer=setInterval(function(){a?(sushi_position+=1,sushi_position>=a&&(sushi_position=0),$(".sushi").eq(0).scrollLeft(sushi_position)):a=$(".sushi ul li").eq(0).find("img").width()},50);$("img").error(function(){$(this).unbind("error").attr("src",base_url+"/images/icon_280280.jpg")})});
