@@ -26,6 +26,12 @@
       $("#cus_zone_block").css('display','none');
     }
   }
+  function block_phone_32050(d,z,s,sitename){
+    if(d == 'phone' && z == '32050' && s == sitename){
+      $("#zone_ch_block").css('display', 'block');
+      $("#cus_zone_block").css('display','none');
+    }
+  }
 
   var app = new Vue({
     // el: "#demopage_choise",
@@ -226,6 +232,7 @@
         block_phone_320100(this.device,this.zonesize,this.site,'食尚玩家');
         block_phone_320100(this.device,this.zonesize,this.site,'WalkerLand窩客島');
         block_phone_320100(this.device,this.zonesize,this.site,'Xuite');
+        block_phone_32050(this.device,this.zonesize,this.site,'TVBS');
         
         
       },

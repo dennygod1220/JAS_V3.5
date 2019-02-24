@@ -1,0 +1,94 @@
+@import url(base.css);
+@import url(newsdetail.css);
+body,
+html {
+
+    background: 0 0;
+    height: auto;
+    margin: 0
+}
+
+#back,
+.ad_320x100_mo,
+.ad_320x50_mo,
+.ad_all,
+.advertising_lightbox,
+.climate_lightbox,
+.extended_box,
+.font_color5.leftBox1,
+.good_news,
+.header_banner,
+.header_menu,
+.highlight1,
+.mouseover_load.display_none,
+.newsdetail_box.background-color1 .newsdetail_content2,
+.newsdetail_box_community,
+.newsdetail_box_date.font_b,
+.newsdetail_content_adWords_box.margin_b40,
+.newsdetail_fixed,
+.r_box,
+.smart_banner {
+    display: none
+}
+
+
+body,
+html {
+    padding: 0;
+}
+
+.content_left2 .margin_b10 {
+    margin-bottom: 0!important
+}
+
+.newsdetail_box.background-color1 .content_center_list_box {
+    display: none;
+    height: 0
+}
+
+.newsdetail_box {
+    margin-bottom: 0
+}
+
+.content_center,
+.content_left,
+.content_left2,
+.content_right {
+    float: none;
+    height: auto
+}
+
+.main {
+    margin: 0 auto
+}
+
+.contxt.margin_b20 {
+    margin-bottom: 0!important
+}
+
+
+.content_left2 {
+    width: 600px;
+    padding: 30px 0;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+}
+
+.newsdetail_content .contxt .img img,
+.newsdetail_content .contxt img {
+    width: auto!important;
+    height: auto;
+}
+
+.newsdetail_content {
+    padding: 0 0 0 0;
+}
+
+.footer_box {
+    display: none;
+}
+
+.main {
+    width: 100%;
+}
