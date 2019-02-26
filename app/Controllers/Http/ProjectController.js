@@ -54,6 +54,13 @@ class ProjectController {
     response.attachment('./public/UserProfile/'+user+'/Project/'+file);
     return
   }
+//滿版蓋板
+  async downloadfullcover({request,response}){
+    var user = request.params.user;
+    var file = decodeURIComponent(request.params.filename);    
+    response.attachment('./public/UserProfile/'+user+'/Project/'+file);
+    return
+  }
 }
 
 module.exports = ProjectController

@@ -8,6 +8,66 @@ var FC = require('../cusmodules/FileControl');
 var adm_zip = require('adm-zip');
 var cheerio = require('cheerio');
 io.on('connection', function (socket) {
+
+  //======================================================
+  //======================================================
+  //======================================================
+  //=====================MY Function======================
+  //======================================================
+  //======================================================
+  //======================================================
+
+  //==========複製檔案
+  function copyFile(src, dist) {
+    console.log("COPY " + dist);
+
+    fs.writeFileSync(dist, fs.readFileSync(src));
+  }
+
+  //=======顯示目錄
+  function display_subdir(path, con_name) {
+    try {
+      fs.readdir(path, function (err, files) {
+        //声明一个数组存储目录下的所有文件夹
+        var floder = [];
+        //从数组的第一个元素开始遍历数组
+        (function iterator(i) {
+          //遍历数组files结束
+          if (files != undefined) {
+            try {
+              if (i == files.length) {
+                io.sockets.connected[socket.id].emit(con_name, {
+                  dir: floder,
+                })
+                return;
+              }
+            } catch (e) {
+              io.sockets.connected[socket.id].emit(con_name, {
+                dir: ["錯誤! 沒有檔案"],
+              })
+            }
+          }
+          //遍历查看目录下所有东西
+          try {
+            fs.stat(path + files[i], function (err, stats) {
+              //如果是文件夹，就放入存放文件夹的数组中
+              if (stats.isDirectory()) {
+                floder.push(files[i]);
+              }
+              iterator(i + 1);
+            })
+          } catch (e) {
+            io.sockets.connected[socket.id].emit(con_name, {
+              dir: ["錯誤! 沒有檔案"],
+            })
+          }
+        })(0)
+      })
+    } catch (e) {
+      console.track(e);
+    }
+  }
+
   console.log("ID: " + socket.id + " 連線");
 
   //============================================
@@ -437,11 +497,38 @@ io.on('connection', function (socket) {
     su.uploadImg(io, socket, data.username)
   });
 
+
+
   //======================================================
   //==================專案 素材製作====================
   //======================================================
+  //==================滿版蓋板 素材製作====================
 
+  socket.on('CtoS img upload fullcover', function (data) {
+    var su = require('../cusmodules/File_upload/socket_upload_img_fullcover');
+    su.uploadImg(io, socket, data.username)
+  });
+  //找模板製作html檔
+  socket.on('StoC fullcover img ok',function(data){
+    var temp = FC.ReadFileSync('public/html_template/fullcover/normal.txt');
+    var code = temp.replace('@@imghere@@', data.img_url);
+    if (FC.Exists('public/UserProfile/' + data.user + '/Project') == false) {
+      FC.MkdirSync('public/UserProfile/' + data.user + '/Project');
+    }
+    var date = new Date();
+    var YY = date.getFullYear();
+    var MM = date.getMonth() + 1;
+    var DD = date.getDate();
+    var mm = date.getMinutes();
+    var SS = date.getSeconds();
+    FileName = 'public/UserProfile/' + data.user + '/Project/' + YY + MM + DD + '_' + mm + SS + '_滿版蓋板的HTML程式碼.txt';
 
+    FC.writeFileSync(FileName, code); 
+    io.sockets.connected[socket.id].emit('StoC fullcover html code', {
+      temp: code,
+      FileName: FileName
+    })
+  })
   //==================內文全屏 素材製作====================
 
   socket.on('CtoS content cover no banner img', function (data) {
@@ -535,64 +622,7 @@ io.on('connection', function (socket) {
 
   })
 
-  //======================================================
-  //======================================================
-  //======================================================
-  //=====================MY Function======================
-  //======================================================
-  //======================================================
-  //======================================================
 
-  //==========複製檔案
-  function copyFile(src, dist) {
-    console.log("COPY " + dist);
-
-    fs.writeFileSync(dist, fs.readFileSync(src));
-  }
-
-  //=======顯示目錄
-  function display_subdir(path, con_name) {
-    try {
-      fs.readdir(path, function (err, files) {
-        //声明一个数组存储目录下的所有文件夹
-        var floder = [];
-        //从数组的第一个元素开始遍历数组
-        (function iterator(i) {
-          //遍历数组files结束
-          if (files != undefined) {
-            try {
-              if (i == files.length) {
-                io.sockets.connected[socket.id].emit(con_name, {
-                  dir: floder,
-                })
-                return;
-              }
-            } catch (e) {
-              io.sockets.connected[socket.id].emit(con_name, {
-                dir: ["錯誤! 沒有檔案"],
-              })
-            }
-          }
-          //遍历查看目录下所有东西
-          try {
-            fs.stat(path + files[i], function (err, stats) {
-              //如果是文件夹，就放入存放文件夹的数组中
-              if (stats.isDirectory()) {
-                floder.push(files[i]);
-              }
-              iterator(i + 1);
-            })
-          } catch (e) {
-            io.sockets.connected[socket.id].emit(con_name, {
-              dir: ["錯誤! 沒有檔案"],
-            })
-          }
-        })(0)
-      })
-    } catch (e) {
-      console.track(e);
-    }
-  }
 
 
 })

@@ -20,6 +20,8 @@ Route.group(() => {
   Route.get('/Project/test','ProjectController.test');
   Route.get('/Project/contentcover_nobanner',({view})=>view.render('project/contentcover_nobanner'));
   Route.get('/Project/imgcontent300250',({view})=>view.render('project/imgcontent300250'));
+  Route.get('/Project/fullcover',({view})=>view.render('project/fullcover'));
+
   //BD
   Route.get('/BD',({view}) => view.render('BD/index') );
   Route.get('/BD/pb_cap',({view})=> view.render('BD/pb_cap'));
@@ -31,6 +33,7 @@ Route.group(() => {
   //下載檔案
   Route.get('/Project/download/public/UserProfile/:user/Project/:filename','ProjectController.downloadContentCover_nobanner');
   Route.get('/Project/download/public/UserProfile/:user/Project/:filename','ProjectController.downloadimgcontent');
+  Route.get('/Project/download/public/UserProfile/:user/Project/:filename','ProjectController.downloadfullcover');
   //=======啟動 Crontab==========
   Route.get('Cron', 'CronJobController.index')
   Route.get('CronStart','CronJobController.start2')
