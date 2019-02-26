@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="https://www.managertoday.com.tw/assets/icons/57x57.png">
+  <title>iPhone 賣不動，長官卻頻頻異動！動盪的蘋果背後正上演 7 大布局 | 經理人</title>
+  <style>
+    *,
+    body {
+      margin: 0px;
+    }
+    #back{
+        position:absolute;
+    }
+    #fuck{
+        position:fixed;
+        width:100%;
+        height:100%;
+        text-align: center;
+        background-color: rgba(51, 51, 51, 0.54);
+    }
+    
+  </style>
+
+</head>
+
+<body>
+  <img src="./back/managertoday.png" id="back">
+  <div id="fuck">
+    <ins class="clickforceads" id="ohohoh" style="display:inline-block;width:320px;height:480px;left:0;top:20px;position:absolute"
+      data-ad-zone="8725">
+      <!-- <div id="div_pagead_close" class="css_pagead_close" style="display: block;"> </div> -->
+      <img src="//cdn2.sales-frontier.com/adtype/pdpopup/close-button.png" style="width:45px;height:45px;cursor:pointer;position:absolute;left:0px">
+
+    </ins>
+    <script async type="text/javascript" src="//cdn.doublemax.net/js/init.js"></script>
+  </div>
+
+
+  <script>
+      console.log(window);
+
+    setInterval(function () {
+      var orW = 514;
+      var w = window.outerWidth;
+      var img = document.getElementById('back');
+      
+      img.style.width = w + 'px';
+      var hoho = document.getElementById('ohohoh');
+      hoho.style.left = (w - 320) / 2+'px';
+    }, 1000)
+
+  </script>
+</body>
+
+</html>
