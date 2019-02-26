@@ -1,0 +1,1 @@
+$("#mailchimp").submit(function(){var t=$(this);return $.ajax({url:t.attr("action"),type:"PUT",data:t.serialize(),success:function(t){alert(t.msg)}}),!1});
