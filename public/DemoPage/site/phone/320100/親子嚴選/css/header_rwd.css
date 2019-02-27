@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document screen and (max-width: 768px) */
+.top-head,.share, .blogger, .notice{ 
+	  display:none;
+}
+.header{
+	height:95px;
+	background-position:center bottom;
+}
+.header-content{
+	  width:100%; 
+	  padding-top:22px; 
+	  width:310px; 
+	  margin:0 auto;
+}
+h1.logo { 
+	background:url(../images/logo.png) no-repeat;
+	  width:233px; 
+	  height:65px; 
+	  background-size: 100%;
+	  left:10px;
+	  top:20px;
+}
+.search{
+	/*position:absolute; 
+	left:0; top:105px;*/
+	display:none;
+}
+
+.toggleMenu{
+	position: absolute;
+	top: 25px;
+	width: 44px;
+	height: 44px;
+	background-image: url(../images/mobile_nav.png);
+	right: 10px;
+	background-position: 0 0;
+	background-size:100% 200%;
+}
+
+.toggleMenu:hover, .toggleMenu:active{
+	background-position: 0 -100%;
+}
+

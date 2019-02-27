@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document screen and (max-width: 768px) */
+/* Nav */
+.nav-bar{ 
+	background: none; 
+	height:auto;
+}
+.nav{ 
+	width:100%;
+	height:auto;
+	background:#558c15; 
+	padding:20px 0;
+}
+.nav li{ 
+	display:block; 
+	width:100%;
+	background-image:url(../images/arrow01.png); 
+	background-position: 95% center; 
+	background-repeat:no-repeat; 
+	width:100%; 
+	background-size:15px 24px;
+}
+.nav li a{
+	/*background-size:160px 936px;*/
+	width:100%;
+	/*background-image:url(../image/phone/nav1.png); 
+	background-repeat:no-repeat; */
+	height:44px;
+}
+.nav li a img{ top:0;}
+.nav li a.nav01{/*background-position:5% 0;*/}
+.nav li a.nav02{/*background-position:5% -53px;*/}
+.nav li a.nav03{/*background-position:5% -106px;*/} 
+.nav li a.nav04{/*background-position:5% -159px;*/}
+.nav li a.nav05{/*background-position:5% -212px;*/}
+.nav li a.nav06{/*background-position:5% -265px;*/}
+.nav li a.nav07{width:100%;/*background-position:5% -318px;*/}
+.nav li a.nav08{width:100%;/*background-position:5% -371px;*/}
+.nav li a.nav09{/*background-position:5% -424px;*/ display:block;}
+.nav li a.nav10{/*background-position:5% -424px;*/ display:block;}
+
+.nav li a.nav01:hover{/*background-position:5% -468px;*/}
+.nav li a.nav02:hover{/*background-position:5% -521px;*/}
+.nav li a.nav03:hover{/*background-position:5% -574px;*/}
+.nav li a.nav04:hover{/*background-position:5% -627px;*/}
+.nav li a.nav05:hover{/*background-position:5% -680px;*/}
+.nav li a.nav06:hover{/*background-position:5% -733px;*/}
+.nav li a.nav07:hover{width:100%;/*background-position:5% -786px;*/}
+.nav li a.nav08:hover{width:100%;/*background-position:5% -839px;*/}
+.nav li a.nav09:hover{/*background-position:5% -892px;*/ display:block;}
+.nav li a.nav10:hover{/*background-position:5% -892px;*/ display:block;}
+
+.nav li a.nav01 img , 
+.nav li a.nav02 img ,
+.nav li a.nav03 img , 
+.nav li a.nav04 img , 
+.nav li a.nav05 img , 
+.nav li a.nav06 img , 
+.nav li a.nav07 img , 
+.nav li a.nav08 img , 
+.nav li a.nav09 img , 
+.nav li a.nav10 img{ left:25px;}
+
+.nav .submenu{
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	background:#90c31f;
+	padding:0 0 0 10%;
+}
+.nav .submenu li{
+
+	border-bottom: none;
+}
+.nav .submenu li.mobileSubmenu{
+
+	border-bottom: none;
+	display:block;
+}
+.nav .submenu a{
+	background-image: url(../images/arrow02.png);
+	background-position:10px;
+	background-repeat:no-repeat;
+	background-size:8px 9px;
+}
+.nav .submenu a:hover{ 
+	background-color:#90c31f; 
+	color: #f0ff00;
+	background-image: url(../images/arrow02.png);
+	background-position:10px;
+	background-repeat:no-repeat;
+}
+.nav li li {
+	width: 100%;
+	background-image:none;
+}
+
+
+.nav > li.hover > ul , .nav li li.hover ul {
+	position: static;
+}
+

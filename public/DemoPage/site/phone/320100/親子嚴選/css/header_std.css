@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+#outer{ 
+	  margin:0 auto;
+}
+
+.top-head{ 
+	  height:30px; 
+	  background-color: #fff;
+}
+.top-head-content{ 
+	  width:950px; 
+	  margin:0 auto; 
+	  line-height:30px; 
+	  position:relative;
+}
+.links{ 
+	  position:absolute; 
+	  left:0;
+}
+.links li, .login li{ 
+	  display:inline;
+}
+.links li a{ 
+	  color:#2173a3; 
+	  margin-right:20px; 
+	  font-size:12px;
+}
+.links li a:hover, .login li a:hover{ 
+	  color:#e3352a; 
+	  text-decoration:underline;
+}
+.login{ 
+	  position:absolute; 
+	  right:0; 
+	  font-size:12px;
+}
+.login li a{ 
+	  color:#2173a3; 
+	  font-size:12px;
+}
+
+.header{ 
+	  width:100%; height: 
+	  162px;background:url(../images/header.jpg) no-repeat;
+	  background-position:center top;
+}
+.header-content{ 
+	  width:950px; 
+	  margin:0 auto; 
+	  position:relative;
+}
+h1.logo { 
+	background:url(../images/logo_1.png) no-repeat;
+	  width:287px; 
+	  height:71px; 
+	  position:absolute; 
+	  top:65px; 
+	 
+	  
+}
+.search{
+	  position:absolute; 
+	  left:370px; 
+	  top:100px;
+}
+.searchbar{ 
+	  width:210px; 
+	  height:32px; 
+	  -webkit-border-radius: 20px;
+	  -moz-border-radius: 20px;
+	  border-radius: 20px; 
+	  position:relative; 
+	  padding-left:10px; 
+}
+.searchsubmit{ 
+	  background: url(../images/searchsubmit.png) no-repeat; 
+	  width:27px; 
+	  height:27px; 
+	  border:none; 
+	  position:absolute; 
+	  left:180px; 
+	  top:2px;
+}
+.share{ 
+	  width:205px; 
+	  position:absolute; 
+	  top:60px; 
+	  left:378px;
+}
+.share li{ 
+	  float: left; 
+	  margin-right:12px;
+}
+.share-fb, .share-gplus, .share-twi, .share-line, .share-wei, .share-rss{ 
+	  display:block; 
+	  background:url(../images/share.png);
+	  width:29px; 
+	  height:29px;
+	  overflow:hidden;
+}
+.share-fb{ background-position:0 0;}
+.share-gplus{ background-position:-41px 0;}
+.share-twi{ background-position:-83px 0;}
+.share-wei{ background-position:-124px 0;}
+.share-rss{ background-position:-165px 0;}
+.share-line{ background-position:-206px 0;}
+.share-fb:hover{background-position:0 -31px;}
+.share-gplus:hover{background-position:-41px -31px;}
+.share-twi:hover{background-position:-83px -31px;}
+.share-wei:hover{background-position:-124px -31px;}
+.share-rss:hover{background-position:-165px -31px;}
+.share-line:hover{background-position:-206px -31px;}
+
+
+.blogger{ 
+	  width:135px; 
+	  height:110px; 
+	  position:absolute; 
+	  background:url(../images/blogger_go.png); 
+	  background-position:0 0; 
+	  right:5px; 
+	  top:50px;
+}
+.blogger:hover{ 
+	  background-position: 0 -112px;
+}

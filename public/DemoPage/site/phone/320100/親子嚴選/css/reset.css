@@ -1,0 +1,35 @@
+/* CSS Reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,select,p,blockquote,th,td,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0; padding:0;}
+table {border-collapse:collapse; border-spacing:0;}
+fieldset,img {border:0;}
+address,caption,cite,code,dfn,th,var {font-weight:normal; font-style:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0; font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select {font-family:inherit; font-size:inherit; font-weight:inherit; outline: none;}
+input,textarea,select {*font-size:100%;}
+legend {color:#000}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+
+/* Simple Style */
+a {text-decoration:none; color:#e4007f; cursor: pointer;}
+a:hover {color:#9f4d11;}
+a:hover,a:active,a:focus {outline:0;}
+del {text-decoration:line-through;}
+sup {vertical-align:super;}
+sub {vertical-align:sub;}
+abbr,acronym,dfn {cursor:help;}
+pre,code,kbd,samp,tt {font-family:monospace; line-height:100%;}
+hr {clear:both; margin:20px 0; border:0; border-top:1px solid #ccc; border-bottom:1px solid #fff;}
+h1,h2,h3,h4,h5,h6 {text-rendering:optimizelegibility;}
+h1 {font-size:300%;}
+h2 {font-size:200%;}
+h3 {font-size:160%;}
+h4 {font-size:140%;}
+h5 {font-size:120%;}
+h6 {font-size:106.7%;}
+* {-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}

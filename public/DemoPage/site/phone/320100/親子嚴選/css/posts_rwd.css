@@ -1,0 +1,319 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS Document screen and (max-width: 768px) */
+
+body{
+	font-size: 15px;
+}
+.wrapper{ 
+	width:100%;
+	margin-bottom:0px;
+	background-repeat:repeat;
+}
+/* html editor */
+		.editor {
+			font-size:20px;
+		}
+		
+.primary{ 
+	width:100%;
+}
+.secondary{
+	display:none;
+}
+.facebookLikeBox{
+	display:none;
+}
+.adbanner950120{ 
+	  display:none;
+}
+/* 
+.adbanner01 , 
+.adbanner02 , 
+.adbanner03 ,
+.adbanner04{ 
+	width:100%;
+}
+*/
+.adbanner01 img, 
+.adbanner02 img, 
+.adbanner03 img,
+.adbanner04 img{
+	max-width: 100%;
+	height: auto;
+}
+.adbanner02, .adbanner03, .adbanner04{
+	text-align:center;
+	margin: 0 auto;
+}
+.adbanner03{
+	margin-bottom:0;
+	margin: 0 auto;
+}
+.rwd{display:block;}
+.pc{display:none;}
+.publicContent{}
+.publicContent .breadCrumb{ margin-bottom:10px;}
+
+/* 熱門文章 in primary */
+.mostReadingInPrimary{
+	background:#FFFFFF;
+	padding:0 10px;
+	padding-bottom:10px;
+}
+.mostReadingInPrimary h3{
+	width:76px;
+	margin:0 auto;
+	background-image:url(../images/side_title_01-1.gif);
+}
+.mostReading {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.mostReading a{
+	color:#e4007f;
+	font-weight:bold;
+}
+
+/* 最新訊息 (AD)  in primary */
+.newsPressInPrimary{
+	padding:0 10px;
+	padding-bottom:25px;
+	background:#FFFFFF;
+}
+.newsPressInPrimary h3{
+	width:105px;
+	margin:0 auto;
+	background-image:url(../images/side_title_04-1.gif);
+}
+
+/* 推薦您可能也會喜歡的文章 , 推薦閱讀 [元件化] */
+.postsShot li{
+	width:48%;
+	margin-right:0;
+}
+.postsShot li p{
+	width:100%;
+	height:130px;
+}
+.postsShot li p .photo img{
+
+}
+.postsShot .second{ float:right;}
+.postsShot .last{ display:none;}
+.postsShot li p .hint{
+	bottom:0;
+}
+
+/* pagination */
+.pagination{text-align: center;}
+/**************** 以上為公版 ****************/
+
+/*****************************************
+
+
+	優先宣告段落
+
+
+*****************************************/
+.adbanner04{
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+
+/*****************************************
+
+
+	共用內文單頁
+
+
+*****************************************/
+/* 主圖 */
+.keyVisual{
+	margin:0 auto;
+}
+
+/* 作者 */
+.postContent .postTitle, .postContent .autehor{ margin-bottom:0;}
+.postContent .autehor .fbLike{
+	display:inline-block;
+	padding-top:0px;
+	width:40%;
+	overflow:hidden;
+}
+
+/* 資訊 */
+.postContent .info{
+	display:none;
+	/*float:none;
+	margin:0 0 5px 15px;*/
+}
+
+/* 分享 */
+.postContent .shares{ float:none; margin-bottom:60px;}
+.postContent .shares .last{ display:none;}
+
+/* 瀏覽人次 */
+.postContent .views{ display:none;}
+.postContent .views p{ text-align:left;}
+
+/* 作者介紹 */
+.postContent .aboutAuthor .outline .photo{
+	float:left;
+	width:60%;
+	position:relative;
+	height:90px;
+	padding:0;
+}
+.postContent .aboutAuthor .outline .photo img{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.postContent .aboutAuthor .outline .photo h4{
+	display:table-cell;
+	width:100%;
+	height:90px;
+	padding-left:128px;
+	vertical-align:bottom;
+	
+}
+.postContent .aboutAuthor .outline .more{
+	position:static;
+	float:right;
+	margin-top:67px;
+	display:block;
+}
+
+.postContent .aboutAuthor .outline .intro{
+	float:left;
+	margin-top:15px;
+	width:100%;
+}
+.postContent .aboutAuthor .outline .intro h4{ display:none;}
+
+/*****************************************
+
+
+	文章群組分類列表
+
+
+*****************************************/
+
+.postContent .groupList .photo{
+	float:none;
+	display:block;
+	width:100%;
+	margin:0;
+}
+.postContent .groupList .photo img{
+	width:97%;
+	max-width:100%;
+	max-height:100%;
+	margin:0 auto;
+}
+.postContent .groupList ul{
+	float:none;
+	display:block;
+	width:100%;
+	margin:0px;
+	padding-top:15px;
+	padding-right:20px;
+}
+.postContent .groupList .cf{
+	display:none;
+}
+
+/*****************************************
+
+
+	文章次分類列表
+
+
+*****************************************/
+/* 文章次分類列表 */
+.articleOuter{margin: 0 10px;}
+.articleList{
+	float: none;
+	margin-left: 0;
+	width: 100%;
+	height: auto;
+}
+
+/*****************************************
+
+
+	嚴選部落客
+
+
+*****************************************/
+/* 嚴選部落客 */
+.bloggerSearchBar{
+	float: none;
+}
+.bloggerRecommend{
+	float: none;
+	margin-top: 10px;
+}
+.bloggerPick li{
+	float: left;
+	margin: 0 0 15px 4%;
+	width: 44%;
+}
+.bloggerPick a, .bloggerResult a, .bloggerRecover a{
+	width: 100%;
+}
+.bloggerResult li{
+	margin: 0 0 15px 4%;
+	width: 44%;
+}
+.bloggerRecover .bloggerRe{
+	float:left;
+	margin: 0 0 15px 4%;
+	width: 44%;
+}
+.bloggerRecover span img{
+	max-width:100%;
+	max-height:250px;
+}
+.bloggerResult span, .bloggerRecover span{
+	width: 100%;
+	height: auto;
+	margin-bottom: 0;
+}
+.bloggerList .photo, .newsList .photo, .articleList .photo{
+	float: none;
+	width: 100%;
+	height: auto;
+	text-align:center;
+}
+.bloggerList .intro, .newsList .intro{
+	float: none;
+	width: 100%;
+}
+
+/*****************************************
+
+
+	NEWS
+
+
+*****************************************/
+.newsList .text{padding-bottom: 30px;}
+.newsList .newsDate{
+	right: auto;
+	top: auto;
+	left: 10px;
+	bottom: 10px;
+}
+/*****************************************
+
+
+	about
+	
+
+*****************************************/
+.about-bt{
+	margin-bottom:18px;
+}

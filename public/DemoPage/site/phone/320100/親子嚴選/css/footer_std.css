@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+.footer{
+	position:relative;
+	height:58px;
+	background:#ae714c;
+	color:#FFFFFF;
+	font-size:13px;
+}
+.go-top{
+	display: block;
+	position:fixed;
+	bottom:15px;
+	right:15px;
+	width:44px;
+	height:44px;
+	background:url(../images/go_top.png) 0 0;
+	z-index:999;
+	display:none;
+}
+.go-top:hover{
+	background-position: 0 -44px;
+}
+.footer .footerMask{
+	position:absolute;
+	top:0;
+	margin:0 auto;
+	width:100%;
+	height:58px;
+	overflow:hidden;
+}
+.footer .footerBtn{
+	position:absolute;
+	top:-49px;
+	z-index:100;
+	width:100%;
+	height:50px;
+	background-image:url(../images/footer_bg_01.png);
+	background-repeat:repeat-x;
+}
+.footer .footerBtn a{
+	display:block;
+	width:90px;
+	height:50px;
+	margin:0 auto;
+	background-image:url(../images/footer_btn.png);
+	background-repeat:no-repeat;
+}
+.footer-content{
+	position:absolute;
+	top:0px;
+	width:100%;
+	background:#ae714c;
+	text-align:center;
+	z-index:999;
+	
+}
+.footer-announce{
+	margin-top:20px;
+	padding:0 35px;
+}
+
+.footer-content .serviceLinks{
+	color:#FFFFFF;
+	/*
+	width:555px;
+	margin:0 auto;
+	*/
+	margin-top:23px;
+	padding:0;
+	display:inline-block;
+}
+.footer-content .serviceLinks li{
+	display:inline-block;
+	padding:0 15px;
+	border-right:#FFFFFF solid 1px;
+}
+.footer-content .serviceLinks li.first{
+	padding:0px;
+	padding-right:15px;
+}
+.footer-content .serviceLinks li.last{
+	padding:0px;
+	padding-left:15px;
+	border-right:none;
+	display:none;
+}
+.footer-content .serviceLinks li.last .inPC{}
+.footer-content .serviceLinks li.last .inPhone{
+	display:none;
+}
+.footer-content .serviceLinks li a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.footer-content .serviceLinks li a:hover{
+	text-decoration:underline;
+}
+.footer-content .serviceLinks .breakLine{
+	display:none;
+}
+
+.footer-content .fbLike{
+	display:none;
+}
+
+.footer-content .footerLinks{
+	display:inline-block;
+	margin-top:30px;
+}
+.footer-content .footerLinks li{
+	display:inline-block;
+	margin:0 12px 12px 0;
+}
+.footer-content .footerLinks li.last{
+	margin-left:0;
+}
+.footer-content .footerLinks img{
+	margin:0;
+	padding:0;
+}
+
+.footer-content .footerInfo{
+	margin-top:30px;
+	display:inline-block;
+}
+.footer-content .footerInfo li{
+	display:inline-block;
+	margin-right:20px;
+}
+.footer-content .footerInfo li.last{
+	margin-right:0;
+}
+
+.footer-content .copyright{
+	margin-bottom:15px;
+}
+.footer-content .colorFix{
+	margin-bottom:15px;
+}

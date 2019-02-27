@@ -235,6 +235,7 @@
         block_phone_320100(this.device,this.zonesize,this.site,'食尚玩家');
         block_phone_320100(this.device,this.zonesize,this.site,'WalkerLand窩客島');
         block_phone_320100(this.device,this.zonesize,this.site,'Xuite');
+        block_phone_320100(this.device,this.zonesize,this.site,'親子嚴選');
         block_phone_32050(this.device,this.zonesize,this.site,'TVBS');
         block_phone_32050(this.device,this.zonesize,this.site,'優活健康影音');
         

@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document screen and (max-width: 768px) */
+.footer{
+	height:130px;
+}
+.footer .footerMask{
+	height:130px;
+}
+.footer-content .serviceLinks{
+	padding:0 5px;
+}
+.footer-content .serviceLinks li{
+	padding:0 8px;
+}
+.footer-content .serviceLinks li.first{
+	padding:0px;
+	padding-right:8px;
+}
+.footer-content .serviceLinks li.last{
+	padding:0px;
+	padding-left:8px;
+	border-right:none;
+	display:inline-block;
+}
+.footer-content .serviceLinks .breakLine{
+	display:block;
+}
+
+.footer-content .fbLike{
+	display:block;
+	width:100px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.footer-content .fbLike iframe{
+	display:inline-block;
+}

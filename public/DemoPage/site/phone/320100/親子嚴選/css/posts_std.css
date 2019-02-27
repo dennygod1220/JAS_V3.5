@@ -1,0 +1,1239 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+/* Color:
+   Pink         #e4007f
+   light pink   #ffbee0
+   green        #90c31f
+   dark green   #558c15
+*/
+
+/* Common
+---------------------------------------------------- */
+body{
+    font-family: Arial, "微軟正黑體", "Microsoft JhengHei", "LiHei Pro", "新細明體", "PMingLiu", sans-serif;
+	font-size: 15px;
+	background-color: #f5f0e7;
+}
+
+.adbanner950120{ 
+	  width:950px; 
+	  margin:20px auto;
+}
+
+.wrapper{
+	  padding: 20px 0;
+	  padding-top:0;
+	  width:950px; 
+	  margin:0 auto;
+	  margin-bottom:25px;
+	  line-height: 1.5;
+	  color: #333;
+	  background-image:url(../images/wrapper_bg.gif);
+	  background-repeat:repeat-y;
+	  
+}
+.title-bg{ 
+	  -webkit-border-radius: 10px; 
+	  -moz-border-radius: 10px; 
+	  border-radius: 10px; 
+	  height:33px; 
+	  background-color:#ffbee0;
+}
+.primary{ 
+	  width:630px; 
+	  margin-right:20px; 
+	  float:left;
+}
+.secondary{
+	padding-top:20px;
+	  width:300px; 
+	  float:right;
+}
+
+.rwd{display:none;}
+.pc{}
+.publicContent{
+	padding:15px 0;
+	background:#FFFFFF;
+}
+.publicContent .breadCrumb , 
+{
+	font-size:13px;
+	color:#333333;
+}
+/* 麵包屑 */
+.publicContent .breadCrumb{ margin:0 10px;}
+.publicContent .breadCrumb p {}
+.publicContent .breadCrumb p a{ color:#333333;}
+.publicContent .breadCrumb p a:hover{ text-decoration:underline;}
+.publicContent .breadCrumb p .comma{ padding:0 8px;}
+.publicContent .breadCrumb p .current{ color:#e10078;}
+/* 熱門文章 in primary */
+.mostReadingInPrimary{}
+
+/* 最新訊息 (AD)  in primary */
+.newsPressInPrimary{}
+
+/* 主圖 */
+.keyVisual{
+	
+	margin:15px auto;
+	padding:15px;
+	text-align:center;
+}
+.keyVisual .outline{
+	width:100%;
+	display:inline-block;
+	padding:9px;
+	padding-bottom:7px;
+}
+.keyVisual .outline img{
+	max-width:100%;
+	display:block;
+	height:auto;
+	margin:0 auto;
+}
+/* 推薦您可能也會喜歡的文章 , 推薦閱讀 [元件化]*/
+.postsShot{ margin-top:15px;}
+.postsShot li{
+	float:left;
+	padding:10px;
+	margin-right:20px;
+	/* ie8 */
+	padding:0px\9;
+	margin-right:15px\9;
+}
+.postsShot .last{ margin-right:0;}
+.postsShot li p{
+	position:relative;
+	width:170px;
+	height:130px;
+	overflow:hidden;
+}
+.postsShot li p .photo{}
+
+.postsShot li p .photo img{
+	display:block;
+	max-width:170px;
+	max-height:100%;
+	margin:0 auto;
+}
+.postsShot li p .hint{
+	display:block;
+	width:100%;
+	padding:0 8px;
+	padding-bottom:0px;
+	position:absolute;
+	bottom:-40px;
+	background:#FFFFFF;
+	height:65px;
+	opacity:0.85;
+	filter:alpha(opacity=85);
+}
+.postsShot li p .hint span{ display:block;}
+.postsShot li p .hint .title{
+	color:#8e4316;
+	width:100%;
+	height:25px;
+	line-height:25px;
+	overflow:hidden;
+}
+.postsShot li p .hint .text{
+	padding:0;
+	width:100%;
+	color:#333333;
+}
+
+
+/**************** 以上為公版 ****************/
+
+/*****************************************
+
+
+	優先宣告段落
+
+
+*****************************************/
+.postContent{
+	padding:25px 0;
+	padding-top:0px;
+	background:#FFFFFF;
+}
+
+.postContent .autehor , 
+.postContent .info , 
+.postContent .views , 
+.postContent .aboutAuthor , 
+.postContent .morePosts , 
+.bloggerList .viewsList,
+.bloggerList .tag,
+.bloggerList .text,
+.newsList .text,
+.articleList .viewsList,
+.articleList .tag,
+.articleList .text{
+	font-size:13px;
+	color:#333333;
+}
+
+.postContent .postTitle , 
+.postContent .autehor , 
+.postContent .info ,
+.postContent .date , 
+.postContent .shares , 
+.postContent .views , 
+.postContent .editor , 
+.postContent .aboutAuthor , 
+.postContent .morePosts , 
+.postContent .fbComments , 
+.unitTitle,
+.commonTitle,
+.subTitle,
+.bloggerSearch,
+.bloggerPick,
+.bloggerResult,
+.pagination,
+.bloggerList,
+.newsList , 
+.forumPost, .forumTitle-post , 
+.postContent .groupList{
+	margin:0 10px;
+	margin-bottom:18px;
+}
+
+.postContent .aboutAuthor h3 , 
+.postContent .morePosts h3{
+	display:block;
+	height:22px;
+	background-position:left top;
+	background-repeat:no-repeat;
+}
+/* pagination */
+.pagination{text-align: right;}
+.pagination a, .pagination span, .pagination b{
+	display: inline-block;
+	text-align: center;
+	font-size: 13px;
+	margin: 0 0 6px 6px;
+	-webkit-border-radius: 4px; 
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+}
+.pagination a, .pagination span{
+	padding: 2px 8px;
+	background-color: #e4f7bb;
+	color: #558c15;
+	border: #558c15 1px solid;
+}
+.pagination a:hover, .pagination span.current{
+	background-color: #90c31f;
+	color: #fff;
+}
+
+
+/* 共用標題樣式 */
+.unitTitle{
+	font-weight: bold;
+	color: #e10078; 
+	margin-bottom: 25px; 
+	border-bottom: 1px #ffbee0 solid;
+}
+.commonTitle, .radiusTitle{
+	background-color: #ffbee0; 
+	padding: 4px 15px 3px;
+	color: #e10078;
+}
+.subTitle{color: #e10078;}
+.content-inner{
+	padding:0 30px 25px;
+}
+.radius-inner{
+	padding:0 20px 0;
+	border:1px #ffbee0 solid;
+	border-top:none;
+	margin:0 10px 25px;
+}
+.radiusTitle{margin:0 10px;}
+.radius-inner-no-padding{ 
+	padding:0;
+	/* ie8 */
+	padding:0 1px\9;
+	padding-bottom:1px\9;
+	background:#ffbee0\9;
+}
+.radius-inner-no-padding .insideFix{
+	/* ie8 */
+	background:#FFFFFF\9;
+}
+
+.btnPink{
+	display: inline-block;
+	background: url(../images/arrow02_1.png) no-repeat 10px 8px #f472b9;
+	color: #fff;
+	font-size: 16px;
+	padding: 0 12px 0 21px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px; 
+	border-radius: 20px;
+}
+.btnPink:hover, .btnPink.now{
+	color: #fff;
+	background-color: #e4007f;
+}
+.radiusTitle .btnPink{
+	margin: 0 8px 2px 0;
+}
+/*****************************************
+
+
+	共用內文單頁
+
+
+*****************************************/
+/* 本篇標題 */
+.postContent .postTitle{ color:#e10078; margin-bottom:25px;}
+
+/* 作者 */
+.postContent .autehor{}
+.postContent .autehor span{ float:left;}
+.postContent .autehor .fbLike{ padding-top:3px; margin-left:15px;}
+
+/* 資訊 */
+.postContent .info{
+	float:left;
+	background-image:url(../images/post_01.gif);
+	background-repeat:no-repeat;
+}
+.postContent .info .tag{ padding-left:25px;}
+.postContent .info .tag a{
+	color:#333333;
+	padding:2px 3px;
+}
+.postContent .info .tag a:hover{ text-decoration:underline;}
+
+/* 分享 */
+.postContent .shares{
+	margin-right:10px;
+	float:right;
+}
+.postContent .shares li{
+	float:left;
+	margin-right:7px;
+}
+.postContent .shares .last{ margin-left:0;}
+.postContent .shares a{
+	display:block;
+	background-repeat:no-repeat;
+	height:22px;
+}
+.postContent .shares .tweet{ width:66px; background-image:url(../images/post_share_tweet.gif);}
+.postContent .shares .fb{ width:66px; background-image:url(../images/post_share_fb.gif);}
+.postContent .shares .gp{ width:66px; background-image:url(../images/post_share_gp.gif);}
+.postContent .shares .mib{ width:66px; background-image:url(../images/post_share_mib.gif);}
+.postContent .shares .addFav{ width:117px; background-image:url(../images/post_share_addfav.gif);}
+.postContent .shares .line{ width:66px; background-image:url(../images/post_share_line.gif);}
+
+/* 瀏覽人次 */
+.postContent .views{ }
+.postContent .views p{ padding-right:10px; text-align:right;}
+.postContent .views p .num{ padding-right:10px;}
+
+/* 內容 */
+.postContent .editor{}
+
+/* 立即加入粉絲團 */
+.postContent .likeText{
+	padding-left:20px;
+	font-size:13px;
+	font-weight:bold;
+	margin-bottom:20px;
+	vertical-align:top;
+}
+
+/* 作者介紹 */
+.postContent .aboutAuthor{ position:relative;}
+.postContent .aboutAuthor h3{
+	background-image:url(../images/post_title_01.gif);
+	margin-bottom:10px;
+}
+.postContent .aboutAuthor .outline{
+	padding:20px 12px;
+	padding-bottom:30px;
+	
+	/* ie8 */
+	padding:10px 2px\9;
+}
+.postContent .aboutAuthor .outline .photo{
+	float:left;
+	width:120px;
+}
+.postContent .aboutAuthor .outline .photo img{
+	max-width:120px;
+	max-height:90px;
+	display:block;
+	margin:0 auto;
+}
+.postContent .aboutAuthor .outline .photo h4{
+	display:none;
+	color:#8e4316;
+	font-size:15px;
+}
+.postContent .aboutAuthor .outline .intro{
+	float:right;
+	width:440px;
+}
+.postContent .aboutAuthor .outline .intro h4{
+	color:#8e4316;
+	font-size:15px;
+}
+.postContent .aboutAuthor .outline .more{
+	position:absolute;
+	right:22px;
+	bottom:12px;
+	text-align:right;
+}
+.postContent .aboutAuthor .outline .more a{
+	display:inline-block;
+	background-image:url(../images/post_02.gif);
+	width:110px;
+	height:22px;
+}
+
+/* 推薦您可能也會喜歡的文章 , 推薦閱讀 */
+.postContent .morePosts{}
+.postContent .morePosts .title01{ background-image:url(../images/post_title_02.gif);}
+.postContent .morePosts .title02{ background-image:url(../images/post_title_03.gif);}
+
+/*****************************************
+
+
+	文章群組分類列表
+
+
+*****************************************/
+
+.postContent .groupList{
+	padding-bottom:15px;
+}
+.postContent .groupList .photo{
+	float:left;
+	width:194px;
+	margin-right:15px;
+	margin-left:20px;
+}
+.postContent .groupList .photo img{
+	display:block;
+	margin:0 auto;
+	max-width:194px;
+	max-height:130px;
+}
+.postContent .groupList ul{
+	float:left;
+	width:360px;
+	padding:0 10px;
+	margin-bottom:15px;
+}
+.postContent .groupList ul li{
+	margin-bottom:5px;
+}
+.postContent .groupList ul li a{
+	display:table-cell;
+	padding:5px 0;
+	padding-left:30px;
+	vertical-align:middle;
+	background-image:url(../images/side_02.gif);
+	background-position: left center;
+	background-repeat:no-repeat;
+	color:#333333;
+}
+.postContent .groupList ul li a:hover{
+	color:#e4007f;
+}
+.postContent .groupList .more{
+	position:relative;
+	height:18px;
+}
+.postContent .groupList .more a{
+	display:block;
+	position:absolute;
+	right:30px;
+	width:56px;
+	height:18px;
+	background-image:url(../images/btn_more.png);
+	background-repeat:no-repeat;
+}
+
+/*****************************************
+
+
+	文章次分類列表
+
+
+*****************************************/
+/* 文章次分類列表 */
+.articleList{
+	float: left;
+	margin: 0 0 15px 14px;
+	width: 190px;
+	height: 450px;
+	padding: 10px;
+	
+	/* ie8 */
+	margin: -10px 14px 15px 0px\9;
+}
+.articleList .photo{
+	width: 170px;
+	height: 128px;
+	margin-bottom: 5px;
+	text-align:center;
+}
+
+/*****************************************
+
+
+	嚴選部落客
+
+
+*****************************************/
+/* 嚴選部落客 */
+.bloggerSearchBar{float: left;}
+.bloggerSearchBar span{
+	font-size: 18px;
+	color: #666;
+}
+.bloggerSearchBar div{
+	display: inline-block;
+	position: relative;
+}
+.bloggerRecommend{
+	background: url(../images/side_btn_09.png) no-repeat;
+	width: 204px;
+	height: 37px;
+	display: block;
+	float: right;
+}
+.bloggerRecommend:hover{background-position: 0 -37px;}
+.bloggerPick li,
+.bloggerResult li{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 17px 17px;
+}
+.bloggerRecover{
+	margin-bottom:18px;
+}
+.bloggerRecover .bloggerRe{
+	/*float:left;*/
+	vertical-align: top;
+	margin: 0 0 17px 21px;
+	display:inline-block;
+}
+.bloggerPick a{
+	display: block;
+	width: 180px;
+	padding: 7px 0;
+	background-color: #e0e0e0;
+	text-align: center;
+	color: #727272;
+}
+.bloggerPick a:hover{
+	background-color: #e4007f;
+	color: #fff;
+}
+.bloggerResult a, .bloggerRecover a{
+	display: block;
+	width: 130px;
+	color: #8e4316;
+}
+.bloggerRecover .adbanner04 a{
+	width:100%;
+	max-width:630px;
+}
+.bloggerResult span, .bloggerRecover span{
+	display: block;
+	width: 130px;
+	height: 98px;
+	margin-bottom: 5px;
+}
+.bloggerResult span img,
+.bloggerRecover span img,
+.bloggerList .photo img,
+.newsList .photo img,
+.articleList .photo img{
+	max-width: 100%; max-height: 100%;
+}
+.bloggerRecover a:hover, .bloggerResult a:hover, .bloggerList .intro h6 a:hover, .newsList .intro h6 a:hover, .articleList .intro h6 a:hover{color: #e10078;}
+.bloggerList, .newsList{
+	position: relative;
+	padding: 10px;
+}
+.bloggerList .photo, .newsList .photo{
+	float: left;
+	width: 170px;
+	height: 128px;
+	text-align:center;
+}
+.bloggerList .intro, .newsList .intro{
+	float: right;
+	width: 405px;
+}
+.bloggerList .intro h6, .newsList .intro h6, .articleList .intro h6{
+	color: #8e4316;
+	margin-bottom: 5px;
+}
+.bloggerList .intro h6 a, .newsList .intro h6 a, .articleList .intro h6 a{color: #8e4316;}
+.bloggerList .category{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	background-color: #90c31f;
+	font-size: 13px;
+	color: #fff;
+	-webkit-border-radius: 20px 0 0 20px; 
+	-moz-border-radius: 20px 0 0 20px; 
+	border-radius: 20px 0 0 20px;
+	padding: 5px 5px 5px 15px;
+	width: 80px;
+}
+.bloggerList .viewsList, .bloggerList .text, .articleList .viewsList, .articleList .text, .articleList .fbLike{margin-bottom: 10px;}
+.bloggerList .viewsList span{margin-right: 15px;}
+.bloggerList .tag, .articleList .tag{
+	background: url(../images/post_01.gif) no-repeat;
+	padding-left: 25px;
+}
+.bloggerList .tag a, .articleList .tag a{
+	color: #333333;
+	padding: 2px 3px;
+}
+.bloggerList .tag a:hover, .articleList .tag a:hover{text-decoration: underline;}
+
+.bloggerList{
+	/* ie8 */
+	padding:0px\9;
+	margin-left:5px\9;
+	margin-right:5px\9;
+	margin-top:-3px\9;
+}
+.bloggerList .category{
+	/* ie8 */
+	top: 0px\9;
+	right:-8px\9;
+}
+.bloggerList .outline{
+	/* ie8 */
+	position:relative\9;
+}
+
+/*****************************************
+
+
+	NEWS
+
+
+*****************************************/
+.newsList{
+	/* ie8 */
+	padding:0px\9;
+	margin-left:5px\9;
+	margin-right:5px\9;
+	margin-top:-3px\9;
+}
+.newsList .outline{
+	/* ie8 */
+	position:relative\9;
+}
+.newsList .activityDate, .articleList .author{
+	font-size: 13px;
+	color: #8e4316;
+	margin-bottom: 10px;
+}
+.newsList .newsDate{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 13px;
+}
+.newsList .newsMore{
+	display: block;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background: url(../images/btn_more.png) no-repeat;
+	width: 56px;
+	height: 18px;
+}
+.newsList .newsDate{
+	/* ie8 */
+	right: 0px\9;
+	top: 0px\9;
+}
+.newsList .newsMore{
+	/* ie8 */
+	right: 0px\9;
+	bottom:3px\9;
+}
+.postContent .date{
+	font-size:15px
+	color:#333333;
+	float:left;
+	padding:2px 3px;
+}
+/*****************************************
+
+
+	FAQ
+
+
+*****************************************/
+/* FAQ */
+.btnPink{
+	display: inline-block;
+	background: url(../images/arrow02_1.png) no-repeat 10px 8px #f472b9;
+	color: #fff;
+	font-size: 16px;
+	padding: 0 12px 0 21px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px; 
+	border-radius: 20px;
+}
+.btnPink:hover, .btnPink.now{
+	color: #fff;
+	background-color: #e4007f;
+}
+.radiusTitle .btnPink{
+	margin: 0 8px 2px 0;
+}
+.faqInner{
+	padding:10px 0;
+	border:1px #ffbee0 solid;
+	border-top:none;
+	margin:0 10px 25px;
+	/* ie8 */
+	padding:0 1px\9;
+	padding-bottom:1px\9;
+	background:#ffbee0\9;
+}
+.faqInner .insideFix{
+	/* ie8 */
+	background:#FFFFFF\9;
+}
+.accordion-header{
+	cursor: pointer;
+	color: #e4007f;
+	background: url(../images/qa.png) no-repeat 10px 8px;
+	padding: 5px 10px 5px 40px;
+}
+.accordion-content{
+	display: none;
+	padding: 10px 10px 10px 40px;
+	background: url(../images/qa.png) no-repeat 10px -72px #fdebf5;
+}
+
+/*****************************************
+
+
+	討論區系列
+
+
+*****************************************/
+/* 共用標題 */
+
+.forum-topic{
+	margin-bottom: 18px;
+	padding:0 20px 0;
+	
+	/*ie8 */
+	margin-bottom:0\9;
+	padding-bottom:18px\9;
+}
+.forum-topic-last{
+	margin-bottom:0;
+	padding:0 20px 0;
+}
+.forum-img{ 
+	width:100px; 
+	height:auto;
+	float:left;
+	margin-right:10px;
+}
+.forum-img span{
+	font-size:13px;
+}
+.forum-message{
+	float:left;
+	width:420px;
+}
+.forum-message p{
+	font-size:13px;
+}
+.forum-message span a{
+	color:#558c15;
+	font-weight:bold;
+	font-size:15px;
+}
+.forum-message span a:hover{
+	color:#e4007f;
+}
+.forumCategory{
+	height:auto;
+	background-color:#ffdff0;
+	margin:0 10px;
+	padding:4px 15px 3px;
+	font-size:14px;
+	border:1px #ffbee0 solid;
+	border-bottom:none;
+}
+.forumCategory li{
+	background:url(../images/dot.gif) left center no-repeat;
+	padding-left:10px;
+	display: inline-block;
+	margin-right:13px;
+}
+.forumCategory li a:hover{
+	color:#558c15;
+}
+.forumHotArticle{
+	margin-top:17px;
+	padding:0 20px 0;
+	/* ie8 */
+	margin-top:0\9;
+	padding-top:17px\9;
+	padding-bottom:25px\9;
+}
+.forumHotArticle-category li{
+	background:url(../images/crown.png) left center no-repeat;
+	padding-left:20px;
+	margin-bottom:17px;
+}
+.forumHotArticle-category li a{
+	color:#558c15;
+}
+.forumHotArticle-category li a:hover{
+	color:#9f4d11;
+}
+.forumHotArticle-title{
+	margin-bottom:17px;
+}
+.forumHotArticle-title span a{
+	display:inline-block;
+	color:#558c15;
+	background:url(../images/crown.png) 0 center no-repeat;
+	padding-left:20px;
+	width:175px;
+	margin-right:15px;
+}
+.forumHotArticle-title span a:hover{
+	color:#9f4d11;
+}
+.forumHotArticle-title a{
+	color:#333333;
+}
+.forumHotArticle-title a:hover{
+	color:#e4007f;
+}
+
+/* forum */
+
+.forumPost{
+	margin-bottom:25px;
+}
+.forum-topic{
+	margin-bottom:17px;
+}
+.forumPostPagination .pagination{
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+}
+
+.forumPostArticle{
+	float:left;
+}
+.forumPostArticle a{
+	background:url(../images/postarticle.png) no-repeat;
+	width:121px;
+	height:37px;
+	background-position:0 0;
+	display:block;
+}
+.forumPostArticle a:hover{
+	background-position:0 -37px;
+}
+.forumPostPagination{
+	float:right;
+	
+}
+.formTitle{
+	margin:0 10px;
+	background-color:#ffbee0;
+
+}
+.formTitle table.title td{
+	color:#e10078;
+	text-align:center;
+	height:33px;
+	line-height:33px;
+}
+.formTitle table.title td.border{
+	border-left: 1px #fff solid;
+}
+.form-inner{
+	border:1px #ffbee0 solid;
+	border-top:none;
+	margin:0 10px 25px;
+	/* ie8 */
+	padding:0 1px\9;
+	padding-bottom:1px\9;
+	background:#ffbee0\9;
+}
+.form-inner .insideFix{
+	/* ie8 */
+	background:#FFFFFF\9;
+}
+
+.form-inner table.content td{
+	height:55px;
+	border-bottom:1px #fedcee solid;
+	text-align:center;
+}
+.form-inner table.content .last td{
+	border-bottom:none;
+}
+.form-inner table.content td.border{
+	border-left: 1px #fedcee solid;
+}
+table.content td.theme{
+	padding-left:15px;
+	text-align:left;
+}
+.form-inner table.content td.author{
+	line-height:none;
+	padding:0 15px;
+}
+.form-inner table.content td.author span{
+	font-size:13px;
+}
+.form-inner table.content td.author p{
+	font-size:11px;
+	color:#959494;
+}
+
+/* forum_list */
+
+.forumPost-title{
+	color:#e4007f;
+	float:left;
+	margin-right:20px;
+}
+.forumPost-input{
+	background-color:#fdeff6;
+	height:32px;
+	width:507px;
+	padding:5px 0 5px 10px;
+	margin-bottom:25px;
+}
+.forumPost-texterea{
+	background-color:#fdeff6;
+	height:380px;
+	width:507px;
+	padding:5px 10px;
+	margin-bottom:25px;
+}
+.forumPost-bt{
+	width:570px;
+}
+.forumPost-bt-post{
+	width:111px;
+	height:37px;
+	background:url(../images/postbt.png) no-repeat;
+	background-position:0 0;
+	display:block;
+	float:left;
+	margin:0 30px 0 190px;
+}
+.forumPost-bt-post:hover{
+	background-position:0 -37px;
+}
+.forumPost-bt-cancel{
+	width:111px;
+	height:37px;
+	background:url(../images/cancelbt.png) no-repeat;
+	background-position:0 0;
+	display:block;
+	float:left;
+}
+.forumPost-bt-cancel:hover{
+	background-position:0 -37px;
+}
+
+/* forum_post */
+
+.forumMargin{
+	margin-top: 17px;
+	/* ie8 */
+	margin-top:0\9;
+	padding-top:17px\9;
+}
+.forumbg{
+	background-color:#fef3f9;
+}
+.forumPostTopic{
+	font-size:13px;
+	margin-bottom:17px;
+	display:block;
+	width:458px;
+	float:right;
+	text-align:left;
+}
+.forumPostTopic span{
+	color:#e4007f;
+	margin-bottom:17px;
+	display:block;
+}
+.forumPostTopic b{
+	color:#333333;
+	font-weight: normal;
+}
+.forumPostMessage{
+	font-size:13px;
+	display:block;
+	margin-bottom:17px;
+	width:360px;
+	float:left;
+	text-align:left;
+}
+.forumPostMessage span{
+	color:#e4007f;
+	margin-bottom:17px;
+	display:block;
+	font-weight:bold;
+}
+.forumPostMessage span p{
+	color:#5c5c5c;
+	display:inline;
+}
+.forumPostMessage span a{
+	color:#3575b1;
+}
+.forumPostMessage span a:hover{
+	color:#ff0000;
+}
+.forumPostLike{
+	float:right;
+}
+.forumPostLike p{
+	font-size:13px;
+	color:#e4007f;
+	display:block;
+	margin-bottom:17px;
+	text-align:right;
+	/* ie8 */
+	margin-bottom:0\9;
+	padding-bottom:17px\9;
+}
+.forumPostLike span{
+	color:#FFF;
+	display:block;
+	padding-top:25px;
+	text-align:center;
+}
+.forumPostLike a{
+	background:url(../images/likebt.png) no-repeat;
+	width:59px;
+	height:53px;
+	background-position:0 0;
+	display:block;
+}
+.forumPostLike a.now{
+	background-position:0 -53px;
+}
+.forumNewsMore{
+	display: block;
+	background: url(../images/btn_more.png) no-repeat;
+	width: 56px;
+	height: 18px;
+	margin:0 17px 17px 0;
+	float:right;
+	/* ie8 */
+	margin-top:17px\9;
+}
+.forumTitle-post{
+	color:#e10078; 
+	margin-bottom:25px; 
+	border-bottom:1px #ffbee0 solid;
+}
+.forumTitle-post-textarea{
+	height:75px;
+	width:480px;
+	border:1px #8f8e8e solid;
+	padding:5px 10px;
+	
+	/* ie8 */
+}
+.forumTitle-post-textarea-IE8{
+	height:75px;
+	width:480px;
+	border:1px #8f8e8e solid;
+	padding:5px 10px;
+	
+	/* ie8 */
+}
+.forumTitle-post-bt a{
+	background:url(../images/sendbt.png) no-repeat;
+	width:111px;
+	height:37px;
+	background-position:0 0;
+	display:block;
+	float:right;
+	margin-top:17px;
+}
+
+.forumTitle-post-bt a:hover{
+	background-position:0 -37px;
+}
+
+/*****************************************
+
+
+	會員系列
+
+
+*****************************************/
+
+table.memberNotEdit td{
+	padding-bottom:10px;
+}
+table.memberNotEdit td span{
+	color:#727272;
+}
+table.memberNotEdit td p, table.memberCanEdit td p{
+	font-size:12px;
+	color:#727272
+}
+table.memberNotEdit td a{
+	background:url(../images/resizebt.png) no-repeat;
+	width:139px;
+	height:37px;
+	display:block;
+	background-position:0 0;
+	float:left;
+	margin-right:20px;
+}
+table.memberNotEdit td a:hover{
+	background-position:0 -37px;
+}
+table.memberCanEdit tr{
+	margin-bottom:10px;
+}
+table.memberCanEdit td{
+	padding-bottom:20px;
+}
+table.memberCanEdit td.name{
+	padding-bottom:10px;
+	vertical-align:top;
+}
+table.memberCanEdit .input_m, table.memberCanEdit .input_s, table.memberCanEdit .input_b{
+	background:#e4e4e4;
+	height:25px;
+	border:none;
+	padding-left:10px;
+}
+table.memberCanEdit .input_b{
+	width:280px;
+}
+table.memberCanEdit .input_s{
+	width:80px;
+}
+table.memberCanEdit .input_m{
+	width:160px;
+}
+table.memberCanEdit .b1{
+	width: 82px;
+	display:inline-block;
+	color:#727272;
+	margin-bottom:5px;
+}
+table.memberCanEdit .b2{
+	display:inline-block;
+	color:#727272;
+	margin-right:10px;
+	margin-bottom:5px;
+}
+table.memberCanEdit .b3{
+	display:inline-block;
+	color:#727272;
+	margin:0 0 5px 15px;
+}
+table.memberCanEdit td a, table.memberCanEdit td a.uploadPhoto{
+	width:139px;
+	height:37px;
+	display:block;
+	background-position:0 0;
+	margin-left:130px;
+}
+table.memberCanEdit td a{
+	background:url(../images/resize_sbt.png) no-repeat;
+	
+}
+table.memberCanEdit td a.uploadPhoto{
+	background:url(../images/upload_photobt.png) no-repeat;
+	margin-left:0;
+}
+table.memberCanEdit td a:hover, table.memberCanEdit td a.uploadPhoto:hover{
+	background-position:0 -37px;
+}
+
+
+/*****************************************
+
+
+	404系列
+
+
+*****************************************/
+.notfoundContent{
+	margin:20px 10px 0 10px;
+}
+.notfoundContent h3{
+	color:#e4007f;
+	font-weight:bold;
+}
+.notfoundContent span{
+	color:#333333;
+	margin:18px 0;
+	display:block;
+}
+.notfoundContent ul{
+	margin-left:20px;
+}
+.notfoundContent li{
+	color:#727272;
+	list-style:disc;
+}
+.notfoundContent li a{
+	color:#e4007f;
+	font-weight:bold;
+}
+.notfoundContent p{
+	color:#727272;
+	margin-top:18px;
+}
+/*****************************************
+
+
+	about
+	
+
+*****************************************/
+.about-bt{
+	margin:0 10px;
+}
+.about-bt .parent{
+	margin:0 20px 20px 0;
+}
+.allMargin{
+	padding:0 10px;
+}
