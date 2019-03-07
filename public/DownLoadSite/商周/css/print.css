@@ -1,0 +1,116 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+article, aside, figure, footer, header, nav, section, details, summary {
+	display: block;
+}
+/* Responsive images and other embedded objects   Note: keeping IMG here will cause problems if you're using foreground images as sprites.   If this default setting for images is causing issues, you might want to replace it with a .responsive class instead. */
+ul, ol {
+	list-style-type: none;
+	list-style-image: none;
+}
+a {
+	text-decoration: none;
+	outline: none;
+	vertical-align: baseline;
+	background: transparent;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted #000;
+	cursor: help;
+}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th {
+	font-weight: bold;
+}
+td {
+	font-weight: normal;
+}
+input, select, textarea {
+	font-family: Verdana, LiHei Pro, PMingLiu, sans-serif;
+	padding: 3px 5px;
+	vertical-align: middle;
+}
+input[type="radio"] {
+	margin: 0 2px;
+	position: relative;
+	vertical-align: middle;
+}
+input[type="checkbox"] {
+	margin: 0 2px;
+	position: relative;
+	top: -1px;
+	vertical-align: middle;
+}
+td, td img {
+	vertical-align: top;
+}
+/* hand cursor on clickable elements */
+.clickable, input[type=button], input[type=submit], input[type=file], button {
+	cursor: pointer;
+}
+/* make buttons play nice in IE */
+button {
+	width: auto;
+	overflow: visible;
+}
+.clear {
+	clear: both;
+}
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+/* reset end */
+
+/* display */
+.header.header, .search-overlay, .login-wrap,  #desktop-nav, .topad, #aside, .relatedpost, .bottomad, #comments, .footer-wrap, .statustop, .bw_ad, .postnav, .pagearea, .bottomtoolbar, .tips  {display: none}
+
+/* display for .com */
+ .middlead, .readthis, .fb_comments, .adbanner_rwd, .tabbox_wrp, .tag, .next_article{display: none}
+
+/* design */
+html, body {
+	height: 100%;
+    position: relative;
+}
+body {
+    background-color: #FFF;
+    color: #262626;
+}
+.contbody {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+    border-right: none;
+}
+.BwMemberId {
+    background-color: #DDD;
+	border: #DDD 1px solid;
+	color: #555;
+    display: block;
+    /*position: absolute;*/
+    text-align: center;
+    padding: 8px 0;
+    width: 100%;
+    bottom: 0px;
+}
+.BwMemberId.head {
+    top: 0px;
+}
+.BwMemberId.footer {
+    bottom: 0px;
+}

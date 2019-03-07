@@ -1,0 +1,120 @@
+
+.bw_book{ width:200px; height:auto;margin-left: auto; margin-right: auto; }
+.bw_book img{ width:100%;}
+
+/** RESET AND LAYOUT
+===================================*/
+
+.mg-wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	*zoom: 1;
+}
+
+.mg-wrapper img {
+	max-width: 100%;
+	display: block;
+}
+
+/** THEME
+===================================*/
+
+.mg-wrapper .mg-viewport {
+	
+	background: #fff;
+	
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+
+.mg-wrapper .mg-pager,
+.mg-wrapper .mg-controls-auto {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	display:none;
+}
+
+
+
+/* PAGER */
+
+.mg-wrapper .mg-pager {
+	text-align: center;
+	font-size: .85em;
+	font-family: Arial;
+	font-weight: bold;
+	color: #666;
+	padding-top: 20px;
+}
+
+.mg-wrapper .mg-pager .mg-pager-item,
+.mg-wrapper .mg-controls-auto .mg-controls-auto-item {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+}
+
+
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+
+.mg-wrapper .mg-prev {
+	left:-40px;
+	background: url(../images/read_ctrl.png) no-repeat 0 0;
+}
+
+.mg-wrapper .mg-next {
+	right:-40px;
+	background: url(../images/read_ctrl.png) no-repeat -25px 0;
+}
+
+.mg-wrapper .mg-prev:hover {
+	background-position: 0 -35px;
+}
+
+.mg-wrapper .mg-next:hover {
+	background-position: -25px -35px;
+}
+
+.mg-wrapper .mg-controls-direction a {
+	position: absolute;
+	top: 40%;
+	margin-top: -16px;
+	outline: 0;
+	width:25px;
+	height:35px;
+	text-indent: -9999px;
+	z-index: 999;/*20160712*/
+}
+
+.mg-wrapper .mg-controls-direction a.disabled {
+	display: none;
+}
+
+
+.mg-wrapper .mg-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #666\9;
+	background: rgba(80, 80, 80, 0.75);
+	width: 100%;
+}
+
+.mg-wrapper .mg-caption span {
+	color: #fff;
+	font-family: Arial;
+	display: block;
+	font-size: .85em;
+	padding: 10px;
+}
+
+
+.bwbook-txt,.bwbook-txt a{ font-size:1.125rem; line-height:1.5rem; color:#666; /*text-align:center; */margin-top:10px; }/*20161018 for UAT-115*/
+.bwbook-txt a:hover{  color:#000;}
