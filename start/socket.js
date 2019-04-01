@@ -243,11 +243,19 @@ io.on('connection', function (socket) {
 
   socket.on('CtoS download site info', function (data) {
     console.log(data);
+    var date = new Date();
+    var YY = date.getFullYear();
+    var MM = date.getMonth() + 1;
+    var DD = date.getDate();
+    var hh = date.getHours();
+    var mm = date.getMinutes();
+    var SS = date.getSeconds();
+    var prefix = `${YY}${MM}${DD}_${hh}${mm}${SS}_`;
     var dl = require('../public/JS/Scrape/only_download_site');
     if (data.PCorPhone == "PC") {
-      dl.only_download_site(data.url, data.SiteName, false);
+      dl.only_download_site(data.url, prefix+data.SiteName, false, io, socket);
     } else {
-      dl.only_download_site(data.url, data.SiteName, true);
+      dl.only_download_site(data.url, prefix+data.SiteName, true, io, socket);
     }
   })
 

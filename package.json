@@ -43,7 +43,8 @@
     "socket.io": "^2.1.1",
     "socket.io-file": "^2.0.3",
     "utf8": "^3.0.0",
-    "website-scraper": "^3.3.7"
+    "website-scraper": "^3.3.7",
+    "zip-folder": "^1.0.0"
   },
   "devDependencies": {},
   "autoload": {

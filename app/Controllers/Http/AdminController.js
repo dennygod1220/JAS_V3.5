@@ -45,6 +45,13 @@ class AdminController {
         return view.render('error.notadmin')
     }
   }
+
+  async download_zip_site({request,response}){
+    // var user = request.params.user;
+    var file = decodeURIComponent(request.params.filename);    
+    response.attachment('./public/DownLoadSiteZIP/'+file);
+    return
+  }
 }
 
 module.exports = AdminController

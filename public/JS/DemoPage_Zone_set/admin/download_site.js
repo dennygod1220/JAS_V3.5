@@ -10,7 +10,10 @@ var app = new Vue({
   },
   methods: {
     send:function(){
-        console.log('CLICK')
+      $("#content").hide();
+      $("#container2").show();
+      $('#mySpinner').addClass('spinner');
+     
         socket.emit('CtoS download site info',{
             url:this.url,
             SiteName:this.SiteName,
