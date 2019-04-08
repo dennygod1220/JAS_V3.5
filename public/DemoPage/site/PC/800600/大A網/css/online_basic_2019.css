@@ -1,0 +1,208 @@
+ html,body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+ #wrap container {
+   min-height:100%;
+   position:relative;
+}
+ 
+  #wrapper {
+width:100%;
+height:auto;
+padding-bottom: 240px; 
+} 
+ 
+ 
+#footer {
+      width: 100%;
+              height: 195px;
+              position: fixed;
+              bottom: 0;
+              left: 0; 
+              color: #666;
+            /*  background: #116281;*/
+              text-align: center;
+              font-family: 'Microsoft JhengHei';
+              z-index: 9999;
+              font-size: 14px;    
+              padding-top: 15px;   
+              padding-bottom: 20px;       
+    
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#93cede+0,75bdd1+41,49a5bf+100;Blue+3D+%235 */
+background: #93cede; /* Old browsers */
+background: -moz-linear-gradient(top,  #93cede 0%, #75bdd1 41%, #49a5bf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=0 ); /* IE6-9 */
+
+color: #000;
+
+background: url('../images/nasty_fabric.png');
+display: none;
+   }
+ 
+ 
+  #footer a {color: #666; 
+             font-family: 'Microsoft JhengHei';
+              
+ }
+  #footer a:hover {  font-family: 'Microsoft JhengHei';                  
+                      color: #000;
+                   
+               
+ }
+ 
+  #totop {position: fixed;
+         bottom: 2%;
+         right: 5px;
+         display: none;
+          z-index: 9999999;
+ }
+      
+ 
+ 
+
+  
+  
+    
+    button,select,input,h1,h2,h3,h4 { font-family: 'Microsoft JhengHei';}
+    
+      .f24 {font-size: 20px; 
+          font-family: 'Microsoft JhengHei';
+          background: #ddd;
+    }
+    
+    .dropdown-menu li {font-size: 16px;    
+    }
+
+    .dropdown-menu li a {
+        color: #002cbc;
+    }
+    
+    .dropdown-menu >li >a:focus,.dropdown-menu >li >a:hover {
+color:#f00;
+text-decoration:none;
+background-color:#ffd800
+}
+    
+    
+ #navlist {margin-top: 0px;margin-bottom: -2px;}   
+    
+    #navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 0px;
+}
+ 
+ 		#breadcrumb {
+		font:14px;
+		background:transparent;
+		font-family: 'Microsoft JhengHei '
+		}
+
+		#breadcrumb a {
+		text-decoration:none;
+		color:#000;
+		}
+
+		#breadcrumb a:hover {
+		text-decoration:none;
+		color:#f00;
+		}
+
+	 
+    
+ 
+      .textsd {
+         text-shadow: 1px 1px 3px #000; 
+       }
+     
+     
+     .clearfix:before,
+     .clearfix:after {
+      content: "";
+     display: table;
+     }
+     .clearfix:after {
+     clear: both;
+     }
+     .clearfix {
+     *zoom: 1; /*For IE 6&7 only*/
+      }
+     
+          .imgshadow {border: 2px double #fff;
+                 box-shadow: 4px 4px 16px #666;
+                 border-radius: 3px;
+    }   
+    
+ 
+      
+ 
+            
+  input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+  margin-left: 5px;
+   margin-right: 7px;
+}
+   
+ 
+       #showregid {
+              width: 100%;
+             font-size: 16px;
+             color: #000;
+             padding: 5px 5px;
+             background: #eee;
+             border: 1px solid #bbb;
+             border-radius: 5px;
+             display: none;
+             font-family: 'Microsoft JhengHei';
+             margin-bottom: 5px;
+     }
+   
+ 
+  .tipmessage + .tooltip > .tooltip-inner {
+      background-color: #f00; 
+      color: #FFFFFF; 
+      border: 1px solid #666; 
+      padding: 4px;
+      font-size: 18px; 
+      font-family: 'Microsoft JhengHei';
+      min-width: 140px;
+      width: auto;
+     /*  text-shadow: 1px 1px 2px #000;  */
+  }
+ 
+  .tipmessage2 + .tooltip > .tooltip-inner {
+      background-color: #ff0; 
+      color: #000; 
+      border: 1px solid #000; 
+      padding: 6px;
+      font-size: 20px; 
+      font-family: 'Microsoft JhengHei';
+      min-width: 720px;
+      width: auto; 
+      margin-top: 10px; 
+  }
+ 
+  #linecontactus { width: 168px;
+              height: 35px;
+             position: fixed;
+             bottom: 10px;
+             right: 15px;
+             background: url('../images/linecontactus2019.png');
+             z-index: 99999;
+             
+      }

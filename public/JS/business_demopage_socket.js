@@ -32,6 +32,12 @@
       $("#cus_zone_block").css('display','none');
     }
   }
+  function block_phone_4x4(d,z,s,sitename){
+    if(d == 'phone' && z == '內文全屏' && s == sitename){
+      // $("#zone_ch_block").css('display', 'block');
+      $("#cus_FullContent_zone_block").css('display','none');
+    }
+  }
 
   var app = new Vue({
     // el: "#demopage_choise",
@@ -223,6 +229,7 @@
         block(this.device,this.zonesize,this.site,'樂時尚');
         block(this.device,this.zonesize,this.site,'良醫健康網');
         block(this.device,this.zonesize,this.site,'少女前線');
+        block(this.device,this.zonesize,this.site,'大A網');
         block(this.device,this.zonesize,this.site,'三立新聞');
         block_phone_300250(this.device,this.zonesize,this.site,'Ettoday');
         block_phone_300250(this.device,this.zonesize,this.site,'WalkerLand窩客島');
@@ -238,8 +245,7 @@
         block_phone_320100(this.device,this.zonesize,this.site,'親子嚴選');
         block_phone_32050(this.device,this.zonesize,this.site,'TVBS');
         block_phone_32050(this.device,this.zonesize,this.site,'優活健康影音');
-        
-        
+        block_phone_4x4(this.device,this.zonesize,this.site,'Drama Queen');
       },
     }
   })
