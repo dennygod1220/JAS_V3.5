@@ -12,9 +12,10 @@ var app = new Vue({
       const input_code = e.target.value.trim();
       const start_check = input_code.indexOf('data-ad-slot="');
       const start = input_code.indexOf('data-ad-slot="') + 14;
-      const end = input_code.indexOf('"></ins>');
+      const end = input_code.indexOf('data-page-url')-2;
       var z_id = input_code.substring(start, end);
-
+      console.log(start);
+      console.log(end);
       if (input_code != "" && start_check !== -1 && end !== -1) {
         $("#zone_code").removeClass('border-danger');
 
