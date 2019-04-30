@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <a href="%%CLICK_URL%%" traget="_blank">
+    <a href="%%CLICK_URL%%" target="_blank">
         <div  cf_element style="width:320px; height:480px">
             <img id="bg" src="@@imghere@@" alt="請稍等...">
         </div>
