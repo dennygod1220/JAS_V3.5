@@ -38,7 +38,7 @@ form.onsubmit = function (ev) {
 
   var fileEl = document.getElementById('file');
   console.log(fileEl);
-  
+
 //   uploader.upload(fileEl);
     uploader.upload(fileEl, {
       data: {
@@ -54,8 +54,10 @@ socket.on('StoC img upload ok', function (data) {
   $("#percent").css("background-color", "rgba(30,210,60,0.8)");
   $("#loading").css('display', 'none');
   $("#btn_send").css('display', 'block');
+  var old_cdn = data.img;
+  var new_cdn = old_cdn.replace('//cdn.doublemax.net','//cdncf-hinetwork.cdn.hinet.net');
   socket.emit('CtoS content cover no banner img',{
-      url:data.img,
+      url:new_cdn,
       user:$("#username").text().trim()
   })
 })

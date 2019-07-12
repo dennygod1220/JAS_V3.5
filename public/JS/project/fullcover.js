@@ -59,11 +59,15 @@ socket.on('StoC img upload ok', function (data) {
   $("#loading").css('display', 'none');
   $("#btn_send").css('display', 'none');
   $("#form").css('display', 'none');
-  
+
   // $("#second_form").css('display', 'block');
   // $("#img_url").text(data.img);
+  var old_cdn = data.img;
+  var new_cdn = old_cdn.replace('//cdn.doublemax.net','//cdncf-hinetwork.cdn.hinet.net');
+  // $("#img_url").text(new_cdn);
   socket.emit('StoC fullcover img ok',{
-    img_url:data.img,
+
+    img_url:new_cdn,
     user: $("#username").text().trim()
   })
 })
@@ -76,6 +80,6 @@ socket.on('StoC fullcover html code',function(data){
   var file_pa = filena.replace('public','download/public');
   $("#download_btn").css('display','block');
 
-  
+
   $("#download_btn").append('<a target="_blank" href="'+file_pa+'" class="btn btn-success">下載</a>');
 })
