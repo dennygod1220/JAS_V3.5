@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="//cdn.doublemax.net/btad/btad300100.css">
+    <link rel="stylesheet" type="text/css" href="//cdncf-hinetwork.cdn.hinet.net/btad/btad300100.css">
 </head>
 
 <body marginwidth="0" marginheight="0" style="background-color:white">

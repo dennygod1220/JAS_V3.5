@@ -49,6 +49,8 @@ form.onsubmit = function (ev) {
 
 //圖片上傳完成
 socket.on('StoC img upload ok', function (data) {
+  console.log(data);
+
   $("#percent").text("100% 完成");
   $("#percent").css('width', '100%');
   $("#percent").css("background-color", "rgba(30,210,60,0.8)");
@@ -57,7 +59,9 @@ socket.on('StoC img upload ok', function (data) {
   $("#form").css('display', 'none');
 
   $("#second_form").css('display', 'block');
-  $("#img_url").text(data.img);
+  var old_cdn = data.img;
+  var new_cdn = old_cdn.replace('//cdn.doublemax.net','//cdncf-hinetwork.cdn.hinet.net');
+  $("#img_url").text(new_cdn);
 })
 //使用者輸入 圖文的內容
 $("#btn_sure").click(function () {
